@@ -2,7 +2,7 @@
 
 FreeCAD 自建人体，39 个活动关节、70 kg、无肌肉。策略输出参考关节角修正，经显式 PD 生成限幅力矩；不施加骨盆扶持力。物理频率 500 Hz，控制频率 50 Hz，219 维观测、39 维动作。
 
-本私有仓库保存实际训练源码、模型、冻结动作清单、环境记录和评估证据；关键权重位于 [v1.0.0 Release](https://github.com/Luk7-sb/human39-reproducible-training/releases/tag/v1.0.0)。KIT/AMASS、SMPL-H 参数及重定向轨迹不随仓库分发，需要使用者自行合法取得。
+本公开仓库保存实际训练源码、模型、冻结动作清单、环境记录和评估证据；关键权重位于 [v1.0.0 Release](https://github.com/Luk7-sb/human39-reproducible-training/releases/tag/v1.0.0)。KIT/AMASS、SMPL-H 参数及重定向轨迹不随仓库分发，需要使用者自行合法取得。
 
 ## 已记录的结果
 
