@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-17",
+  "regenerated_source_files": 257,
+  "numeric_exact": true,
+  "training_clips": 280,
+  "completed": 280,
+  "evaluation_json_equal": true,
+  "max_reward_difference": 0.0,
+  "same_existing_software_environment": true,
+  "isolated_working_directory": true,
+  "fresh_os_install_tested": false
+}

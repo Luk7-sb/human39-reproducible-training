@@ -1,0 +1,11 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:27:36) [GCC 11.2.0]",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.0",
+    "mujoco": "3.3.3",
+    "imageio": "2.37.0",
+    "imageio-ffmpeg": "0.6.0",
+    "matplotlib": "3.11.0"
+  }
+}

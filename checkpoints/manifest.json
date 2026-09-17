@@ -1,0 +1,22 @@
+{
+  "repo": "Luk7-sb/human39-reproducible-training",
+  "release": "v1.0.0",
+  "files": {
+    "v1_model_1098.pt": {
+      "sha256": "b80342630e34b75b5d8ee436d960904aca8972a39422015efbb7828b5a1fd5d8",
+      "bytes": 3811061
+    },
+    "v2_model_1297.pt": {
+      "sha256": "31ec6fb5c08fec6132a51e25e7c72fb5f7d14e9ea27ee1886ca263459fba619f",
+      "bytes": 3811061
+    },
+    "large_v1_model_1850.pt": {
+      "sha256": "bca5cc45c1f39640a2f11de96ddd9a70ec5a2dd86e33619943e20a0b02276a74",
+      "bytes": 3811061
+    },
+    "large_v1_model_4162.pt": {
+      "sha256": "572d87eeebff394f5e818b7004e950a5c529d8a19c949d20bb79b0704a4f45b2",
+      "bytes": 3811061
+    }
+  }
+}

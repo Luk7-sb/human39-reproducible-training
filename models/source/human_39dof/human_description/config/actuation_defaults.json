@@ -1,0 +1,279 @@
+{
+  "status": "UNVALIDATED simulation placeholders; replace using motor and gearbox specifications before hardware use.",
+  "units": "effort N*m; velocity rad/s; damping N*m*s/rad",
+  "joints": {
+    "WaistFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "WaistSideJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "WaistTwistJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "SpineFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "SpineSideJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "SpineTwistJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "NeckFlexJoint": {
+      "effort": 25,
+      "velocity": 1.5,
+      "damping": 0.15,
+      "kp": 35,
+      "kd": 2
+    },
+    "NeckSideJoint": {
+      "effort": 25,
+      "velocity": 1.5,
+      "damping": 0.15,
+      "kp": 35,
+      "kd": 2
+    },
+    "NeckTwistJoint": {
+      "effort": 25,
+      "velocity": 1.5,
+      "damping": 0.15,
+      "kp": 35,
+      "kd": 2
+    },
+    "LeftScapulaProtractionJoint": {
+      "effort": 60,
+      "velocity": 1,
+      "damping": 0.2,
+      "kp": 50,
+      "kd": 3
+    },
+    "LeftScapulaElevationJoint": {
+      "effort": 60,
+      "velocity": 1,
+      "damping": 0.2,
+      "kp": 50,
+      "kd": 3
+    },
+    "LeftShoulderFlexJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "LeftShoulderSideJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "LeftShoulderTwistJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "LeftElbowFlexJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "LeftWristFlexJoint": {
+      "effort": 15,
+      "velocity": 2,
+      "damping": 0.03,
+      "kp": 12,
+      "kd": 0.4
+    },
+    "LeftWristSideJoint": {
+      "effort": 15,
+      "velocity": 2,
+      "damping": 0.03,
+      "kp": 12,
+      "kd": 0.4
+    },
+    "RightScapulaProtractionJoint": {
+      "effort": 60,
+      "velocity": 1,
+      "damping": 0.2,
+      "kp": 50,
+      "kd": 3
+    },
+    "RightScapulaElevationJoint": {
+      "effort": 60,
+      "velocity": 1,
+      "damping": 0.2,
+      "kp": 50,
+      "kd": 3
+    },
+    "RightShoulderFlexJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "RightShoulderSideJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "RightShoulderTwistJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "RightElbowFlexJoint": {
+      "effort": 80,
+      "velocity": 2,
+      "damping": 0.2,
+      "kp": 65,
+      "kd": 4
+    },
+    "RightWristFlexJoint": {
+      "effort": 15,
+      "velocity": 2,
+      "damping": 0.03,
+      "kp": 12,
+      "kd": 0.4
+    },
+    "RightWristSideJoint": {
+      "effort": 15,
+      "velocity": 2,
+      "damping": 0.03,
+      "kp": 12,
+      "kd": 0.4
+    },
+    "LeftHipFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "LeftHipSideJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "LeftHipTwistJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "LeftKneeFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "LeftAnkleFlexJoint": {
+      "effort": 120,
+      "velocity": 2,
+      "damping": 0.3,
+      "kp": 100,
+      "kd": 6
+    },
+    "LeftAnkleSideJoint": {
+      "effort": 120,
+      "velocity": 2,
+      "damping": 0.3,
+      "kp": 100,
+      "kd": 6
+    },
+    "LeftForefootJoint": {
+      "effort": 25,
+      "velocity": 2,
+      "damping": 0.05,
+      "kp": 25,
+      "kd": 1
+    },
+    "RightHipFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "RightHipSideJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "RightHipTwistJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "RightKneeFlexJoint": {
+      "effort": 200,
+      "velocity": 2,
+      "damping": 0.5,
+      "kp": 180,
+      "kd": 10
+    },
+    "RightAnkleFlexJoint": {
+      "effort": 120,
+      "velocity": 2,
+      "damping": 0.3,
+      "kp": 100,
+      "kd": 6
+    },
+    "RightAnkleSideJoint": {
+      "effort": 120,
+      "velocity": 2,
+      "damping": 0.3,
+      "kp": 100,
+      "kd": 6
+    },
+    "RightForefootJoint": {
+      "effort": 25,
+      "velocity": 2,
+      "damping": 0.05,
+      "kp": 25,
+      "kd": 1
+    }
+  }
+}

@@ -1,0 +1,1288 @@
+{
+  "joint_names": [
+    "LeftHipFlexJoint",
+    "RightHipFlexJoint",
+    "WaistFlexJoint",
+    "LeftHipSideJoint",
+    "RightHipSideJoint",
+    "WaistSideJoint",
+    "LeftHipTwistJoint",
+    "RightHipTwistJoint",
+    "WaistTwistJoint",
+    "LeftKneeFlexJoint",
+    "RightKneeFlexJoint",
+    "SpineFlexJoint",
+    "LeftAnkleFlexJoint",
+    "RightAnkleFlexJoint",
+    "SpineSideJoint",
+    "LeftAnkleSideJoint",
+    "RightAnkleSideJoint",
+    "SpineTwistJoint",
+    "LeftForefootJoint",
+    "RightForefootJoint",
+    "LeftScapulaProtractionJoint",
+    "NeckFlexJoint",
+    "RightScapulaProtractionJoint",
+    "LeftScapulaElevationJoint",
+    "NeckSideJoint",
+    "RightScapulaElevationJoint",
+    "LeftShoulderFlexJoint",
+    "NeckTwistJoint",
+    "RightShoulderFlexJoint",
+    "LeftShoulderSideJoint",
+    "RightShoulderSideJoint",
+    "LeftShoulderTwistJoint",
+    "RightShoulderTwistJoint",
+    "LeftElbowFlexJoint",
+    "RightElbowFlexJoint",
+    "LeftWristFlexJoint",
+    "RightWristFlexJoint",
+    "LeftWristSideJoint",
+    "RightWristSideJoint"
+  ],
+  "trim_frames": {
+    "walk": [
+      132,
+      344
+    ],
+    "left_turn": [
+      68,
+      264
+    ],
+    "right_turn_12": [
+      52,
+      260
+    ],
+    "KIT__10__LeftTurn03_poses_clip000": [
+      0,
+      165
+    ],
+    "KIT__10__LeftTurn04_poses_clip000": [
+      0,
+      202
+    ],
+    "KIT__10__LeftTurn05_poses_clip000": [
+      0,
+      172
+    ],
+    "KIT__10__LeftTurn06_poses_clip000": [
+      0,
+      175
+    ],
+    "KIT__10__LeftTurn07_poses_clip000": [
+      0,
+      170
+    ],
+    "KIT__10__LeftTurn08_poses_clip000": [
+      31,
+      270
+    ],
+    "KIT__10__RightTurn06_poses_clip000": [
+      40,
+      267
+    ],
+    "KIT__10__RightTurn07_poses_clip000": [
+      29,
+      259
+    ],
+    "KIT__10__WalkingStraightBackwards02_poses_clip000": [
+      0,
+      235
+    ],
+    "KIT__10__WalkingStraightBackwards04_poses_clip000": [
+      0,
+      228
+    ],
+    "KIT__10__WalkingStraightBackwards05_poses_clip000": [
+      13,
+      283
+    ],
+    "KIT__10__WalkingStraightBackwards06_poses_clip000": [
+      50,
+      310
+    ],
+    "KIT__10__WalkingStraightBackwards07_poses_clip000": [
+      0,
+      247
+    ],
+    "KIT__10__WalkingStraightBackwards08_poses_clip000": [
+      53,
+      288
+    ],
+    "KIT__10__WalkingStraightBackwards09_poses_clip000": [
+      20,
+      257
+    ],
+    "KIT__10__WalkingStraightBackwards10_poses_clip000": [
+      0,
+      217
+    ],
+    "KIT__11__LeftTurn01_poses_clip000": [
+      0,
+      203
+    ],
+    "KIT__11__LeftTurn02_poses_clip000": [
+      49,
+      282
+    ],
+    "KIT__11__LeftTurn05_poses_clip000": [
+      52,
+      282
+    ],
+    "KIT__11__LeftTurn06_poses_clip000": [
+      57,
+      283
+    ],
+    "KIT__11__LeftTurn07_poses_clip000": [
+      0,
+      202
+    ],
+    "KIT__11__LeftTurn09_poses_clip000": [
+      0,
+      153
+    ],
+    "KIT__11__RightTurn02_poses_clip000": [
+      42,
+      266
+    ],
+    "KIT__11__RightTurn03_poses_clip000": [
+      51,
+      275
+    ],
+    "KIT__11__RightTurn04_poses_clip000": [
+      46,
+      270
+    ],
+    "KIT__11__RightTurn05_poses_clip000": [
+      41,
+      258
+    ],
+    "KIT__11__RightTurn06_poses_clip000": [
+      8,
+      237
+    ],
+    "KIT__11__RightTurn07_poses_clip000": [
+      46,
+      265
+    ],
+    "KIT__11__RightTurn09_poses_clip000": [
+      47,
+      266
+    ],
+    "KIT__11__WalkInClockwiseCircle04_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__11__WalkInClockwiseCircle04_poses_clip001": [
+      275,
+      352
+    ],
+    "KIT__11__WalkInClockwiseCircle09_poses_clip000": [
+      15,
+      315
+    ],
+    "KIT__11__WalkInClockwiseCircle09_poses_clip001": [
+      290,
+      363
+    ],
+    "KIT__11__WalkInClockwiseCircle10_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__11__WalkInClockwiseCircle10_poses_clip001": [
+      275,
+      357
+    ],
+    "KIT__11__WalkInCounterClockwiseCircle10_poses_clip000": [
+      5,
+      305
+    ],
+    "KIT__11__WalkInCounterClockwiseCircle10_poses_clip001": [
+      280,
+      367
+    ],
+    "KIT__11__WalkingStraightBackwards01_1_poses_clip000": [
+      47,
+      265
+    ],
+    "KIT__11__WalkingStraightBackwards03_1_poses_clip000": [
+      35,
+      256
+    ],
+    "KIT__11__WalkingStraightBackwards04_1_poses_clip000": [
+      17,
+      227
+    ],
+    "KIT__11__WalkingStraightBackwards05_1_poses_clip000": [
+      182,
+      396
+    ],
+    "KIT__11__WalkingStraightBackwards06_1_poses_clip000": [
+      50,
+      270
+    ],
+    "KIT__11__WalkingStraightBackwards07_1_poses_clip000": [
+      53,
+      243
+    ],
+    "KIT__11__WalkingStraightBackwards08_1_poses_clip000": [
+      49,
+      254
+    ],
+    "KIT__11__WalkingStraightBackwards09_1_poses_clip000": [
+      45,
+      269
+    ],
+    "KIT__11__WalkingStraightBackwards10_poses_clip000": [
+      56,
+      229
+    ],
+    "KIT__11__WalkingStraightForwards01_poses_clip000": [
+      36,
+      253
+    ],
+    "KIT__11__WalkingStraightForwards02_poses_clip000": [
+      47,
+      265
+    ],
+    "KIT__11__WalkingStraightForwards03_poses_clip000": [
+      73,
+      292
+    ],
+    "KIT__12__LeftTurn05_poses_clip000": [
+      68,
+      279
+    ],
+    "KIT__12__LeftTurn07_poses_clip000": [
+      28,
+      219
+    ],
+    "KIT__12__LeftTurn08_poses_clip000": [
+      51,
+      257
+    ],
+    "KIT__12__RightTurn02_poses_clip000": [
+      52,
+      352
+    ],
+    "KIT__12__RightTurn02_poses_clip001": [
+      327,
+      462
+    ],
+    "KIT__12__RightTurn04_poses_clip000": [
+      137,
+      346
+    ],
+    "KIT__12__RightTurn07_poses_clip000": [
+      64,
+      277
+    ],
+    "KIT__12__WalkInCounterClockwiseCircle04_poses_clip000": [
+      10,
+      310
+    ],
+    "KIT__12__WalkInCounterClockwiseCircle05_poses_clip000": [
+      8,
+      308
+    ],
+    "KIT__12__WalkInCounterClockwiseCircle06_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__12__WalkInCounterClockwiseCircle08_poses_clip000": [
+      10,
+      310
+    ],
+    "KIT__12__WalkInCounterClockwiseCircle10_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__12__WalkingStraightBackwards01_poses_clip000": [
+      76,
+      293
+    ],
+    "KIT__12__WalkingStraightBackwards02_poses_clip000": [
+      67,
+      278
+    ],
+    "KIT__12__WalkingStraightBackwards03_poses_clip000": [
+      50,
+      274
+    ],
+    "KIT__12__WalkingStraightBackwards05_poses_clip000": [
+      80,
+      297
+    ],
+    "KIT__12__WalkingStraightBackwards06_poses_clip000": [
+      70,
+      277
+    ],
+    "KIT__12__WalkingStraightBackwards07_poses_clip000": [
+      58,
+      269
+    ],
+    "KIT__12__WalkingStraightBackwards08_poses_clip000": [
+      59,
+      266
+    ],
+    "KIT__12__WalkingStraightBackwards09_poses_clip000": [
+      45,
+      258
+    ],
+    "KIT__12__WalkingStraightBackwards10_poses_clip000": [
+      61,
+      270
+    ],
+    "KIT__167__turn_left01_poses_clip000": [
+      0,
+      272
+    ],
+    "KIT__167__turn_left02_poses_clip000": [
+      27,
+      280
+    ],
+    "KIT__167__turn_left03_poses_clip000": [
+      40,
+      301
+    ],
+    "KIT__167__turn_left05_poses_clip000": [
+      61,
+      303
+    ],
+    "KIT__167__turn_left06_poses_clip000": [
+      32,
+      300
+    ],
+    "KIT__167__turn_left07_poses_clip000": [
+      52,
+      316
+    ],
+    "KIT__167__turn_left09_poses_clip000": [
+      39,
+      298
+    ],
+    "KIT__167__turn_left10_poses_clip000": [
+      27,
+      303
+    ],
+    "KIT__167__turn_right01_poses_clip000": [
+      39,
+      337
+    ],
+    "KIT__167__turn_right02_poses_clip000": [
+      36,
+      336
+    ],
+    "KIT__167__turn_right03_poses_clip000": [
+      34,
+      304
+    ],
+    "KIT__167__turn_right05_poses_clip000": [
+      47,
+      314
+    ],
+    "KIT__167__turn_right06_poses_clip000": [
+      36,
+      296
+    ],
+    "KIT__167__turn_right07_poses_clip000": [
+      42,
+      299
+    ],
+    "KIT__167__turn_right08_poses_clip000": [
+      33,
+      297
+    ],
+    "KIT__167__turn_right10_poses_clip000": [
+      36,
+      282
+    ],
+    "KIT__167__walking_medium01_poses_clip000": [
+      0,
+      255
+    ],
+    "KIT__167__walking_medium02_poses_clip000": [
+      26,
+      235
+    ],
+    "KIT__167__walking_medium03_poses_clip000": [
+      37,
+      260
+    ],
+    "KIT__167__walking_medium04_poses_clip000": [
+      43,
+      261
+    ],
+    "KIT__167__walking_medium05_poses_clip000": [
+      0,
+      262
+    ],
+    "KIT__167__walking_medium07_poses_clip000": [
+      39,
+      260
+    ],
+    "KIT__167__walking_medium08_poses_clip000": [
+      47,
+      265
+    ],
+    "KIT__167__walking_medium09_poses_clip000": [
+      34,
+      246
+    ],
+    "KIT__167__walking_medium10_poses_clip000": [
+      58,
+      271
+    ],
+    "KIT__167__walking_slow01_poses_clip000": [
+      34,
+      318
+    ],
+    "KIT__167__walking_slow02_poses_clip000": [
+      51,
+      349
+    ],
+    "KIT__167__walking_slow03_poses_clip000": [
+      0,
+      290
+    ],
+    "KIT__167__walking_slow04_poses_clip000": [
+      36,
+      313
+    ],
+    "KIT__167__walking_slow05_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__167__walking_slow05_poses_clip001": [
+      275,
+      349
+    ],
+    "KIT__167__walking_slow06_poses_clip000": [
+      32,
+      332
+    ],
+    "KIT__167__walking_slow08_poses_clip000": [
+      36,
+      313
+    ],
+    "KIT__167__walking_slow09_poses_clip000": [
+      41,
+      316
+    ],
+    "KIT__167__walking_slow10_poses_clip000": [
+      15,
+      301
+    ],
+    "KIT__167__walking_slow11_poses_clip000": [
+      58,
+      340
+    ],
+    "KIT__205__walking_slow01_poses_clip000": [
+      42,
+      342
+    ],
+    "KIT__205__walking_slow02_poses_clip000": [
+      55,
+      323
+    ],
+    "KIT__205__walking_slow03_poses_clip000": [
+      60,
+      305
+    ],
+    "KIT__205__walking_slow04_poses_clip000": [
+      1,
+      282
+    ],
+    "KIT__205__walking_slow06_poses_clip000": [
+      43,
+      283
+    ],
+    "KIT__205__walking_slow07_poses_clip000": [
+      7,
+      269
+    ],
+    "KIT__205__walking_slow08_poses_clip000": [
+      0,
+      243
+    ],
+    "KIT__205__walking_slow10_poses_clip000": [
+      18,
+      281
+    ],
+    "KIT__291__walking02_poses_clip000": [
+      49,
+      349
+    ],
+    "KIT__291__walking02_poses_clip001": [
+      324,
+      403
+    ],
+    "KIT__314__turn_right02_poses_clip000": [
+      44,
+      302
+    ],
+    "KIT__314__walking_fast01_poses_clip000": [
+      64,
+      265
+    ],
+    "KIT__314__walking_fast02_poses_clip000": [
+      89,
+      281
+    ],
+    "KIT__314__walking_fast04_poses_clip000": [
+      6,
+      204
+    ],
+    "KIT__314__walking_fast05_poses_clip000": [
+      33,
+      228
+    ],
+    "KIT__314__walking_medium03_poses_clip000": [
+      82,
+      303
+    ],
+    "KIT__314__walking_medium05_poses_clip000": [
+      138,
+      350
+    ],
+    "KIT__314__walking_medium07_poses_clip000": [
+      120,
+      344
+    ],
+    "KIT__314__walking_medium08_poses_clip000": [
+      98,
+      313
+    ],
+    "KIT__314__walking_medium10_poses_clip000": [
+      122,
+      333
+    ],
+    "KIT__314__walking_slow01_poses_clip000": [
+      93,
+      393
+    ],
+    "KIT__314__walking_slow02_poses_clip000": [
+      92,
+      383
+    ],
+    "KIT__314__walking_slow03_poses_clip000": [
+      84,
+      351
+    ],
+    "KIT__314__walking_slow04_poses_clip000": [
+      68,
+      329
+    ],
+    "KIT__314__walking_slow06_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__314__walking_slow06_poses_clip001": [
+      275,
+      332
+    ],
+    "KIT__314__walking_slow07_poses_clip000": [
+      86,
+      386
+    ],
+    "KIT__314__walking_slow10_poses_clip000": [
+      69,
+      369
+    ],
+    "KIT__317__walking_slow04_poses_clip000": [
+      69,
+      308
+    ],
+    "KIT__348__turn_left01_poses_clip000": [
+      34,
+      294
+    ],
+    "KIT__348__turn_left03_poses_clip000": [
+      15,
+      306
+    ],
+    "KIT__348__turn_left04_poses_clip000": [
+      51,
+      297
+    ],
+    "KIT__348__turn_left05_poses_clip000": [
+      25,
+      308
+    ],
+    "KIT__348__turn_left06_poses_clip000": [
+      51,
+      317
+    ],
+    "KIT__348__turn_left07_poses_clip000": [
+      18,
+      302
+    ],
+    "KIT__348__turn_left09_poses_clip000": [
+      24,
+      284
+    ],
+    "KIT__348__turn_left10_poses_clip000": [
+      48,
+      309
+    ],
+    "KIT__348__turn_right01_poses_clip000": [
+      56,
+      313
+    ],
+    "KIT__348__turn_right04_poses_clip000": [
+      45,
+      316
+    ],
+    "KIT__348__turn_right05_poses_clip000": [
+      30,
+      312
+    ],
+    "KIT__348__turn_right06_poses_clip000": [
+      27,
+      309
+    ],
+    "KIT__348__turn_right07_poses_clip000": [
+      57,
+      329
+    ],
+    "KIT__348__turn_right09_poses_clip000": [
+      53,
+      331
+    ],
+    "KIT__348__turn_right10_poses_clip000": [
+      39,
+      312
+    ],
+    "KIT__348__walking_fast01_poses_clip000": [
+      56,
+      223
+    ],
+    "KIT__348__walking_fast04_poses_clip000": [
+      26,
+      198
+    ],
+    "KIT__348__walking_fast07_poses_clip000": [
+      36,
+      206
+    ],
+    "KIT__348__walking_medium01_poses_clip000": [
+      12,
+      205
+    ],
+    "KIT__348__walking_medium02_poses_clip000": [
+      41,
+      247
+    ],
+    "KIT__348__walking_medium03_poses_clip000": [
+      19,
+      216
+    ],
+    "KIT__348__walking_medium04_poses_clip000": [
+      27,
+      245
+    ],
+    "KIT__348__walking_medium05_poses_clip000": [
+      2,
+      207
+    ],
+    "KIT__348__walking_medium06_poses_clip000": [
+      30,
+      221
+    ],
+    "KIT__348__walking_medium07_poses_clip000": [
+      11,
+      213
+    ],
+    "KIT__348__walking_medium08_poses_clip000": [
+      0,
+      183
+    ],
+    "KIT__348__walking_medium09_poses_clip000": [
+      56,
+      263
+    ],
+    "KIT__348__walking_medium10_poses_clip000": [
+      33,
+      243
+    ],
+    "KIT__348__walking_slow01_poses_clip000": [
+      29,
+      329
+    ],
+    "KIT__348__walking_slow01_poses_clip001": [
+      304,
+      356
+    ],
+    "KIT__348__walking_slow02_poses_clip000": [
+      0,
+      296
+    ],
+    "KIT__348__walking_slow03_poses_clip000": [
+      39,
+      339
+    ],
+    "KIT__348__walking_slow04_poses_clip000": [
+      0,
+      274
+    ],
+    "KIT__348__walking_slow05_poses_clip000": [
+      0,
+      289
+    ],
+    "KIT__348__walking_slow06_poses_clip000": [
+      48,
+      319
+    ],
+    "KIT__348__walking_slow07_poses_clip000": [
+      0,
+      275
+    ],
+    "KIT__348__walking_slow08_poses_clip000": [
+      11,
+      283
+    ],
+    "KIT__348__walking_slow09_poses_clip000": [
+      52,
+      310
+    ],
+    "KIT__348__walking_slow10_poses_clip000": [
+      2,
+      296
+    ],
+    "KIT__424__walking_medium01_poses_clip000": [
+      50,
+      313
+    ],
+    "KIT__424__walking_slow02_poses_clip000": [
+      61,
+      361
+    ],
+    "KIT__424__walking_slow02_poses_clip001": [
+      336,
+      397
+    ],
+    "KIT__424__walking_slow03_poses_clip000": [
+      11,
+      311
+    ],
+    "KIT__424__walking_slow03_poses_clip001": [
+      286,
+      365
+    ],
+    "KIT__424__walking_slow04_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__424__walking_slow04_poses_clip001": [
+      275,
+      396
+    ],
+    "KIT__424__walking_slow06_poses_clip000": [
+      59,
+      359
+    ],
+    "KIT__424__walking_slow06_poses_clip001": [
+      334,
+      398
+    ],
+    "KIT__424__walking_slow07_poses_clip000": [
+      57,
+      357
+    ],
+    "KIT__424__walking_slow07_poses_clip001": [
+      332,
+      400
+    ],
+    "KIT__424__walking_slow09_poses_clip000": [
+      54,
+      354
+    ],
+    "KIT__424__walking_slow09_poses_clip001": [
+      329,
+      417
+    ],
+    "KIT__424__walking_slow10_poses_clip000": [
+      68,
+      368
+    ],
+    "KIT__424__walking_slow10_poses_clip001": [
+      343,
+      430
+    ],
+    "KIT__425__walking_01_poses_clip000": [
+      0,
+      223
+    ],
+    "KIT__425__walking_02_poses_clip000": [
+      2,
+      254
+    ],
+    "KIT__425__walking_03_poses_clip000": [
+      1,
+      234
+    ],
+    "KIT__425__walking_04_poses_clip000": [
+      0,
+      249
+    ],
+    "KIT__425__walking_06_poses_clip000": [
+      3,
+      243
+    ],
+    "KIT__425__walking_08_poses_clip000": [
+      0,
+      260
+    ],
+    "KIT__425__walking_10_poses_clip000": [
+      19,
+      276
+    ],
+    "KIT__425__walking_slow01_poses_clip000": [
+      6,
+      273
+    ],
+    "KIT__425__walking_slow02_poses_clip000": [
+      38,
+      296
+    ],
+    "KIT__425__walking_slow04_poses_clip000": [
+      17,
+      285
+    ],
+    "KIT__425__walking_slow10_poses_clip000": [
+      0,
+      300
+    ],
+    "KIT__425__walking_slow10_poses_clip001": [
+      275,
+      326
+    ],
+    "KIT__425__walking_slow11_poses_clip000": [
+      0,
+      256
+    ],
+    "KIT__513__turn_left01_poses_clip000": [
+      54,
+      330
+    ],
+    "KIT__513__turn_left05_poses_clip000": [
+      56,
+      347
+    ],
+    "KIT__513__turn_left06_poses_clip000": [
+      32,
+      320
+    ],
+    "KIT__513__turn_left08_poses_clip000": [
+      32,
+      286
+    ],
+    "KIT__513__turn_right01_poses_clip000": [
+      0,
+      290
+    ],
+    "KIT__513__turn_right02_poses_clip000": [
+      0,
+      280
+    ],
+    "KIT__513__turn_right04_poses_clip000": [
+      42,
+      313
+    ],
+    "KIT__513__turn_right06_poses_clip000": [
+      95,
+      359
+    ],
+    "KIT__513__turn_right07_poses_clip000": [
+      89,
+      363
+    ],
+    "KIT__513__turn_right09_poses_clip000": [
+      49,
+      325
+    ],
+    "KIT__6__LeftTurn01_1_poses_clip000": [
+      76,
+      306
+    ],
+    "KIT__6__LeftTurn02_1_poses_clip000": [
+      26,
+      246
+    ],
+    "KIT__6__LeftTurn04_1_poses_clip000": [
+      40,
+      251
+    ],
+    "KIT__6__LeftTurn06_1_poses_clip000": [
+      39,
+      254
+    ],
+    "KIT__6__LeftTurn07_1_poses_clip000": [
+      22,
+      242
+    ],
+    "KIT__6__LeftTurn09_1_poses_clip000": [
+      50,
+      270
+    ],
+    "KIT__6__RightTurn01_1_poses_clip000": [
+      43,
+      254
+    ],
+    "KIT__6__RightTurn02_1_poses_clip000": [
+      0,
+      252
+    ],
+    "KIT__6__RightTurn03_1_poses_clip000": [
+      35,
+      257
+    ],
+    "KIT__6__RightTurn04_1_poses_clip000": [
+      43,
+      259
+    ],
+    "KIT__6__RightTurn05_1_poses_clip000": [
+      29,
+      253
+    ],
+    "KIT__6__RightTurn06_1_poses_clip000": [
+      33,
+      238
+    ],
+    "KIT__6__RightTurn08_1_poses_clip000": [
+      50,
+      267
+    ],
+    "KIT__6__RightTurn09_1_poses_clip000": [
+      44,
+      260
+    ],
+    "KIT__6__WalkInCounterClockwiseCircle01_1_poses_clip000": [
+      55,
+      355
+    ],
+    "KIT__6__WalkInCounterClockwiseCircle01_1_poses_clip001": [
+      330,
+      398
+    ],
+    "KIT__6__WalkingStraightBackwards01_poses_clip000": [
+      28,
+      229
+    ],
+    "KIT__6__WalkingStraightBackwards03_poses_clip000": [
+      39,
+      255
+    ],
+    "KIT__6__WalkingStraightBackwards04_poses_clip000": [
+      47,
+      263
+    ],
+    "KIT__6__WalkingStraightBackwards05_poses_clip000": [
+      47,
+      247
+    ],
+    "KIT__6__WalkingStraightBackwards06_poses_clip000": [
+      0,
+      259
+    ],
+    "KIT__6__WalkingStraightBackwards07_poses_clip000": [
+      27,
+      233
+    ],
+    "KIT__6__WalkingStraightBackwards10_poses_clip000": [
+      38,
+      246
+    ],
+    "KIT__8__WalkingStraightBackwards01_poses_clip000": [
+      54,
+      286
+    ],
+    "KIT__8__WalkingStraightBackwards03_poses_clip000": [
+      36,
+      270
+    ],
+    "KIT__8__WalkingStraightBackwards04_poses_clip000": [
+      0,
+      234
+    ],
+    "KIT__8__WalkingStraightBackwards06_poses_clip000": [
+      45,
+      281
+    ],
+    "KIT__8__WalkingStraightBackwards07_poses_clip000": [
+      42,
+      276
+    ],
+    "KIT__8__WalkingStraightBackwards08_poses_clip000": [
+      42,
+      270
+    ],
+    "KIT__9__LeftTurn05_poses_clip000": [
+      12,
+      234
+    ],
+    "KIT__9__RightTurn01_poses_clip000": [
+      30,
+      267
+    ],
+    "KIT__9__RightTurn02_poses_clip000": [
+      0,
+      231
+    ],
+    "KIT__9__RightTurn10_poses_clip000": [
+      0,
+      211
+    ],
+    "KIT__9__WalkInCounterClockwiseCircle07_poses_clip000": [
+      50,
+      350
+    ],
+    "KIT__9__WalkInCounterClockwiseCircle07_poses_clip001": [
+      325,
+      429
+    ],
+    "KIT__9__WalkInCounterClockwiseCircle09_poses_clip000": [
+      18,
+      318
+    ],
+    "KIT__9__WalkInCounterClockwiseCircle09_poses_clip001": [
+      293,
+      420
+    ],
+    "KIT__9__WalkingStraightBackwards01_poses_clip000": [
+      25,
+      235
+    ],
+    "KIT__9__WalkingStraightForwards01_poses_clip000": [
+      109,
+      360
+    ],
+    "KIT__9__WalkingStraightForwards02_poses_clip000": [
+      74,
+      330
+    ],
+    "KIT__9__WalkingStraightForwards03_poses_clip000": [
+      29,
+      292
+    ],
+    "KIT__9__WalkingStraightForwards04_poses_clip000": [
+      31,
+      280
+    ],
+    "KIT__9__turn_left01_poses_clip000": [
+      7,
+      274
+    ],
+    "KIT__9__turn_left06_poses_clip000": [
+      32,
+      292
+    ],
+    "KIT__9__walking_medium01_poses_clip000": [
+      18,
+      272
+    ],
+    "KIT__9__walking_medium02_poses_clip000": [
+      36,
+      286
+    ],
+    "KIT__9__walking_medium04_poses_clip000": [
+      22,
+      271
+    ],
+    "KIT__9__walking_medium06_poses_clip000": [
+      17,
+      256
+    ],
+    "KIT__9__walking_medium07_poses_clip000": [
+      33,
+      272
+    ],
+    "KIT__9__walking_medium08_poses_clip000": [
+      13,
+      242
+    ],
+    "KIT__9__walking_medium09_poses_clip000": [
+      46,
+      271
+    ],
+    "KIT__9__walking_medium10_poses_clip000": [
+      35,
+      243
+    ],
+    "KIT__9__walking_slow01_poses_clip000": [
+      60,
+      308
+    ],
+    "KIT__9__walking_slow02_poses_clip000": [
+      48,
+      348
+    ],
+    "KIT__9__walking_slow02_poses_clip001": [
+      323,
+      380
+    ],
+    "KIT__9__walking_slow03_poses_clip000": [
+      57,
+      357
+    ],
+    "KIT__9__walking_slow04_poses_clip000": [
+      52,
+      347
+    ],
+    "KIT__9__walking_slow05_poses_clip000": [
+      61,
+      333
+    ],
+    "KIT__9__walking_slow06_poses_clip000": [
+      73,
+      364
+    ],
+    "KIT__9__walking_slow07_poses_clip000": [
+      20,
+      320
+    ],
+    "KIT__9__walking_slow08_poses_clip000": [
+      50,
+      350
+    ],
+    "KIT__9__walking_slow08_poses_clip001": [
+      325,
+      432
+    ],
+    "KIT__9__walking_slow09_poses_clip000": [
+      56,
+      356
+    ],
+    "KIT__9__walking_slow10_poses_clip000": [
+      32,
+      332
+    ],
+    "KIT__9__walking_slow10_poses_clip001": [
+      307,
+      368
+    ]
+  },
+  "kp": [
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    360.0,
+    200.0,
+    200.0,
+    360.0,
+    200.0,
+    200.0,
+    360.0,
+    50.0,
+    50.0,
+    100.0,
+    70.0,
+    100.0,
+    100.0,
+    70.0,
+    100.0,
+    130.0,
+    70.0,
+    130.0,
+    130.0,
+    130.0,
+    130.0,
+    130.0,
+    130.0,
+    130.0,
+    24.0,
+    24.0,
+    24.0,
+    24.0
+  ],
+  "kd": [
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    14.0,
+    8.399999618530273,
+    8.399999618530273,
+    14.0,
+    8.399999618530273,
+    8.399999618530273,
+    14.0,
+    1.399999976158142,
+    1.399999976158142,
+    4.199999809265137,
+    2.799999952316284,
+    4.199999809265137,
+    4.199999809265137,
+    2.799999952316284,
+    4.199999809265137,
+    5.599999904632568,
+    2.799999952316284,
+    5.599999904632568,
+    5.599999904632568,
+    5.599999904632568,
+    5.599999904632568,
+    5.599999904632568,
+    5.599999904632568,
+    5.599999904632568,
+    0.5600000023841858,
+    0.5600000023841858,
+    0.5600000023841858,
+    0.5600000023841858
+  ],
+  "effort_limits": [
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    200.0,
+    120.0,
+    120.0,
+    200.0,
+    120.0,
+    120.0,
+    200.0,
+    25.0,
+    25.0,
+    60.0,
+    25.0,
+    60.0,
+    60.0,
+    25.0,
+    60.0,
+    80.0,
+    25.0,
+    80.0,
+    80.0,
+    80.0,
+    80.0,
+    80.0,
+    80.0,
+    80.0,
+    15.0,
+    15.0,
+    15.0,
+    15.0
+  ]
+}

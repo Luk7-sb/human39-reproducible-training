@@ -1,0 +1,3362 @@
+[
+  {
+    "name": "walk",
+    "motion": "KIT/314/walking_medium09_poses",
+    "path": "outputs/retargeted/human39/walk.npz",
+    "category": 0,
+    "frames": [
+      132,
+      344
+    ],
+    "split": "train",
+    "file_sha256": "be21c148573f47b8f261cd3ae5b9321a91226544bd5dcc1cfe29a7ed22f77304"
+  },
+  {
+    "name": "left_turn",
+    "motion": "KIT/12/LeftTurn03_poses",
+    "path": "outputs/retargeted/human39/left_turn.npz",
+    "category": 1,
+    "frames": [
+      68,
+      264
+    ],
+    "split": "train",
+    "file_sha256": "4157845e9746212e9d696b9e6208dc6b33a307a7d8d9ae5dbdddc83e6a2ef6da"
+  },
+  {
+    "name": "right_turn_12",
+    "motion": "KIT/12/RightTurn03_poses",
+    "path": "outputs/retargeted/human39/right_turn_12.npz",
+    "category": 2,
+    "frames": [
+      52,
+      260
+    ],
+    "split": "train",
+    "file_sha256": "cc541687d42f5fc5818c5e6f4ec3fa92713b2acc3b5c0f605ae00064c3163928"
+  },
+  {
+    "name": "KIT__10__LeftTurn03_poses_clip000",
+    "motion": "KIT/10/LeftTurn03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn03_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      165
+    ],
+    "split": "train",
+    "file_sha256": "cd6f9ab7affbccabe4055d5af072f1fb81e09dac5802d1288ecb92f667e70ec6"
+  },
+  {
+    "name": "KIT__10__LeftTurn04_poses_clip000",
+    "motion": "KIT/10/LeftTurn04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn04_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      202
+    ],
+    "split": "train",
+    "file_sha256": "f12d5bbfd3d34ded425070ef6aba515b254c499f529fa0ef2526455169dc10e7"
+  },
+  {
+    "name": "KIT__10__LeftTurn05_poses_clip000",
+    "motion": "KIT/10/LeftTurn05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn05_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      172
+    ],
+    "split": "train",
+    "file_sha256": "36cc91f9e79021e526b7149dea9c656be2955cdcadd302cb50359665259a7ecd"
+  },
+  {
+    "name": "KIT__10__LeftTurn06_poses_clip000",
+    "motion": "KIT/10/LeftTurn06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn06_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      175
+    ],
+    "split": "train",
+    "file_sha256": "0db789c6606e9161e846e5ad263d986626eb0875f510e6ca52a97a3ea34b358b"
+  },
+  {
+    "name": "KIT__10__LeftTurn07_poses_clip000",
+    "motion": "KIT/10/LeftTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn07_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      170
+    ],
+    "split": "train",
+    "file_sha256": "32ec5c0e18d78680fb6c3326fde8a7796423233a6a5dc9ef7d7059b9ba5ce67b"
+  },
+  {
+    "name": "KIT__10__LeftTurn08_poses_clip000",
+    "motion": "KIT/10/LeftTurn08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__LeftTurn08_poses.npz",
+    "category": 1,
+    "frames": [
+      31,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "fa44b3083ceb7f1b1c09a4020ea85d661f9a7363fbc0c69d930b3aef2820f12d"
+  },
+  {
+    "name": "KIT__10__RightTurn06_poses_clip000",
+    "motion": "KIT/10/RightTurn06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__RightTurn06_poses.npz",
+    "category": 2,
+    "frames": [
+      40,
+      267
+    ],
+    "split": "train",
+    "file_sha256": "cf789d4d3670df58602883b6bf3cbe6bbf691d94f87801960fd59b41c2530166"
+  },
+  {
+    "name": "KIT__10__RightTurn07_poses_clip000",
+    "motion": "KIT/10/RightTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__RightTurn07_poses.npz",
+    "category": 2,
+    "frames": [
+      29,
+      259
+    ],
+    "split": "train",
+    "file_sha256": "67102a4c87d048fca7831db6e46e0fd0bb9b22149feb32726097aa010c556ea4"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards02_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards02_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      235
+    ],
+    "split": "train",
+    "file_sha256": "ccadfccbbae16c1f354d0ac7294b2d8cae8e8b383e31811ceed9588744c6ed66"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards04_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards04_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      228
+    ],
+    "split": "train",
+    "file_sha256": "8fd7cf33fb4659107ebb52aeddbeb6cd4ede36d1be7ee1edc2d461854b045b7a"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards05_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards05_poses.npz",
+    "category": 0,
+    "frames": [
+      13,
+      283
+    ],
+    "split": "train",
+    "file_sha256": "345253d51bc689891cd9470326d92abdc9fefb7c55f88bd632d2ee30a8a95f67"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards06_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards06_poses.npz",
+    "category": 0,
+    "frames": [
+      50,
+      310
+    ],
+    "split": "train",
+    "file_sha256": "49bbd63cc0c30f3e2f773dc8af5a177746311a7c519274c91de489c58f0c0514"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards07_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards07_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      247
+    ],
+    "split": "train",
+    "file_sha256": "3a9d3df79b36132fb7d620573c32f67f911ec13261a07d212d400171533ec969"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards08_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards08_poses.npz",
+    "category": 0,
+    "frames": [
+      53,
+      288
+    ],
+    "split": "train",
+    "file_sha256": "5ea1e09997bcd80b6d29f2964a19794d304d164853a7afd47be0035556d03636"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards09_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards09_poses.npz",
+    "category": 0,
+    "frames": [
+      20,
+      257
+    ],
+    "split": "train",
+    "file_sha256": "2967f231bb2c8a628bb18c6673cc923627d9b2460f948f1e02b7a127d7211695"
+  },
+  {
+    "name": "KIT__10__WalkingStraightBackwards10_poses_clip000",
+    "motion": "KIT/10/WalkingStraightBackwards10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__10__WalkingStraightBackwards10_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      217
+    ],
+    "split": "train",
+    "file_sha256": "fed9c1551f5139fa58fb1dc8c1d2b41515e73d375e0d21e85bef8af39c496976"
+  },
+  {
+    "name": "KIT__11__LeftTurn01_poses_clip000",
+    "motion": "KIT/11/LeftTurn01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn01_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      203
+    ],
+    "split": "train",
+    "file_sha256": "aa5b52e04df81229841787d59fcd5f1f0d925cc7560a1b3785e7cb1274edeac6"
+  },
+  {
+    "name": "KIT__11__LeftTurn02_poses_clip000",
+    "motion": "KIT/11/LeftTurn02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn02_poses.npz",
+    "category": 1,
+    "frames": [
+      49,
+      282
+    ],
+    "split": "train",
+    "file_sha256": "d3777a663fadfb07049465e4a9380a3bf41a3fef18c4342ce03f5a8a3bc5614e"
+  },
+  {
+    "name": "KIT__11__LeftTurn05_poses_clip000",
+    "motion": "KIT/11/LeftTurn05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn05_poses.npz",
+    "category": 1,
+    "frames": [
+      52,
+      282
+    ],
+    "split": "train",
+    "file_sha256": "505fa106a86ebd1c7487908ba2fc81731cb3588f3556549a8be39bd2cc77090c"
+  },
+  {
+    "name": "KIT__11__LeftTurn06_poses_clip000",
+    "motion": "KIT/11/LeftTurn06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn06_poses.npz",
+    "category": 1,
+    "frames": [
+      57,
+      283
+    ],
+    "split": "train",
+    "file_sha256": "998b821dafe3a9b9f18d13d394e6119cd818092eae9a13a1e44a80c1c51593eb"
+  },
+  {
+    "name": "KIT__11__LeftTurn07_poses_clip000",
+    "motion": "KIT/11/LeftTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn07_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      202
+    ],
+    "split": "train",
+    "file_sha256": "820bb50661f24db463fcfd41d865264fa05058dab2c31ee429362d2354b8c7fc"
+  },
+  {
+    "name": "KIT__11__LeftTurn09_poses_clip000",
+    "motion": "KIT/11/LeftTurn09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__LeftTurn09_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      153
+    ],
+    "split": "train",
+    "file_sha256": "5979b9174711f66e2ed30354ec3b904bdaefab48494b5f3da8229054d82f68fe"
+  },
+  {
+    "name": "KIT__11__RightTurn02_poses_clip000",
+    "motion": "KIT/11/RightTurn02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn02_poses.npz",
+    "category": 2,
+    "frames": [
+      42,
+      266
+    ],
+    "split": "train",
+    "file_sha256": "8dd6613e47ff61db17aaa28c07b6e9b228a8871ad077d7a9c41d55225a200cc1"
+  },
+  {
+    "name": "KIT__11__RightTurn03_poses_clip000",
+    "motion": "KIT/11/RightTurn03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn03_poses.npz",
+    "category": 2,
+    "frames": [
+      51,
+      275
+    ],
+    "split": "train",
+    "file_sha256": "47e7be30fe3c85939f122ab70dc100bbed7e040ff60029d6ccf0b2bcfeac8a94"
+  },
+  {
+    "name": "KIT__11__RightTurn04_poses_clip000",
+    "motion": "KIT/11/RightTurn04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn04_poses.npz",
+    "category": 2,
+    "frames": [
+      46,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "a03eff3fd0b4cbbe2e8844ce86e5051b6890cc2b47314e508fde2c52d6d6e083"
+  },
+  {
+    "name": "KIT__11__RightTurn05_poses_clip000",
+    "motion": "KIT/11/RightTurn05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn05_poses.npz",
+    "category": 2,
+    "frames": [
+      41,
+      258
+    ],
+    "split": "train",
+    "file_sha256": "6274c11dc654d713ee0bf4712f2bf5b0cc26782d531d4893ef07fda72c3f8c9a"
+  },
+  {
+    "name": "KIT__11__RightTurn06_poses_clip000",
+    "motion": "KIT/11/RightTurn06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn06_poses.npz",
+    "category": 2,
+    "frames": [
+      8,
+      237
+    ],
+    "split": "train",
+    "file_sha256": "d3cb66f55c2cfe852d5974d88357fd38e417adfb61e84a4f983489995a09ee57"
+  },
+  {
+    "name": "KIT__11__RightTurn07_poses_clip000",
+    "motion": "KIT/11/RightTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn07_poses.npz",
+    "category": 2,
+    "frames": [
+      46,
+      265
+    ],
+    "split": "train",
+    "file_sha256": "8a7abdad2ad0c726198b4e1d1f195ddc8010a9e1a93f9dbc37fe985cba043830"
+  },
+  {
+    "name": "KIT__11__RightTurn09_poses_clip000",
+    "motion": "KIT/11/RightTurn09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__RightTurn09_poses.npz",
+    "category": 2,
+    "frames": [
+      47,
+      266
+    ],
+    "split": "train",
+    "file_sha256": "e4e467dfd0665a24feac00bc7fb5859c469dfa8512d527d52d717e229458b28d"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle04_poses_clip000",
+    "motion": "KIT/11/WalkInClockwiseCircle04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle04_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "7329b50996893a8454137efade04d949aba38c1569d5a8c8c9a15d20748253bd"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle04_poses_clip001",
+    "motion": "KIT/11/WalkInClockwiseCircle04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle04_poses.npz",
+    "category": 2,
+    "frames": [
+      275,
+      352
+    ],
+    "split": "train",
+    "file_sha256": "7329b50996893a8454137efade04d949aba38c1569d5a8c8c9a15d20748253bd"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle09_poses_clip000",
+    "motion": "KIT/11/WalkInClockwiseCircle09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle09_poses.npz",
+    "category": 2,
+    "frames": [
+      15,
+      315
+    ],
+    "split": "train",
+    "file_sha256": "197d3273694e262fa50fd1889af0a32b4b53af681bd9846e2c0c759231c8a67f"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle09_poses_clip001",
+    "motion": "KIT/11/WalkInClockwiseCircle09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle09_poses.npz",
+    "category": 2,
+    "frames": [
+      290,
+      363
+    ],
+    "split": "train",
+    "file_sha256": "197d3273694e262fa50fd1889af0a32b4b53af681bd9846e2c0c759231c8a67f"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle10_poses_clip000",
+    "motion": "KIT/11/WalkInClockwiseCircle10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle10_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "3427520d931077cf8c3d430f72ac924568904a050d3a76e7378cf3bd8599c04f"
+  },
+  {
+    "name": "KIT__11__WalkInClockwiseCircle10_poses_clip001",
+    "motion": "KIT/11/WalkInClockwiseCircle10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInClockwiseCircle10_poses.npz",
+    "category": 2,
+    "frames": [
+      275,
+      357
+    ],
+    "split": "train",
+    "file_sha256": "3427520d931077cf8c3d430f72ac924568904a050d3a76e7378cf3bd8599c04f"
+  },
+  {
+    "name": "KIT__11__WalkInCounterClockwiseCircle10_poses_clip000",
+    "motion": "KIT/11/WalkInCounterClockwiseCircle10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInCounterClockwiseCircle10_poses.npz",
+    "category": 1,
+    "frames": [
+      5,
+      305
+    ],
+    "split": "train",
+    "file_sha256": "51a0afde88e0e1da840b6a11e6789ca1d9d1234a047bde1fff63f58673d23cf8"
+  },
+  {
+    "name": "KIT__11__WalkInCounterClockwiseCircle10_poses_clip001",
+    "motion": "KIT/11/WalkInCounterClockwiseCircle10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkInCounterClockwiseCircle10_poses.npz",
+    "category": 1,
+    "frames": [
+      280,
+      367
+    ],
+    "split": "train",
+    "file_sha256": "51a0afde88e0e1da840b6a11e6789ca1d9d1234a047bde1fff63f58673d23cf8"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards01_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards01_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards01_1_poses.npz",
+    "category": 0,
+    "frames": [
+      47,
+      265
+    ],
+    "split": "train",
+    "file_sha256": "0801f1ca74093789e8c4cf49d4997f0b4f70d6b44238e42871625d8d1d41c93a"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards03_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards03_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards03_1_poses.npz",
+    "category": 0,
+    "frames": [
+      35,
+      256
+    ],
+    "split": "train",
+    "file_sha256": "99ad3647a4416c64c321ab151b5cc97827a5f69a252cbd8766424ca310799997"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards04_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards04_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards04_1_poses.npz",
+    "category": 0,
+    "frames": [
+      17,
+      227
+    ],
+    "split": "train",
+    "file_sha256": "529cd2010360f27969f3847606f01614d1c13e80bd31daaf6f96a771007145f5"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards05_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards05_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards05_1_poses.npz",
+    "category": 0,
+    "frames": [
+      182,
+      396
+    ],
+    "split": "train",
+    "file_sha256": "86f292370a4af31a5079f8b3b225f0d68d9d8b8be1e86e305799170b830e2b5d"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards06_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards06_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards06_1_poses.npz",
+    "category": 0,
+    "frames": [
+      50,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "384aac5a02874050ff053cba702d7d1b3df93e4f8faa5bee1d809400c71b9275"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards07_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards07_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards07_1_poses.npz",
+    "category": 0,
+    "frames": [
+      53,
+      243
+    ],
+    "split": "train",
+    "file_sha256": "8e0d262597528d32cf4477a3025ff53d4558193e124bed3bff1a0e17e7c96e58"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards08_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards08_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards08_1_poses.npz",
+    "category": 0,
+    "frames": [
+      49,
+      254
+    ],
+    "split": "train",
+    "file_sha256": "059b4e3b08a09b445ea9b717d51be8920d805cf1d06b76f3b9eca54889c5ad3a"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards09_1_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards09_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards09_1_poses.npz",
+    "category": 0,
+    "frames": [
+      45,
+      269
+    ],
+    "split": "train",
+    "file_sha256": "c5433e177e2f0dcd23e187c3980af0cd67fa79ce17f256ef00e1e6daa8c89ab1"
+  },
+  {
+    "name": "KIT__11__WalkingStraightBackwards10_poses_clip000",
+    "motion": "KIT/11/WalkingStraightBackwards10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightBackwards10_poses.npz",
+    "category": 0,
+    "frames": [
+      56,
+      229
+    ],
+    "split": "train",
+    "file_sha256": "8e1cb82a634a9fc0fed720f68a236276d7d1ea69795e0aaaf7af2f4c846e8a94"
+  },
+  {
+    "name": "KIT__11__WalkingStraightForwards01_poses_clip000",
+    "motion": "KIT/11/WalkingStraightForwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightForwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      253
+    ],
+    "split": "train",
+    "file_sha256": "0570cf95518682cc779846232ca1fa954b9fa401800e5baa4df0c7b6f1ea89cd"
+  },
+  {
+    "name": "KIT__11__WalkingStraightForwards02_poses_clip000",
+    "motion": "KIT/11/WalkingStraightForwards02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightForwards02_poses.npz",
+    "category": 0,
+    "frames": [
+      47,
+      265
+    ],
+    "split": "train",
+    "file_sha256": "3d8870a0b2d59fea4a8c42ccee52ba65fb77f0d750285e2b8be3fc8aff9f39a8"
+  },
+  {
+    "name": "KIT__11__WalkingStraightForwards03_poses_clip000",
+    "motion": "KIT/11/WalkingStraightForwards03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__11__WalkingStraightForwards03_poses.npz",
+    "category": 0,
+    "frames": [
+      73,
+      292
+    ],
+    "split": "train",
+    "file_sha256": "6110fa522435cfa2f0e12c4da70ff7fd44d825a2bca867d00def69db0950a91e"
+  },
+  {
+    "name": "KIT__12__LeftTurn05_poses_clip000",
+    "motion": "KIT/12/LeftTurn05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__LeftTurn05_poses.npz",
+    "category": 1,
+    "frames": [
+      68,
+      279
+    ],
+    "split": "train",
+    "file_sha256": "a97120c3109bd120640e5d88ceb6128327e452805a4a34ef892de95079c7d1cb"
+  },
+  {
+    "name": "KIT__12__LeftTurn07_poses_clip000",
+    "motion": "KIT/12/LeftTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__LeftTurn07_poses.npz",
+    "category": 1,
+    "frames": [
+      28,
+      219
+    ],
+    "split": "train",
+    "file_sha256": "31567766b0e1ff72cd069e9adad5f130364dafc1d026df2a926f89adc7de4502"
+  },
+  {
+    "name": "KIT__12__LeftTurn08_poses_clip000",
+    "motion": "KIT/12/LeftTurn08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__LeftTurn08_poses.npz",
+    "category": 1,
+    "frames": [
+      51,
+      257
+    ],
+    "split": "train",
+    "file_sha256": "2d6cb69146729598dbb499938d1361433e9b939687390682a0c71fa2376aaf4c"
+  },
+  {
+    "name": "KIT__12__RightTurn02_poses_clip000",
+    "motion": "KIT/12/RightTurn02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__RightTurn02_poses.npz",
+    "category": 2,
+    "frames": [
+      52,
+      352
+    ],
+    "split": "train",
+    "file_sha256": "ae58c936a9ac3e9c849232267eace8fa3cc47d4afc34b9dbdab3fcbdc54b6248"
+  },
+  {
+    "name": "KIT__12__RightTurn02_poses_clip001",
+    "motion": "KIT/12/RightTurn02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__RightTurn02_poses.npz",
+    "category": 2,
+    "frames": [
+      327,
+      462
+    ],
+    "split": "train",
+    "file_sha256": "ae58c936a9ac3e9c849232267eace8fa3cc47d4afc34b9dbdab3fcbdc54b6248"
+  },
+  {
+    "name": "KIT__12__RightTurn04_poses_clip000",
+    "motion": "KIT/12/RightTurn04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__RightTurn04_poses.npz",
+    "category": 2,
+    "frames": [
+      137,
+      346
+    ],
+    "split": "train",
+    "file_sha256": "f05573415120018fb9b8788a0b1664b11bbcf9c7509e88709f542ea6aeedb16a"
+  },
+  {
+    "name": "KIT__12__RightTurn07_poses_clip000",
+    "motion": "KIT/12/RightTurn07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__RightTurn07_poses.npz",
+    "category": 2,
+    "frames": [
+      64,
+      277
+    ],
+    "split": "train",
+    "file_sha256": "a62caaa7d0a13ca7c5fe5ae458082c79c1c8cff1c4f7a3ba08e0bca89c00b403"
+  },
+  {
+    "name": "KIT__12__WalkInCounterClockwiseCircle04_poses_clip000",
+    "motion": "KIT/12/WalkInCounterClockwiseCircle04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkInCounterClockwiseCircle04_poses.npz",
+    "category": 1,
+    "frames": [
+      10,
+      310
+    ],
+    "split": "train",
+    "file_sha256": "5458de8605d07ad57f57c2c89892cfc1b8875067bd82fa719049b282c859378c"
+  },
+  {
+    "name": "KIT__12__WalkInCounterClockwiseCircle05_poses_clip000",
+    "motion": "KIT/12/WalkInCounterClockwiseCircle05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkInCounterClockwiseCircle05_poses.npz",
+    "category": 1,
+    "frames": [
+      8,
+      308
+    ],
+    "split": "train",
+    "file_sha256": "7affcb1b939440d6e4af7f33548aefbcec38c55bbb4d60f07120911adc986162"
+  },
+  {
+    "name": "KIT__12__WalkInCounterClockwiseCircle06_poses_clip000",
+    "motion": "KIT/12/WalkInCounterClockwiseCircle06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkInCounterClockwiseCircle06_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "8fecf53974a037d73ca8f1bf5f5de4f5bccfb00dd9abf35c7b06b6ddaf12121c"
+  },
+  {
+    "name": "KIT__12__WalkInCounterClockwiseCircle08_poses_clip000",
+    "motion": "KIT/12/WalkInCounterClockwiseCircle08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkInCounterClockwiseCircle08_poses.npz",
+    "category": 1,
+    "frames": [
+      10,
+      310
+    ],
+    "split": "train",
+    "file_sha256": "c4c78bd55d7f31ed56bd729abefd98272383efd729fa337908c3d40691fa61bf"
+  },
+  {
+    "name": "KIT__12__WalkInCounterClockwiseCircle10_poses_clip000",
+    "motion": "KIT/12/WalkInCounterClockwiseCircle10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkInCounterClockwiseCircle10_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "839c9095711695ecd637ac362f4791f4abfde5779e7dabd22f31111f919a28db"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards01_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      76,
+      293
+    ],
+    "split": "train",
+    "file_sha256": "069a8f54dd431f1698498c5f385ff489017ea7671296fadcc3ca01b279a08d24"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards02_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards02_poses.npz",
+    "category": 0,
+    "frames": [
+      67,
+      278
+    ],
+    "split": "train",
+    "file_sha256": "75c868f0937bcc1f792470d9856084b76f38bf3612a8a7d646e1fb1a85477f20"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards03_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards03_poses.npz",
+    "category": 0,
+    "frames": [
+      50,
+      274
+    ],
+    "split": "train",
+    "file_sha256": "bbfd451273f5985b5db0a9a3a4d150be9bd735fd11ed893acfbe3346b60a22ff"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards05_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards05_poses.npz",
+    "category": 0,
+    "frames": [
+      80,
+      297
+    ],
+    "split": "train",
+    "file_sha256": "5fb2d87d7b46e5429568a8481ba6439857c68ccc21135c94a2222e888ae017ee"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards06_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards06_poses.npz",
+    "category": 0,
+    "frames": [
+      70,
+      277
+    ],
+    "split": "train",
+    "file_sha256": "2f1090b7dc8a082b90e022f6e7340be807b51e5fdeeaa3c7dbc64ed5bf6d41a8"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards07_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards07_poses.npz",
+    "category": 0,
+    "frames": [
+      58,
+      269
+    ],
+    "split": "train",
+    "file_sha256": "063e3c3f98f12690560aa783d5da509c822be02a4eb167a9a56f2401247bbaa1"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards08_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards08_poses.npz",
+    "category": 0,
+    "frames": [
+      59,
+      266
+    ],
+    "split": "train",
+    "file_sha256": "cadb7fd1ab34fce28a84dddb59524656dd0113ef5e1c41d1c75a1a31ff81a2d2"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards09_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards09_poses.npz",
+    "category": 0,
+    "frames": [
+      45,
+      258
+    ],
+    "split": "train",
+    "file_sha256": "ff77d7459e5f014bca3ec871be74894d3155052a562d988709f71ba78abdd32a"
+  },
+  {
+    "name": "KIT__12__WalkingStraightBackwards10_poses_clip000",
+    "motion": "KIT/12/WalkingStraightBackwards10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__12__WalkingStraightBackwards10_poses.npz",
+    "category": 0,
+    "frames": [
+      61,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "f0faec5a85a8e6f47bac8f117fe5c266b77674fdb8be66130afdbb8fdc03e0e0"
+  },
+  {
+    "name": "KIT__167__turn_left01_poses_clip000",
+    "motion": "KIT/167/turn_left01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left01_poses.npz",
+    "category": 1,
+    "frames": [
+      0,
+      272
+    ],
+    "split": "train",
+    "file_sha256": "66bd2b7e8e66a4021eb0fd4fa4527b24e46d6278c440842fd41daeebf62864d8"
+  },
+  {
+    "name": "KIT__167__turn_left02_poses_clip000",
+    "motion": "KIT/167/turn_left02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left02_poses.npz",
+    "category": 1,
+    "frames": [
+      27,
+      280
+    ],
+    "split": "train",
+    "file_sha256": "ecd82564cf3ee9a544f7a36ced513f2ca822783f85b64b780078b00755af6209"
+  },
+  {
+    "name": "KIT__167__turn_left03_poses_clip000",
+    "motion": "KIT/167/turn_left03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left03_poses.npz",
+    "category": 1,
+    "frames": [
+      40,
+      301
+    ],
+    "split": "train",
+    "file_sha256": "3e60bddc1ccac6b93988d2e49dbcc976177d4b5373c0270d0d598a585d251018"
+  },
+  {
+    "name": "KIT__167__turn_left05_poses_clip000",
+    "motion": "KIT/167/turn_left05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left05_poses.npz",
+    "category": 1,
+    "frames": [
+      61,
+      303
+    ],
+    "split": "train",
+    "file_sha256": "5d3fdabb13b7cc062e1460ff86a10788c8954a21dbf74f0f210fbac9400f124d"
+  },
+  {
+    "name": "KIT__167__turn_left06_poses_clip000",
+    "motion": "KIT/167/turn_left06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left06_poses.npz",
+    "category": 1,
+    "frames": [
+      32,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "59fb3b95f7384658db4e42189f4b4e8626a06b41a1a4457f29e7465f9e61616c"
+  },
+  {
+    "name": "KIT__167__turn_left07_poses_clip000",
+    "motion": "KIT/167/turn_left07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left07_poses.npz",
+    "category": 1,
+    "frames": [
+      52,
+      316
+    ],
+    "split": "train",
+    "file_sha256": "3d13fe24ef76b34b656e7be13ebb0835dc9c262d928389275f8b74b39231be24"
+  },
+  {
+    "name": "KIT__167__turn_left09_poses_clip000",
+    "motion": "KIT/167/turn_left09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left09_poses.npz",
+    "category": 1,
+    "frames": [
+      39,
+      298
+    ],
+    "split": "train",
+    "file_sha256": "9934d8966ce0749c97955a89a20442f29313165635a3cde635ffb472eb05121d"
+  },
+  {
+    "name": "KIT__167__turn_left10_poses_clip000",
+    "motion": "KIT/167/turn_left10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_left10_poses.npz",
+    "category": 1,
+    "frames": [
+      27,
+      303
+    ],
+    "split": "train",
+    "file_sha256": "22f4cd1db3a430d8d392245758a8e3de92c9f06832c5fdec027f27ddea41690d"
+  },
+  {
+    "name": "KIT__167__turn_right01_poses_clip000",
+    "motion": "KIT/167/turn_right01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right01_poses.npz",
+    "category": 2,
+    "frames": [
+      39,
+      337
+    ],
+    "split": "train",
+    "file_sha256": "70d8232e47aee0bbde7a2284037e3666075dbd47e60d231f54b4eaaf04e25844"
+  },
+  {
+    "name": "KIT__167__turn_right02_poses_clip000",
+    "motion": "KIT/167/turn_right02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right02_poses.npz",
+    "category": 2,
+    "frames": [
+      36,
+      336
+    ],
+    "split": "train",
+    "file_sha256": "7bcea774de3461b2f59cffac4d73208eadb4905e9bebcf9034bf00129c1cd557"
+  },
+  {
+    "name": "KIT__167__turn_right03_poses_clip000",
+    "motion": "KIT/167/turn_right03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right03_poses.npz",
+    "category": 2,
+    "frames": [
+      34,
+      304
+    ],
+    "split": "train",
+    "file_sha256": "c64790862fd976806321f1748f157daf99dd8a4eaa21816a7f17b044cf39a824"
+  },
+  {
+    "name": "KIT__167__turn_right05_poses_clip000",
+    "motion": "KIT/167/turn_right05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right05_poses.npz",
+    "category": 2,
+    "frames": [
+      47,
+      314
+    ],
+    "split": "train",
+    "file_sha256": "df6ab304bdf5e56035a433a1eee11d8db107ac36e9e2c9852beade86f5affc4d"
+  },
+  {
+    "name": "KIT__167__turn_right06_poses_clip000",
+    "motion": "KIT/167/turn_right06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right06_poses.npz",
+    "category": 2,
+    "frames": [
+      36,
+      296
+    ],
+    "split": "train",
+    "file_sha256": "d70ec86bf7480346f5b34677235684ff8ea3fdaf0f00aa18fec072b8bdd4760c"
+  },
+  {
+    "name": "KIT__167__turn_right07_poses_clip000",
+    "motion": "KIT/167/turn_right07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right07_poses.npz",
+    "category": 2,
+    "frames": [
+      42,
+      299
+    ],
+    "split": "train",
+    "file_sha256": "4fa5ac801eefa11b867106a6381d52e506fcd3c5a352b234d9eb473eccc8a059"
+  },
+  {
+    "name": "KIT__167__turn_right08_poses_clip000",
+    "motion": "KIT/167/turn_right08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right08_poses.npz",
+    "category": 2,
+    "frames": [
+      33,
+      297
+    ],
+    "split": "train",
+    "file_sha256": "a7282b81ab22e2d36d5fb60f0b35206057ffe6006a0db1cafa084178fbdee0fa"
+  },
+  {
+    "name": "KIT__167__turn_right10_poses_clip000",
+    "motion": "KIT/167/turn_right10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__turn_right10_poses.npz",
+    "category": 2,
+    "frames": [
+      36,
+      282
+    ],
+    "split": "train",
+    "file_sha256": "fb351d9b98d72d141acdd3f7a1236acdec5bded50f777d01485092175409cdb0"
+  },
+  {
+    "name": "KIT__167__walking_medium01_poses_clip000",
+    "motion": "KIT/167/walking_medium01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium01_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      255
+    ],
+    "split": "train",
+    "file_sha256": "39a28239f62e1c4d0e294a94f628dd3c80819ff546606d0d6f1fce0d4538ecdb"
+  },
+  {
+    "name": "KIT__167__walking_medium02_poses_clip000",
+    "motion": "KIT/167/walking_medium02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium02_poses.npz",
+    "category": 0,
+    "frames": [
+      26,
+      235
+    ],
+    "split": "train",
+    "file_sha256": "18849a889c5f2100bad4ad7e49ae6b8d635803fe6d9cc0d11156e208c3318375"
+  },
+  {
+    "name": "KIT__167__walking_medium03_poses_clip000",
+    "motion": "KIT/167/walking_medium03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium03_poses.npz",
+    "category": 0,
+    "frames": [
+      37,
+      260
+    ],
+    "split": "train",
+    "file_sha256": "60f07fb53a9c97db4ad9b4d52da89329aac2ca7add3a03456b128671cf7761c5"
+  },
+  {
+    "name": "KIT__167__walking_medium04_poses_clip000",
+    "motion": "KIT/167/walking_medium04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium04_poses.npz",
+    "category": 0,
+    "frames": [
+      43,
+      261
+    ],
+    "split": "train",
+    "file_sha256": "675d60ab5680ef311a8aba45442c0d4484cb9483dee4b2ba997a7da631aacc78"
+  },
+  {
+    "name": "KIT__167__walking_medium05_poses_clip000",
+    "motion": "KIT/167/walking_medium05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium05_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      262
+    ],
+    "split": "train",
+    "file_sha256": "ca4a413460e51c1cbe3426b91b66be7957366bd22ce005959ef51a517cd6ae21"
+  },
+  {
+    "name": "KIT__167__walking_medium07_poses_clip000",
+    "motion": "KIT/167/walking_medium07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium07_poses.npz",
+    "category": 0,
+    "frames": [
+      39,
+      260
+    ],
+    "split": "train",
+    "file_sha256": "004b3eb72be96e0cfbc821a1ff5afe348de15a78314881b86f308be12ad442ec"
+  },
+  {
+    "name": "KIT__167__walking_medium08_poses_clip000",
+    "motion": "KIT/167/walking_medium08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium08_poses.npz",
+    "category": 0,
+    "frames": [
+      47,
+      265
+    ],
+    "split": "train",
+    "file_sha256": "85f91f9619259a84e83e3031ef86954d193ff868454ae4ebb1c1e3c41c441b52"
+  },
+  {
+    "name": "KIT__167__walking_medium09_poses_clip000",
+    "motion": "KIT/167/walking_medium09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium09_poses.npz",
+    "category": 0,
+    "frames": [
+      34,
+      246
+    ],
+    "split": "train",
+    "file_sha256": "d6c82fa791a080df81dfddb86326e0c55524f91cc8088b42b86004cbb0afdf63"
+  },
+  {
+    "name": "KIT__167__walking_medium10_poses_clip000",
+    "motion": "KIT/167/walking_medium10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_medium10_poses.npz",
+    "category": 0,
+    "frames": [
+      58,
+      271
+    ],
+    "split": "train",
+    "file_sha256": "d7f3304bef436a610c9b07ebd4e563757f3de3e96ec28229e4b0f820ad035b41"
+  },
+  {
+    "name": "KIT__167__walking_slow01_poses_clip000",
+    "motion": "KIT/167/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      34,
+      318
+    ],
+    "split": "train",
+    "file_sha256": "e8a4632c2a7387cfad0fb0f6d7f5c29bf9a0148196c3c50101b13e30efc741bd"
+  },
+  {
+    "name": "KIT__167__walking_slow02_poses_clip000",
+    "motion": "KIT/167/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      51,
+      349
+    ],
+    "split": "train",
+    "file_sha256": "9a7eab3a443af02a2d7b0f707fa4107fd80a6aeaef5e1ad0027f31652cb8faa5"
+  },
+  {
+    "name": "KIT__167__walking_slow03_poses_clip000",
+    "motion": "KIT/167/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      290
+    ],
+    "split": "train",
+    "file_sha256": "d28ce6ed2466b82719fcc690f4afef3d12fa31e620f7121a11dec6bea8e34b37"
+  },
+  {
+    "name": "KIT__167__walking_slow04_poses_clip000",
+    "motion": "KIT/167/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "c038f6e20ab9e4475ebb794d89cdf424c2748d3768124408e9d663e16fa0f780"
+  },
+  {
+    "name": "KIT__167__walking_slow05_poses_clip000",
+    "motion": "KIT/167/walking_slow05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow05_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "7dd59a076bd6ae1aff9c42c2d7a18694504d743d3f718db855d504b1bfb6cbf2"
+  },
+  {
+    "name": "KIT__167__walking_slow05_poses_clip001",
+    "motion": "KIT/167/walking_slow05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow05_poses.npz",
+    "category": 0,
+    "frames": [
+      275,
+      349
+    ],
+    "split": "train",
+    "file_sha256": "7dd59a076bd6ae1aff9c42c2d7a18694504d743d3f718db855d504b1bfb6cbf2"
+  },
+  {
+    "name": "KIT__167__walking_slow06_poses_clip000",
+    "motion": "KIT/167/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      32,
+      332
+    ],
+    "split": "train",
+    "file_sha256": "509ce5b18d419b7a419ba4b6c2a2fb726ccd9d3463e17ea266aca74810b43504"
+  },
+  {
+    "name": "KIT__167__walking_slow08_poses_clip000",
+    "motion": "KIT/167/walking_slow08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow08_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "e5e221fb271ec8abcb4c8b66917f36849a955863e559d177dc836d31b9aad9a0"
+  },
+  {
+    "name": "KIT__167__walking_slow09_poses_clip000",
+    "motion": "KIT/167/walking_slow09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow09_poses.npz",
+    "category": 0,
+    "frames": [
+      41,
+      316
+    ],
+    "split": "train",
+    "file_sha256": "c5b6bc40c521f1e983a00c85e4e2203309e7435676d073bb345061f4beafe2d4"
+  },
+  {
+    "name": "KIT__167__walking_slow10_poses_clip000",
+    "motion": "KIT/167/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      15,
+      301
+    ],
+    "split": "train",
+    "file_sha256": "a2465e67cd42dff3ed363cb41d640c8e1f4bae1ae55ad235be5c6267f7364b64"
+  },
+  {
+    "name": "KIT__167__walking_slow11_poses_clip000",
+    "motion": "KIT/167/walking_slow11_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__167__walking_slow11_poses.npz",
+    "category": 0,
+    "frames": [
+      58,
+      340
+    ],
+    "split": "train",
+    "file_sha256": "c4ee3a6f5750549e06ff9b700ffbf95c0ab3c30b847f669494b62e284542925a"
+  },
+  {
+    "name": "KIT__205__walking_slow01_poses_clip000",
+    "motion": "KIT/205/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      42,
+      342
+    ],
+    "split": "train",
+    "file_sha256": "78602fec63ebad067861001bd461e11dbe3efbe6d2875dfe00b0afd496a71a61"
+  },
+  {
+    "name": "KIT__205__walking_slow02_poses_clip000",
+    "motion": "KIT/205/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      55,
+      323
+    ],
+    "split": "train",
+    "file_sha256": "200f309d71871eb72dac37458531dfd06a1e51331e2fdf9db84b32221e08e423"
+  },
+  {
+    "name": "KIT__205__walking_slow03_poses_clip000",
+    "motion": "KIT/205/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      60,
+      305
+    ],
+    "split": "train",
+    "file_sha256": "f48001597b35b0e8b75736671f51bfc7765b35007a176613e1315d2a0cae557b"
+  },
+  {
+    "name": "KIT__205__walking_slow04_poses_clip000",
+    "motion": "KIT/205/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      1,
+      282
+    ],
+    "split": "train",
+    "file_sha256": "85164615f63ab4c08007ec932745ed945cb6f47311d4939ed0b19feb156739b8"
+  },
+  {
+    "name": "KIT__205__walking_slow06_poses_clip000",
+    "motion": "KIT/205/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      43,
+      283
+    ],
+    "split": "train",
+    "file_sha256": "296de106e89b79ff53ed9f890165a8c17f23ca262facd70ce75ef48b7971a6b5"
+  },
+  {
+    "name": "KIT__205__walking_slow07_poses_clip000",
+    "motion": "KIT/205/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      7,
+      269
+    ],
+    "split": "train",
+    "file_sha256": "7dacda70882b06c1554b990a2c698aef073a2056fbab57137c5012c68fb8e823"
+  },
+  {
+    "name": "KIT__205__walking_slow08_poses_clip000",
+    "motion": "KIT/205/walking_slow08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow08_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      243
+    ],
+    "split": "train",
+    "file_sha256": "94b9b0da0963f42dac8294a78d359ef31d2c141e24f6dc424c10146595123dbd"
+  },
+  {
+    "name": "KIT__205__walking_slow10_poses_clip000",
+    "motion": "KIT/205/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__205__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      18,
+      281
+    ],
+    "split": "train",
+    "file_sha256": "b1928fea38a544037efac8a3b3797d709aff44a729638f8a3c4a2d5532b8c01d"
+  },
+  {
+    "name": "KIT__291__walking02_poses_clip000",
+    "motion": "KIT/291/walking02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__291__walking02_poses.npz",
+    "category": 0,
+    "frames": [
+      49,
+      349
+    ],
+    "split": "train",
+    "file_sha256": "4262d5eb5ad882798614079f204470b752e5b4c93cb5d6e7276f793c96602fb2"
+  },
+  {
+    "name": "KIT__291__walking02_poses_clip001",
+    "motion": "KIT/291/walking02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__291__walking02_poses.npz",
+    "category": 0,
+    "frames": [
+      324,
+      403
+    ],
+    "split": "train",
+    "file_sha256": "4262d5eb5ad882798614079f204470b752e5b4c93cb5d6e7276f793c96602fb2"
+  },
+  {
+    "name": "KIT__314__turn_right02_poses_clip000",
+    "motion": "KIT/314/turn_right02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__turn_right02_poses.npz",
+    "category": 2,
+    "frames": [
+      44,
+      302
+    ],
+    "split": "train",
+    "file_sha256": "53f4b44d46794cbb6d43f6e00ac53b280846a4a10d845f199d17a4ba5989bbb9"
+  },
+  {
+    "name": "KIT__314__walking_fast01_poses_clip000",
+    "motion": "KIT/314/walking_fast01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_fast01_poses.npz",
+    "category": 0,
+    "frames": [
+      64,
+      265
+    ],
+    "split": "train",
+    "file_sha256": "1039968d0540cef88e3068d4034cca5578ac100c016a9e7f0b22ec2c3c6f0963"
+  },
+  {
+    "name": "KIT__314__walking_fast02_poses_clip000",
+    "motion": "KIT/314/walking_fast02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_fast02_poses.npz",
+    "category": 0,
+    "frames": [
+      89,
+      281
+    ],
+    "split": "train",
+    "file_sha256": "082d1c6e7d48032c02a594b8871f9ac59de50f33c0c8fc70992cc319553b942e"
+  },
+  {
+    "name": "KIT__314__walking_fast04_poses_clip000",
+    "motion": "KIT/314/walking_fast04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_fast04_poses.npz",
+    "category": 0,
+    "frames": [
+      6,
+      204
+    ],
+    "split": "train",
+    "file_sha256": "70cc56b03456aeb6d8ab7dbd571b482fe4383f91976d131c322ab975c961243b"
+  },
+  {
+    "name": "KIT__314__walking_fast05_poses_clip000",
+    "motion": "KIT/314/walking_fast05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_fast05_poses.npz",
+    "category": 0,
+    "frames": [
+      33,
+      228
+    ],
+    "split": "train",
+    "file_sha256": "0fcdcc29896aa2fc560937bdf247ff7b3e7d39bf27fb522075297bfdde3f091f"
+  },
+  {
+    "name": "KIT__314__walking_medium03_poses_clip000",
+    "motion": "KIT/314/walking_medium03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_medium03_poses.npz",
+    "category": 0,
+    "frames": [
+      82,
+      303
+    ],
+    "split": "train",
+    "file_sha256": "ea5562d914912d729eccf55c65a7ebfa3c2616e77d53429a3f0dde48442ee3a4"
+  },
+  {
+    "name": "KIT__314__walking_medium05_poses_clip000",
+    "motion": "KIT/314/walking_medium05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_medium05_poses.npz",
+    "category": 0,
+    "frames": [
+      138,
+      350
+    ],
+    "split": "train",
+    "file_sha256": "3d8e06a17a913bcd5923bd12d28d389602cf67f7e388c6b321325f8747ab0faa"
+  },
+  {
+    "name": "KIT__314__walking_medium07_poses_clip000",
+    "motion": "KIT/314/walking_medium07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_medium07_poses.npz",
+    "category": 0,
+    "frames": [
+      120,
+      344
+    ],
+    "split": "train",
+    "file_sha256": "d7b38416bee253be5a98caa55721fb73726caaef744c300afe552ba4192dbfa3"
+  },
+  {
+    "name": "KIT__314__walking_medium08_poses_clip000",
+    "motion": "KIT/314/walking_medium08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_medium08_poses.npz",
+    "category": 0,
+    "frames": [
+      98,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "a92b94cf8f64e184b6331e3ba674f8635868df059129775b1484d0be7bedc33b"
+  },
+  {
+    "name": "KIT__314__walking_medium10_poses_clip000",
+    "motion": "KIT/314/walking_medium10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_medium10_poses.npz",
+    "category": 0,
+    "frames": [
+      122,
+      333
+    ],
+    "split": "train",
+    "file_sha256": "7cbc387cd7eeceebeaf9c2564d653db150423bdab944c466b76c730a4055e0fd"
+  },
+  {
+    "name": "KIT__314__walking_slow01_poses_clip000",
+    "motion": "KIT/314/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      93,
+      393
+    ],
+    "split": "train",
+    "file_sha256": "35f76f2d6dd3a2684e283dccc155b1d680e88918fd521238e4cf1df3478e08e3"
+  },
+  {
+    "name": "KIT__314__walking_slow02_poses_clip000",
+    "motion": "KIT/314/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      92,
+      383
+    ],
+    "split": "train",
+    "file_sha256": "a88411ed11ecd91c806c861402339f8608430248827a794bfb5d989e0e31d584"
+  },
+  {
+    "name": "KIT__314__walking_slow03_poses_clip000",
+    "motion": "KIT/314/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      84,
+      351
+    ],
+    "split": "train",
+    "file_sha256": "a7768d5218cc8ab19018b805b5cf18bb4e497e4bc28e472d1e99f4c78390cf2e"
+  },
+  {
+    "name": "KIT__314__walking_slow04_poses_clip000",
+    "motion": "KIT/314/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      68,
+      329
+    ],
+    "split": "train",
+    "file_sha256": "c9620eb353077c8dbc335bf9d4ac94418c4e88aad901800cc30a4ff4df6c3acc"
+  },
+  {
+    "name": "KIT__314__walking_slow06_poses_clip000",
+    "motion": "KIT/314/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "215efc91046ba408d9b9653dde8e7489d5e218a4be5a92fba6641297d980100c"
+  },
+  {
+    "name": "KIT__314__walking_slow06_poses_clip001",
+    "motion": "KIT/314/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      275,
+      332
+    ],
+    "split": "train",
+    "file_sha256": "215efc91046ba408d9b9653dde8e7489d5e218a4be5a92fba6641297d980100c"
+  },
+  {
+    "name": "KIT__314__walking_slow07_poses_clip000",
+    "motion": "KIT/314/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      86,
+      386
+    ],
+    "split": "train",
+    "file_sha256": "7cce87ee2f9babdd00178be9b25bf331c59f687facb0a20767c4862ee9ccb966"
+  },
+  {
+    "name": "KIT__314__walking_slow10_poses_clip000",
+    "motion": "KIT/314/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__314__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      69,
+      369
+    ],
+    "split": "train",
+    "file_sha256": "77445194840b1694b2721222069eef82b639dae4781b41a7917edba76d652352"
+  },
+  {
+    "name": "KIT__317__walking_slow04_poses_clip000",
+    "motion": "KIT/317/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__317__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      69,
+      308
+    ],
+    "split": "train",
+    "file_sha256": "60f37b173cb7dd87567206c0893eab07cc1207edb639a2f296ab4581e844d06e"
+  },
+  {
+    "name": "KIT__348__turn_left01_poses_clip000",
+    "motion": "KIT/348/turn_left01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left01_poses.npz",
+    "category": 1,
+    "frames": [
+      34,
+      294
+    ],
+    "split": "train",
+    "file_sha256": "cf34d18dd06c00f249163cc73c4228d901a47e84f27b7d0bbb19b90324263875"
+  },
+  {
+    "name": "KIT__348__turn_left03_poses_clip000",
+    "motion": "KIT/348/turn_left03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left03_poses.npz",
+    "category": 1,
+    "frames": [
+      15,
+      306
+    ],
+    "split": "train",
+    "file_sha256": "72247472faf597ad25e826633de5a8c71cef65f67f8cd8516e1edf6a1595a141"
+  },
+  {
+    "name": "KIT__348__turn_left04_poses_clip000",
+    "motion": "KIT/348/turn_left04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left04_poses.npz",
+    "category": 1,
+    "frames": [
+      51,
+      297
+    ],
+    "split": "train",
+    "file_sha256": "f1954939dc1a8edd31e6c0cd77adcb737c00e47b729749c9f9f83221bdf81e37"
+  },
+  {
+    "name": "KIT__348__turn_left05_poses_clip000",
+    "motion": "KIT/348/turn_left05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left05_poses.npz",
+    "category": 1,
+    "frames": [
+      25,
+      308
+    ],
+    "split": "train",
+    "file_sha256": "e6360c19abd2b50c6f3d6913a3e5ffe63156a2a402702093dd235236ca398a1d"
+  },
+  {
+    "name": "KIT__348__turn_left06_poses_clip000",
+    "motion": "KIT/348/turn_left06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left06_poses.npz",
+    "category": 1,
+    "frames": [
+      51,
+      317
+    ],
+    "split": "train",
+    "file_sha256": "b099db061aa7d59bd07769ae76fc9f66b76fb4bba0543740ed2edd55fdb64594"
+  },
+  {
+    "name": "KIT__348__turn_left07_poses_clip000",
+    "motion": "KIT/348/turn_left07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left07_poses.npz",
+    "category": 1,
+    "frames": [
+      18,
+      302
+    ],
+    "split": "train",
+    "file_sha256": "c8a50bde23b9176a7ca6ce694eda1ab0f44f51a42313c4b3dcef5565359b147d"
+  },
+  {
+    "name": "KIT__348__turn_left09_poses_clip000",
+    "motion": "KIT/348/turn_left09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left09_poses.npz",
+    "category": 1,
+    "frames": [
+      24,
+      284
+    ],
+    "split": "train",
+    "file_sha256": "82d1a141e21092a3ffa97965bcdbb7b90989039977f5710e26eaf1fcd2d0f57d"
+  },
+  {
+    "name": "KIT__348__turn_left10_poses_clip000",
+    "motion": "KIT/348/turn_left10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_left10_poses.npz",
+    "category": 1,
+    "frames": [
+      48,
+      309
+    ],
+    "split": "train",
+    "file_sha256": "f2773b746b4682b4c316c154a90d12aaa59d068eab577f434e59abde7a64ed43"
+  },
+  {
+    "name": "KIT__348__turn_right01_poses_clip000",
+    "motion": "KIT/348/turn_right01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right01_poses.npz",
+    "category": 2,
+    "frames": [
+      56,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "ab9deda4a29c899bf481302f5ddb53af78560acbab552452380bbbc23d0904d3"
+  },
+  {
+    "name": "KIT__348__turn_right04_poses_clip000",
+    "motion": "KIT/348/turn_right04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right04_poses.npz",
+    "category": 2,
+    "frames": [
+      45,
+      316
+    ],
+    "split": "train",
+    "file_sha256": "7ffee053cbd635e3cfb71dcac78fedd42a1fc3699597f44485b44f26d5412993"
+  },
+  {
+    "name": "KIT__348__turn_right05_poses_clip000",
+    "motion": "KIT/348/turn_right05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right05_poses.npz",
+    "category": 2,
+    "frames": [
+      30,
+      312
+    ],
+    "split": "train",
+    "file_sha256": "d49782e6da2038f17a868594826ab8476b6212cd53932ae67db506c5b02944aa"
+  },
+  {
+    "name": "KIT__348__turn_right06_poses_clip000",
+    "motion": "KIT/348/turn_right06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right06_poses.npz",
+    "category": 2,
+    "frames": [
+      27,
+      309
+    ],
+    "split": "train",
+    "file_sha256": "e2c0a63b35ff6c68d21e80011d79594642f831a60b2d00864655d9f50ae99931"
+  },
+  {
+    "name": "KIT__348__turn_right07_poses_clip000",
+    "motion": "KIT/348/turn_right07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right07_poses.npz",
+    "category": 2,
+    "frames": [
+      57,
+      329
+    ],
+    "split": "train",
+    "file_sha256": "0275a741de23e435aa8618a54a4a1810faf4990839b99c332ddab7f08c32194f"
+  },
+  {
+    "name": "KIT__348__turn_right09_poses_clip000",
+    "motion": "KIT/348/turn_right09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right09_poses.npz",
+    "category": 2,
+    "frames": [
+      53,
+      331
+    ],
+    "split": "train",
+    "file_sha256": "87b8cfc283500519832f4f4e73d0b2ae29dae7f5a60329ba7c0b4cbbb6931457"
+  },
+  {
+    "name": "KIT__348__turn_right10_poses_clip000",
+    "motion": "KIT/348/turn_right10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__turn_right10_poses.npz",
+    "category": 2,
+    "frames": [
+      39,
+      312
+    ],
+    "split": "train",
+    "file_sha256": "cf16a06276afad5346bcaeb411ed6d2c2ad7255e1b6be1086b71af6c50f4b07a"
+  },
+  {
+    "name": "KIT__348__walking_fast01_poses_clip000",
+    "motion": "KIT/348/walking_fast01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_fast01_poses.npz",
+    "category": 0,
+    "frames": [
+      56,
+      223
+    ],
+    "split": "train",
+    "file_sha256": "8c04b1af1fcdf2010c09194773df34ca0a02cd59a7c0bdb34f59de791900b36e"
+  },
+  {
+    "name": "KIT__348__walking_fast04_poses_clip000",
+    "motion": "KIT/348/walking_fast04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_fast04_poses.npz",
+    "category": 0,
+    "frames": [
+      26,
+      198
+    ],
+    "split": "train",
+    "file_sha256": "02b6f8359bf72215a6dd1f85d76a9fd9c2cc2b2948c922b265ac00d515b06b92"
+  },
+  {
+    "name": "KIT__348__walking_fast07_poses_clip000",
+    "motion": "KIT/348/walking_fast07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_fast07_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      206
+    ],
+    "split": "train",
+    "file_sha256": "aec70a212f20064f1542f24b420566212f68ca6fa9fc3f4366696e317026c52e"
+  },
+  {
+    "name": "KIT__348__walking_medium01_poses_clip000",
+    "motion": "KIT/348/walking_medium01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium01_poses.npz",
+    "category": 0,
+    "frames": [
+      12,
+      205
+    ],
+    "split": "train",
+    "file_sha256": "ba45501fa35e2d794e55ac27d3b13dc8540a0716e0b6aff3d213bec35e4fa508"
+  },
+  {
+    "name": "KIT__348__walking_medium02_poses_clip000",
+    "motion": "KIT/348/walking_medium02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium02_poses.npz",
+    "category": 0,
+    "frames": [
+      41,
+      247
+    ],
+    "split": "train",
+    "file_sha256": "700a4bab3f8bcac961a296c94dad8b950a40db20b1797e18f54ad9a9e13d4cbd"
+  },
+  {
+    "name": "KIT__348__walking_medium03_poses_clip000",
+    "motion": "KIT/348/walking_medium03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium03_poses.npz",
+    "category": 0,
+    "frames": [
+      19,
+      216
+    ],
+    "split": "train",
+    "file_sha256": "50daaff1d2c4213dcf2a62c04ae0db0ea7cc9c3f64474e22cba00fd5095ee4f7"
+  },
+  {
+    "name": "KIT__348__walking_medium04_poses_clip000",
+    "motion": "KIT/348/walking_medium04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium04_poses.npz",
+    "category": 0,
+    "frames": [
+      27,
+      245
+    ],
+    "split": "train",
+    "file_sha256": "faaa38bfae7e55ddb49f650c3d094cf7d682482238e5da80467ebefd8b1549cd"
+  },
+  {
+    "name": "KIT__348__walking_medium05_poses_clip000",
+    "motion": "KIT/348/walking_medium05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium05_poses.npz",
+    "category": 0,
+    "frames": [
+      2,
+      207
+    ],
+    "split": "train",
+    "file_sha256": "90f7138332b97668e3e1c6dc5c2b72c63e830609cf2f75dbb391f972b8f3401d"
+  },
+  {
+    "name": "KIT__348__walking_medium06_poses_clip000",
+    "motion": "KIT/348/walking_medium06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium06_poses.npz",
+    "category": 0,
+    "frames": [
+      30,
+      221
+    ],
+    "split": "train",
+    "file_sha256": "3d563b7727f70410b4325e65cea60555a0f8648005cdfb0a45b8be89b1b57e69"
+  },
+  {
+    "name": "KIT__348__walking_medium07_poses_clip000",
+    "motion": "KIT/348/walking_medium07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium07_poses.npz",
+    "category": 0,
+    "frames": [
+      11,
+      213
+    ],
+    "split": "train",
+    "file_sha256": "1be3385ad2fd14fe231c2ee687c863153793be5284b95d071bdefe24ceecf084"
+  },
+  {
+    "name": "KIT__348__walking_medium08_poses_clip000",
+    "motion": "KIT/348/walking_medium08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium08_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      183
+    ],
+    "split": "train",
+    "file_sha256": "6ab7554f032bea2283548b5f51d1db30a643ca0b7127c69e8b656b141eef8d2b"
+  },
+  {
+    "name": "KIT__348__walking_medium09_poses_clip000",
+    "motion": "KIT/348/walking_medium09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium09_poses.npz",
+    "category": 0,
+    "frames": [
+      56,
+      263
+    ],
+    "split": "train",
+    "file_sha256": "f795b6d6cf761ff9020a5965e8ee9b96d090cadbb892270916dac5ba6af8a829"
+  },
+  {
+    "name": "KIT__348__walking_medium10_poses_clip000",
+    "motion": "KIT/348/walking_medium10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_medium10_poses.npz",
+    "category": 0,
+    "frames": [
+      33,
+      243
+    ],
+    "split": "train",
+    "file_sha256": "73a9242f4d6261179818ea9e0eb976707fb5296f72f21e5db902a167c379abe6"
+  },
+  {
+    "name": "KIT__348__walking_slow01_poses_clip000",
+    "motion": "KIT/348/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      29,
+      329
+    ],
+    "split": "train",
+    "file_sha256": "7f506c52b95f21b2e6974bd13f3fcfe6a5383543a04ed4576e2b06a8c7a5f0e0"
+  },
+  {
+    "name": "KIT__348__walking_slow01_poses_clip001",
+    "motion": "KIT/348/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      304,
+      356
+    ],
+    "split": "train",
+    "file_sha256": "7f506c52b95f21b2e6974bd13f3fcfe6a5383543a04ed4576e2b06a8c7a5f0e0"
+  },
+  {
+    "name": "KIT__348__walking_slow02_poses_clip000",
+    "motion": "KIT/348/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      296
+    ],
+    "split": "train",
+    "file_sha256": "0813cc06181b75ee35bfdd2aa3f341a5bfa123ff0ad0011556aaaf5827b3e61e"
+  },
+  {
+    "name": "KIT__348__walking_slow03_poses_clip000",
+    "motion": "KIT/348/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      39,
+      339
+    ],
+    "split": "train",
+    "file_sha256": "6f864b04d5e35f99393fa6840d678c7a3b30767bd34fbdfb4bb5c52a594c5180"
+  },
+  {
+    "name": "KIT__348__walking_slow04_poses_clip000",
+    "motion": "KIT/348/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      274
+    ],
+    "split": "train",
+    "file_sha256": "8cc8029287a42920ce89c23bb62edeaf7247c3430a372c90f974b4c35b75955e"
+  },
+  {
+    "name": "KIT__348__walking_slow05_poses_clip000",
+    "motion": "KIT/348/walking_slow05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow05_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      289
+    ],
+    "split": "train",
+    "file_sha256": "8f3d7351d6cf1cded66012f75ab07f3abca64771681ce488a5de410c0453dc85"
+  },
+  {
+    "name": "KIT__348__walking_slow06_poses_clip000",
+    "motion": "KIT/348/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      48,
+      319
+    ],
+    "split": "train",
+    "file_sha256": "1c4aa0194d4ead240d6602e1ea6daceb126ee202c2818038b28c2dc7719eea6d"
+  },
+  {
+    "name": "KIT__348__walking_slow07_poses_clip000",
+    "motion": "KIT/348/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      275
+    ],
+    "split": "train",
+    "file_sha256": "5c68ca54ce220963cff5e972202ec2fd31dd9fb515eada2b00feaa4f481a3a8c"
+  },
+  {
+    "name": "KIT__348__walking_slow08_poses_clip000",
+    "motion": "KIT/348/walking_slow08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow08_poses.npz",
+    "category": 0,
+    "frames": [
+      11,
+      283
+    ],
+    "split": "train",
+    "file_sha256": "6f0faf7cb1baa924e2cc194bd074b92ec2974b120b6b7ca83e94652dca4f8831"
+  },
+  {
+    "name": "KIT__348__walking_slow09_poses_clip000",
+    "motion": "KIT/348/walking_slow09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow09_poses.npz",
+    "category": 0,
+    "frames": [
+      52,
+      310
+    ],
+    "split": "train",
+    "file_sha256": "5c869928288e6029d81f3f026114d78b89c6ba7bffb3cc34bcc05c10161667a5"
+  },
+  {
+    "name": "KIT__348__walking_slow10_poses_clip000",
+    "motion": "KIT/348/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__348__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      2,
+      296
+    ],
+    "split": "train",
+    "file_sha256": "276680e4ffbbb48b5ec842d8a8ce31299312db9d2d8fecf5c479f3aeaf2559ee"
+  },
+  {
+    "name": "KIT__424__walking_medium01_poses_clip000",
+    "motion": "KIT/424/walking_medium01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_medium01_poses.npz",
+    "category": 0,
+    "frames": [
+      50,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "0be65fc487ce81e6887d0f86935f1fb8a77488bfe5f05c196a960f3e80c492dd"
+  },
+  {
+    "name": "KIT__424__walking_slow02_poses_clip000",
+    "motion": "KIT/424/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      61,
+      361
+    ],
+    "split": "train",
+    "file_sha256": "e669bc93598337907d0cfd0f751dbbc16754475773852c6b7ec7800d58be5621"
+  },
+  {
+    "name": "KIT__424__walking_slow02_poses_clip001",
+    "motion": "KIT/424/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      336,
+      397
+    ],
+    "split": "train",
+    "file_sha256": "e669bc93598337907d0cfd0f751dbbc16754475773852c6b7ec7800d58be5621"
+  },
+  {
+    "name": "KIT__424__walking_slow03_poses_clip000",
+    "motion": "KIT/424/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      11,
+      311
+    ],
+    "split": "train",
+    "file_sha256": "44979278f01b12daec11ef0f6ea3a86587e835bf4cff48240652f22058e00cb6"
+  },
+  {
+    "name": "KIT__424__walking_slow03_poses_clip001",
+    "motion": "KIT/424/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      286,
+      365
+    ],
+    "split": "train",
+    "file_sha256": "44979278f01b12daec11ef0f6ea3a86587e835bf4cff48240652f22058e00cb6"
+  },
+  {
+    "name": "KIT__424__walking_slow04_poses_clip000",
+    "motion": "KIT/424/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "f20672c4a667e8a5beaa0478c9e91d3cd4a17c97cfd6ca89ea45d075abd4157b"
+  },
+  {
+    "name": "KIT__424__walking_slow04_poses_clip001",
+    "motion": "KIT/424/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      275,
+      396
+    ],
+    "split": "train",
+    "file_sha256": "f20672c4a667e8a5beaa0478c9e91d3cd4a17c97cfd6ca89ea45d075abd4157b"
+  },
+  {
+    "name": "KIT__424__walking_slow06_poses_clip000",
+    "motion": "KIT/424/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      59,
+      359
+    ],
+    "split": "train",
+    "file_sha256": "5fcc569cff8af41ca3a33fade233a190ecdefec30cacb5d8d96bbe688cf260ea"
+  },
+  {
+    "name": "KIT__424__walking_slow06_poses_clip001",
+    "motion": "KIT/424/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      334,
+      398
+    ],
+    "split": "train",
+    "file_sha256": "5fcc569cff8af41ca3a33fade233a190ecdefec30cacb5d8d96bbe688cf260ea"
+  },
+  {
+    "name": "KIT__424__walking_slow07_poses_clip000",
+    "motion": "KIT/424/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      57,
+      357
+    ],
+    "split": "train",
+    "file_sha256": "51f36cc9414e47565526704e4b73de18c8b2c4f923c5e8484590e782dd85d3a2"
+  },
+  {
+    "name": "KIT__424__walking_slow07_poses_clip001",
+    "motion": "KIT/424/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      332,
+      400
+    ],
+    "split": "train",
+    "file_sha256": "51f36cc9414e47565526704e4b73de18c8b2c4f923c5e8484590e782dd85d3a2"
+  },
+  {
+    "name": "KIT__424__walking_slow09_poses_clip000",
+    "motion": "KIT/424/walking_slow09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow09_poses.npz",
+    "category": 0,
+    "frames": [
+      54,
+      354
+    ],
+    "split": "train",
+    "file_sha256": "e442e8d0571a8663c2e518d7d7ad587c17ea406700896c862e91670e3ecd5c6b"
+  },
+  {
+    "name": "KIT__424__walking_slow09_poses_clip001",
+    "motion": "KIT/424/walking_slow09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow09_poses.npz",
+    "category": 0,
+    "frames": [
+      329,
+      417
+    ],
+    "split": "train",
+    "file_sha256": "e442e8d0571a8663c2e518d7d7ad587c17ea406700896c862e91670e3ecd5c6b"
+  },
+  {
+    "name": "KIT__424__walking_slow10_poses_clip000",
+    "motion": "KIT/424/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      68,
+      368
+    ],
+    "split": "train",
+    "file_sha256": "aa5809e083075a3d08bbc2bea72b6b1ec7b8618294ae734f99c030db94722451"
+  },
+  {
+    "name": "KIT__424__walking_slow10_poses_clip001",
+    "motion": "KIT/424/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__424__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      343,
+      430
+    ],
+    "split": "train",
+    "file_sha256": "aa5809e083075a3d08bbc2bea72b6b1ec7b8618294ae734f99c030db94722451"
+  },
+  {
+    "name": "KIT__425__walking_01_poses_clip000",
+    "motion": "KIT/425/walking_01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_01_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      223
+    ],
+    "split": "train",
+    "file_sha256": "b1e4fcbbfd0d61295fa4819dccf3d0390c8c38350055ed5557693913156128f0"
+  },
+  {
+    "name": "KIT__425__walking_02_poses_clip000",
+    "motion": "KIT/425/walking_02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_02_poses.npz",
+    "category": 0,
+    "frames": [
+      2,
+      254
+    ],
+    "split": "train",
+    "file_sha256": "404c933307d0a5a2564ba3deab803bffe86a3aa6cb2aaaec32e34c3411bddce0"
+  },
+  {
+    "name": "KIT__425__walking_03_poses_clip000",
+    "motion": "KIT/425/walking_03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_03_poses.npz",
+    "category": 0,
+    "frames": [
+      1,
+      234
+    ],
+    "split": "train",
+    "file_sha256": "dfc5a43941ada6a1a892f6a1806340fe52165aa15bce780875a2c04467122729"
+  },
+  {
+    "name": "KIT__425__walking_04_poses_clip000",
+    "motion": "KIT/425/walking_04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_04_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      249
+    ],
+    "split": "train",
+    "file_sha256": "dffd1132e4035a966e7eaccea3bc6d7c3f7ec96a777b24c02f73276979e05c69"
+  },
+  {
+    "name": "KIT__425__walking_06_poses_clip000",
+    "motion": "KIT/425/walking_06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_06_poses.npz",
+    "category": 0,
+    "frames": [
+      3,
+      243
+    ],
+    "split": "train",
+    "file_sha256": "94a083439a0faa2cf79f9acb49854269965a01d435b5b934379a54266285452a"
+  },
+  {
+    "name": "KIT__425__walking_08_poses_clip000",
+    "motion": "KIT/425/walking_08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_08_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      260
+    ],
+    "split": "train",
+    "file_sha256": "a7bf1a9af9725e0dfc5190d4730fc33590e4ea276730239b831b6a6324bedee7"
+  },
+  {
+    "name": "KIT__425__walking_10_poses_clip000",
+    "motion": "KIT/425/walking_10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_10_poses.npz",
+    "category": 0,
+    "frames": [
+      19,
+      276
+    ],
+    "split": "train",
+    "file_sha256": "34a040c8746bfda0a0a42098c3ff01c8b100edb4d6d21e329046999d0a608390"
+  },
+  {
+    "name": "KIT__425__walking_slow01_poses_clip000",
+    "motion": "KIT/425/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      6,
+      273
+    ],
+    "split": "train",
+    "file_sha256": "57935fa6646e68b7d435db2301e78d9cf368cd2be6da5a290e1c576597bb434b"
+  },
+  {
+    "name": "KIT__425__walking_slow02_poses_clip000",
+    "motion": "KIT/425/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      38,
+      296
+    ],
+    "split": "train",
+    "file_sha256": "42c7adba94493a3ab099d7a95df77245a4533aad4e32e34aec78486c1fcfcb5e"
+  },
+  {
+    "name": "KIT__425__walking_slow04_poses_clip000",
+    "motion": "KIT/425/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      17,
+      285
+    ],
+    "split": "train",
+    "file_sha256": "5e7c7b7bd1cae6b4a2d5befa91f5a48399df495558199091e857ffc055236581"
+  },
+  {
+    "name": "KIT__425__walking_slow10_poses_clip000",
+    "motion": "KIT/425/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      300
+    ],
+    "split": "train",
+    "file_sha256": "4f9c0f82c3a900adcbbcfacc12b1387bd911b781a7346e88a013b1812a0e0a25"
+  },
+  {
+    "name": "KIT__425__walking_slow10_poses_clip001",
+    "motion": "KIT/425/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      275,
+      326
+    ],
+    "split": "train",
+    "file_sha256": "4f9c0f82c3a900adcbbcfacc12b1387bd911b781a7346e88a013b1812a0e0a25"
+  },
+  {
+    "name": "KIT__425__walking_slow11_poses_clip000",
+    "motion": "KIT/425/walking_slow11_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__425__walking_slow11_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      256
+    ],
+    "split": "train",
+    "file_sha256": "fa8025572c1a8c2cd7d196e8037afdd41631740d5565170dfc03931742b50875"
+  },
+  {
+    "name": "KIT__513__turn_left01_poses_clip000",
+    "motion": "KIT/513/turn_left01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_left01_poses.npz",
+    "category": 1,
+    "frames": [
+      54,
+      330
+    ],
+    "split": "train",
+    "file_sha256": "1e2a3444ffdf976b83909d4fc0ce680f9e667dd5ac5c8aa7d047c992b663640d"
+  },
+  {
+    "name": "KIT__513__turn_left05_poses_clip000",
+    "motion": "KIT/513/turn_left05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_left05_poses.npz",
+    "category": 1,
+    "frames": [
+      56,
+      347
+    ],
+    "split": "train",
+    "file_sha256": "fb187ccb2c95f7e75c28037ca18d49d4c2be194f7b099edcd58d8a883866547e"
+  },
+  {
+    "name": "KIT__513__turn_left06_poses_clip000",
+    "motion": "KIT/513/turn_left06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_left06_poses.npz",
+    "category": 1,
+    "frames": [
+      32,
+      320
+    ],
+    "split": "train",
+    "file_sha256": "9c12cc9b003a159301d7d657838914ffef0670b98af33af6fe72e95661274241"
+  },
+  {
+    "name": "KIT__513__turn_left08_poses_clip000",
+    "motion": "KIT/513/turn_left08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_left08_poses.npz",
+    "category": 1,
+    "frames": [
+      32,
+      286
+    ],
+    "split": "train",
+    "file_sha256": "5baf8fd91e95ec9dc97f740d08ddc2eb508fae00a5e04aa8fa629e6decfdb815"
+  },
+  {
+    "name": "KIT__513__turn_right01_poses_clip000",
+    "motion": "KIT/513/turn_right01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right01_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      290
+    ],
+    "split": "train",
+    "file_sha256": "366cb7955333750409fae275689b47e837dfdc856820250241ef43e2e931b2cb"
+  },
+  {
+    "name": "KIT__513__turn_right02_poses_clip000",
+    "motion": "KIT/513/turn_right02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right02_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      280
+    ],
+    "split": "train",
+    "file_sha256": "fa8a3b4ec550c48275766c3c7b2975b6b4e053ca78c42c763b736df37b947338"
+  },
+  {
+    "name": "KIT__513__turn_right04_poses_clip000",
+    "motion": "KIT/513/turn_right04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right04_poses.npz",
+    "category": 2,
+    "frames": [
+      42,
+      313
+    ],
+    "split": "train",
+    "file_sha256": "c6526daca3b075e160235e93133340d678b1ab74692109b83cf020089f410f5a"
+  },
+  {
+    "name": "KIT__513__turn_right06_poses_clip000",
+    "motion": "KIT/513/turn_right06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right06_poses.npz",
+    "category": 2,
+    "frames": [
+      95,
+      359
+    ],
+    "split": "train",
+    "file_sha256": "d882850369f72868c0ea22fe135a862419615a1fe487276963b5d76f889dbdd9"
+  },
+  {
+    "name": "KIT__513__turn_right07_poses_clip000",
+    "motion": "KIT/513/turn_right07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right07_poses.npz",
+    "category": 2,
+    "frames": [
+      89,
+      363
+    ],
+    "split": "train",
+    "file_sha256": "788faecd3efe458106636c1f452660db80a636fd037995022f6347009cd9e7e6"
+  },
+  {
+    "name": "KIT__513__turn_right09_poses_clip000",
+    "motion": "KIT/513/turn_right09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__513__turn_right09_poses.npz",
+    "category": 2,
+    "frames": [
+      49,
+      325
+    ],
+    "split": "train",
+    "file_sha256": "5682d9c185beeff5e65e7d63159497831349eae78127ed774cc7cf12d147cdae"
+  },
+  {
+    "name": "KIT__6__LeftTurn01_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn01_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn01_1_poses.npz",
+    "category": 1,
+    "frames": [
+      76,
+      306
+    ],
+    "split": "train",
+    "file_sha256": "2bf9079dc460dfcfd482e284ef09463ea74ac2acece5cacaca1fb54fc25ce530"
+  },
+  {
+    "name": "KIT__6__LeftTurn02_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn02_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn02_1_poses.npz",
+    "category": 1,
+    "frames": [
+      26,
+      246
+    ],
+    "split": "train",
+    "file_sha256": "592e8c2ab57f7124c808670a73cd5a01bcb9388edacade7e4ada4d0755ed4881"
+  },
+  {
+    "name": "KIT__6__LeftTurn04_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn04_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn04_1_poses.npz",
+    "category": 1,
+    "frames": [
+      40,
+      251
+    ],
+    "split": "train",
+    "file_sha256": "02658b3e97eeae93506a701b6556d07f166bdba9a7bea1fb55ef2757c20a1554"
+  },
+  {
+    "name": "KIT__6__LeftTurn06_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn06_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn06_1_poses.npz",
+    "category": 1,
+    "frames": [
+      39,
+      254
+    ],
+    "split": "train",
+    "file_sha256": "bf38739fcfb0204633b7f42c7eb7b8d9cc6aa5eb0d79865cd51d89ee5a950082"
+  },
+  {
+    "name": "KIT__6__LeftTurn07_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn07_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn07_1_poses.npz",
+    "category": 1,
+    "frames": [
+      22,
+      242
+    ],
+    "split": "train",
+    "file_sha256": "c845455dfb22e12573d349b8846516f6a3b9f3520e74665da1160b1f1bfa3b7d"
+  },
+  {
+    "name": "KIT__6__LeftTurn09_1_poses_clip000",
+    "motion": "KIT/6/LeftTurn09_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__LeftTurn09_1_poses.npz",
+    "category": 1,
+    "frames": [
+      50,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "e7d603fc01d19302c33b4f14da4e0d1f25762d7725bf7b3fea0d5b2ec258dfe6"
+  },
+  {
+    "name": "KIT__6__RightTurn01_1_poses_clip000",
+    "motion": "KIT/6/RightTurn01_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn01_1_poses.npz",
+    "category": 2,
+    "frames": [
+      43,
+      254
+    ],
+    "split": "train",
+    "file_sha256": "e255625c9ada6ebe0b675125b4392d61e68a046343ab2cca0f756ec7df64006e"
+  },
+  {
+    "name": "KIT__6__RightTurn02_1_poses_clip000",
+    "motion": "KIT/6/RightTurn02_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn02_1_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      252
+    ],
+    "split": "train",
+    "file_sha256": "4c2105610938cc14534834ea79062955686d2335b5d874a6adca5d1d1ea6dd67"
+  },
+  {
+    "name": "KIT__6__RightTurn03_1_poses_clip000",
+    "motion": "KIT/6/RightTurn03_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn03_1_poses.npz",
+    "category": 2,
+    "frames": [
+      35,
+      257
+    ],
+    "split": "train",
+    "file_sha256": "bed02b3c29bebb107f034fd3bf6efb9d2a61b57958e83df57090d71b1ad84888"
+  },
+  {
+    "name": "KIT__6__RightTurn04_1_poses_clip000",
+    "motion": "KIT/6/RightTurn04_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn04_1_poses.npz",
+    "category": 2,
+    "frames": [
+      43,
+      259
+    ],
+    "split": "train",
+    "file_sha256": "77c28115a733de664ac2d976c2f8f7b40e09dbe7afb1a69bd73063e7b15a4bd6"
+  },
+  {
+    "name": "KIT__6__RightTurn05_1_poses_clip000",
+    "motion": "KIT/6/RightTurn05_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn05_1_poses.npz",
+    "category": 2,
+    "frames": [
+      29,
+      253
+    ],
+    "split": "train",
+    "file_sha256": "958dc0138a4b8b07c00216f00fdd7c7d60e79aa0571f8ec908419933fab99924"
+  },
+  {
+    "name": "KIT__6__RightTurn06_1_poses_clip000",
+    "motion": "KIT/6/RightTurn06_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn06_1_poses.npz",
+    "category": 2,
+    "frames": [
+      33,
+      238
+    ],
+    "split": "train",
+    "file_sha256": "96a21e5d1edc122fefb263a92723a4fcaca96a116ab797f90609b7dce764a72d"
+  },
+  {
+    "name": "KIT__6__RightTurn08_1_poses_clip000",
+    "motion": "KIT/6/RightTurn08_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn08_1_poses.npz",
+    "category": 2,
+    "frames": [
+      50,
+      267
+    ],
+    "split": "train",
+    "file_sha256": "79e80ffcc05981bf5b35cfd9dca492ca173957f5b00061dc3fc7f66485068aae"
+  },
+  {
+    "name": "KIT__6__RightTurn09_1_poses_clip000",
+    "motion": "KIT/6/RightTurn09_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__RightTurn09_1_poses.npz",
+    "category": 2,
+    "frames": [
+      44,
+      260
+    ],
+    "split": "train",
+    "file_sha256": "e0e62215f06de438a8c1d4b92ec4dafde57c408a61a8a03676b3d274d8ed9b1a"
+  },
+  {
+    "name": "KIT__6__WalkInCounterClockwiseCircle01_1_poses_clip000",
+    "motion": "KIT/6/WalkInCounterClockwiseCircle01_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkInCounterClockwiseCircle01_1_poses.npz",
+    "category": 1,
+    "frames": [
+      55,
+      355
+    ],
+    "split": "train",
+    "file_sha256": "0c4e1dbd806a4a892ebab6908c22bb3c23e4b2b19625420f7b5e7fa473266377"
+  },
+  {
+    "name": "KIT__6__WalkInCounterClockwiseCircle01_1_poses_clip001",
+    "motion": "KIT/6/WalkInCounterClockwiseCircle01_1_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkInCounterClockwiseCircle01_1_poses.npz",
+    "category": 1,
+    "frames": [
+      330,
+      398
+    ],
+    "split": "train",
+    "file_sha256": "0c4e1dbd806a4a892ebab6908c22bb3c23e4b2b19625420f7b5e7fa473266377"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards01_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      28,
+      229
+    ],
+    "split": "train",
+    "file_sha256": "7f085d471c891e795b2f43ca08fc311a7c985876f1f675bd4998d90f7e56c1d3"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards03_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards03_poses.npz",
+    "category": 0,
+    "frames": [
+      39,
+      255
+    ],
+    "split": "train",
+    "file_sha256": "b16114b566ca3878f09c5f7c76306c1092296cdd9aa520e95a3f4040577841b9"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards04_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards04_poses.npz",
+    "category": 0,
+    "frames": [
+      47,
+      263
+    ],
+    "split": "train",
+    "file_sha256": "5030f4a461b6c6b8e5d7285216e261097dd89d3ccbfca5d66076c8b0fa65d15f"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards05_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards05_poses.npz",
+    "category": 0,
+    "frames": [
+      47,
+      247
+    ],
+    "split": "train",
+    "file_sha256": "f2af1b11ef4e85cc68c02b783534637cc971ac211a32b27ac39e559d03929a10"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards06_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards06_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      259
+    ],
+    "split": "train",
+    "file_sha256": "d552d1c799f82daba05d64d5a9664e2af46f976ffa51b23559c69d4ca43015eb"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards07_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards07_poses.npz",
+    "category": 0,
+    "frames": [
+      27,
+      233
+    ],
+    "split": "train",
+    "file_sha256": "2ed85aabf0f10e3d3d963d4aa1b1d41a46ea7110f2eadf6044922fee34c849ac"
+  },
+  {
+    "name": "KIT__6__WalkingStraightBackwards10_poses_clip000",
+    "motion": "KIT/6/WalkingStraightBackwards10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__6__WalkingStraightBackwards10_poses.npz",
+    "category": 0,
+    "frames": [
+      38,
+      246
+    ],
+    "split": "train",
+    "file_sha256": "8786525ff2cdd723fcc04f00e48639ef670049f18c1fd0983cbf23656e11b0c0"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards01_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      54,
+      286
+    ],
+    "split": "train",
+    "file_sha256": "8c114a3d4af4edc7d98568a128ce13a1677840564f18427ecde630f2fed1630f"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards03_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards03_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "867c10c908241c9b4c307475cd0de5e028ee4be501ca9c30a2f1e32a3cb15e26"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards04_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards04_poses.npz",
+    "category": 0,
+    "frames": [
+      0,
+      234
+    ],
+    "split": "train",
+    "file_sha256": "dcae743302de8e7da69aaa1ccdbbc1a10e63bde02c4e1c8cfb3bef7148cd193e"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards06_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards06_poses.npz",
+    "category": 0,
+    "frames": [
+      45,
+      281
+    ],
+    "split": "train",
+    "file_sha256": "35bb02a7c4bc75f3fc33d7e01147fa0d972708192a881718bb8c46ab948f3568"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards07_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards07_poses.npz",
+    "category": 0,
+    "frames": [
+      42,
+      276
+    ],
+    "split": "train",
+    "file_sha256": "fec5f9f02b72923d56227edd97579d6a0f787cfee57500ae4bb8ae36a11aff85"
+  },
+  {
+    "name": "KIT__8__WalkingStraightBackwards08_poses_clip000",
+    "motion": "KIT/8/WalkingStraightBackwards08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__8__WalkingStraightBackwards08_poses.npz",
+    "category": 0,
+    "frames": [
+      42,
+      270
+    ],
+    "split": "train",
+    "file_sha256": "559cb8820912777c4cb9cade348e6f4a7bc6fbdbe869f3d7b9cbcaf6370f86ad"
+  },
+  {
+    "name": "KIT__9__LeftTurn05_poses_clip000",
+    "motion": "KIT/9/LeftTurn05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__LeftTurn05_poses.npz",
+    "category": 1,
+    "frames": [
+      12,
+      234
+    ],
+    "split": "train",
+    "file_sha256": "2adaa3456f74c603dbb06d3dcf0ceb7481e95563a5041852251c29c9292ac2b5"
+  },
+  {
+    "name": "KIT__9__RightTurn01_poses_clip000",
+    "motion": "KIT/9/RightTurn01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__RightTurn01_poses.npz",
+    "category": 2,
+    "frames": [
+      30,
+      267
+    ],
+    "split": "train",
+    "file_sha256": "64ea9623d7ca39f3375d1f78a677cf3c0ea662309227734da3352d858d9113af"
+  },
+  {
+    "name": "KIT__9__RightTurn02_poses_clip000",
+    "motion": "KIT/9/RightTurn02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__RightTurn02_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      231
+    ],
+    "split": "train",
+    "file_sha256": "f84083f9fadad7590db855af2527854aacb0156970227ade5bb4326694576f1e"
+  },
+  {
+    "name": "KIT__9__RightTurn10_poses_clip000",
+    "motion": "KIT/9/RightTurn10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__RightTurn10_poses.npz",
+    "category": 2,
+    "frames": [
+      0,
+      211
+    ],
+    "split": "train",
+    "file_sha256": "2358fdd7464e9bbd61ee1f555e97232197ce8a530f91d075edeadf7534eb0600"
+  },
+  {
+    "name": "KIT__9__WalkInCounterClockwiseCircle07_poses_clip000",
+    "motion": "KIT/9/WalkInCounterClockwiseCircle07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkInCounterClockwiseCircle07_poses.npz",
+    "category": 1,
+    "frames": [
+      50,
+      350
+    ],
+    "split": "train",
+    "file_sha256": "1868b0d4726c028ac2fe1ecddddf6b1aa1dcf40856427172aa1681c4143a4665"
+  },
+  {
+    "name": "KIT__9__WalkInCounterClockwiseCircle07_poses_clip001",
+    "motion": "KIT/9/WalkInCounterClockwiseCircle07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkInCounterClockwiseCircle07_poses.npz",
+    "category": 1,
+    "frames": [
+      325,
+      429
+    ],
+    "split": "train",
+    "file_sha256": "1868b0d4726c028ac2fe1ecddddf6b1aa1dcf40856427172aa1681c4143a4665"
+  },
+  {
+    "name": "KIT__9__WalkInCounterClockwiseCircle09_poses_clip000",
+    "motion": "KIT/9/WalkInCounterClockwiseCircle09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkInCounterClockwiseCircle09_poses.npz",
+    "category": 1,
+    "frames": [
+      18,
+      318
+    ],
+    "split": "train",
+    "file_sha256": "5347739feb505d3fb3c21866b2abce8d55408b4b288360e57c3b8762c7dda5b4"
+  },
+  {
+    "name": "KIT__9__WalkInCounterClockwiseCircle09_poses_clip001",
+    "motion": "KIT/9/WalkInCounterClockwiseCircle09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkInCounterClockwiseCircle09_poses.npz",
+    "category": 1,
+    "frames": [
+      293,
+      420
+    ],
+    "split": "train",
+    "file_sha256": "5347739feb505d3fb3c21866b2abce8d55408b4b288360e57c3b8762c7dda5b4"
+  },
+  {
+    "name": "KIT__9__WalkingStraightBackwards01_poses_clip000",
+    "motion": "KIT/9/WalkingStraightBackwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkingStraightBackwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      25,
+      235
+    ],
+    "split": "train",
+    "file_sha256": "e61082921ad0a31d6e83b61ff97ad8066d93dd18c949c6668c583c50574361d3"
+  },
+  {
+    "name": "KIT__9__WalkingStraightForwards01_poses_clip000",
+    "motion": "KIT/9/WalkingStraightForwards01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkingStraightForwards01_poses.npz",
+    "category": 0,
+    "frames": [
+      109,
+      360
+    ],
+    "split": "train",
+    "file_sha256": "cd526e421fa6a42cde0e3c25ded829475af79a4a44cea6368ac170ffb3b2b86a"
+  },
+  {
+    "name": "KIT__9__WalkingStraightForwards02_poses_clip000",
+    "motion": "KIT/9/WalkingStraightForwards02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkingStraightForwards02_poses.npz",
+    "category": 0,
+    "frames": [
+      74,
+      330
+    ],
+    "split": "train",
+    "file_sha256": "3a4a53bb2f6f1569d0889cc1f13d967ad380df422245a881df30852827cba054"
+  },
+  {
+    "name": "KIT__9__WalkingStraightForwards03_poses_clip000",
+    "motion": "KIT/9/WalkingStraightForwards03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkingStraightForwards03_poses.npz",
+    "category": 0,
+    "frames": [
+      29,
+      292
+    ],
+    "split": "train",
+    "file_sha256": "5cd4a3a116ab4db32052b6d09b4a907bdfbbc5bca1b966a577f7516d627483b7"
+  },
+  {
+    "name": "KIT__9__WalkingStraightForwards04_poses_clip000",
+    "motion": "KIT/9/WalkingStraightForwards04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__WalkingStraightForwards04_poses.npz",
+    "category": 0,
+    "frames": [
+      31,
+      280
+    ],
+    "split": "train",
+    "file_sha256": "95725b1b6e9b9075c114958e295a95dfd871e4d2b3aa56517661afece1812126"
+  },
+  {
+    "name": "KIT__9__turn_left01_poses_clip000",
+    "motion": "KIT/9/turn_left01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__turn_left01_poses.npz",
+    "category": 1,
+    "frames": [
+      7,
+      274
+    ],
+    "split": "train",
+    "file_sha256": "df0624dcab1ad926fe454e8e36a83b192e1ae8b1ff96b49276860dbcd628eda5"
+  },
+  {
+    "name": "KIT__9__turn_left06_poses_clip000",
+    "motion": "KIT/9/turn_left06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__turn_left06_poses.npz",
+    "category": 1,
+    "frames": [
+      32,
+      292
+    ],
+    "split": "train",
+    "file_sha256": "06f3b76f07161a7c6d15bb2c7f4015c9ee5cb80208974a045d9b384783d4e500"
+  },
+  {
+    "name": "KIT__9__walking_medium01_poses_clip000",
+    "motion": "KIT/9/walking_medium01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium01_poses.npz",
+    "category": 0,
+    "frames": [
+      18,
+      272
+    ],
+    "split": "train",
+    "file_sha256": "5f05757a15683fcce98b99549734c0f51dabd750d7c11198b86aedd41f750732"
+  },
+  {
+    "name": "KIT__9__walking_medium02_poses_clip000",
+    "motion": "KIT/9/walking_medium02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium02_poses.npz",
+    "category": 0,
+    "frames": [
+      36,
+      286
+    ],
+    "split": "train",
+    "file_sha256": "964f9f310f22c65008801d2122016836009dfb7a1a800d950d0fff1f02752749"
+  },
+  {
+    "name": "KIT__9__walking_medium04_poses_clip000",
+    "motion": "KIT/9/walking_medium04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium04_poses.npz",
+    "category": 0,
+    "frames": [
+      22,
+      271
+    ],
+    "split": "train",
+    "file_sha256": "98ea03a2dfaa72874297406a2e52f26d3828b97f7576dc6610d1bb90d6fa6972"
+  },
+  {
+    "name": "KIT__9__walking_medium06_poses_clip000",
+    "motion": "KIT/9/walking_medium06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium06_poses.npz",
+    "category": 0,
+    "frames": [
+      17,
+      256
+    ],
+    "split": "train",
+    "file_sha256": "283e3cb08192cda0b3cf6abe8ef96fed458c4ed9b34423a6c1e12e8c230ef5d4"
+  },
+  {
+    "name": "KIT__9__walking_medium07_poses_clip000",
+    "motion": "KIT/9/walking_medium07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium07_poses.npz",
+    "category": 0,
+    "frames": [
+      33,
+      272
+    ],
+    "split": "train",
+    "file_sha256": "bf9965a7a1a185f17dac5c298038b76eb0588df1faf728cfd6bc9294d1515b08"
+  },
+  {
+    "name": "KIT__9__walking_medium08_poses_clip000",
+    "motion": "KIT/9/walking_medium08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium08_poses.npz",
+    "category": 0,
+    "frames": [
+      13,
+      242
+    ],
+    "split": "train",
+    "file_sha256": "d103f43e4c2c30240f1b742af26587230350b3b37dc85d96509074292ea50a13"
+  },
+  {
+    "name": "KIT__9__walking_medium09_poses_clip000",
+    "motion": "KIT/9/walking_medium09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium09_poses.npz",
+    "category": 0,
+    "frames": [
+      46,
+      271
+    ],
+    "split": "train",
+    "file_sha256": "51ff04c0c22d384705435ebeeaafa09961d8031c0dc2b33a15178c09725b33dd"
+  },
+  {
+    "name": "KIT__9__walking_medium10_poses_clip000",
+    "motion": "KIT/9/walking_medium10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_medium10_poses.npz",
+    "category": 0,
+    "frames": [
+      35,
+      243
+    ],
+    "split": "train",
+    "file_sha256": "3cebdfd3698d83a9fc4c9606d21d66b5970f32ff02f5f7848dd819b8fde53fef"
+  },
+  {
+    "name": "KIT__9__walking_slow01_poses_clip000",
+    "motion": "KIT/9/walking_slow01_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow01_poses.npz",
+    "category": 0,
+    "frames": [
+      60,
+      308
+    ],
+    "split": "train",
+    "file_sha256": "1d774461be64fe5914d7fc5e9b7fa69a0eb1a8c9fa226a1c42538807cad2f983"
+  },
+  {
+    "name": "KIT__9__walking_slow02_poses_clip000",
+    "motion": "KIT/9/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      48,
+      348
+    ],
+    "split": "train",
+    "file_sha256": "f01a34ea02bc29f870867612230e512081066b3c86f85dd35e2642cbdddc3670"
+  },
+  {
+    "name": "KIT__9__walking_slow02_poses_clip001",
+    "motion": "KIT/9/walking_slow02_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow02_poses.npz",
+    "category": 0,
+    "frames": [
+      323,
+      380
+    ],
+    "split": "train",
+    "file_sha256": "f01a34ea02bc29f870867612230e512081066b3c86f85dd35e2642cbdddc3670"
+  },
+  {
+    "name": "KIT__9__walking_slow03_poses_clip000",
+    "motion": "KIT/9/walking_slow03_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow03_poses.npz",
+    "category": 0,
+    "frames": [
+      57,
+      357
+    ],
+    "split": "train",
+    "file_sha256": "1402d006dd3e1a1e710242a432e1b1201edfd77cd1c7acbb5fd820db624e08db"
+  },
+  {
+    "name": "KIT__9__walking_slow04_poses_clip000",
+    "motion": "KIT/9/walking_slow04_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow04_poses.npz",
+    "category": 0,
+    "frames": [
+      52,
+      347
+    ],
+    "split": "train",
+    "file_sha256": "a85c5b4816d7f763eb0e9a9de17fe753087fa5059eeb1c7d13a5fe2dfbc2bb70"
+  },
+  {
+    "name": "KIT__9__walking_slow05_poses_clip000",
+    "motion": "KIT/9/walking_slow05_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow05_poses.npz",
+    "category": 0,
+    "frames": [
+      61,
+      333
+    ],
+    "split": "train",
+    "file_sha256": "a3ad1a9f3ae6f6abcb0a27aa0485e06e928a6f9ceb1e8908344bdca0bd17cd81"
+  },
+  {
+    "name": "KIT__9__walking_slow06_poses_clip000",
+    "motion": "KIT/9/walking_slow06_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow06_poses.npz",
+    "category": 0,
+    "frames": [
+      73,
+      364
+    ],
+    "split": "train",
+    "file_sha256": "72f4f2dde3c9e335ebaf41b066131238ef2da0ecc9f9b572bcbef662e5f82a8c"
+  },
+  {
+    "name": "KIT__9__walking_slow07_poses_clip000",
+    "motion": "KIT/9/walking_slow07_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow07_poses.npz",
+    "category": 0,
+    "frames": [
+      20,
+      320
+    ],
+    "split": "train",
+    "file_sha256": "26a1334d43850b74be128807f79ac68c3fc5e4b3c53735de5d10439eb0452b04"
+  },
+  {
+    "name": "KIT__9__walking_slow08_poses_clip000",
+    "motion": "KIT/9/walking_slow08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow08_poses.npz",
+    "category": 0,
+    "frames": [
+      50,
+      350
+    ],
+    "split": "train",
+    "file_sha256": "df8539023ccbf1127ca47c0241f2e3ab557d2de8f2ce630188462053abe4d4a3"
+  },
+  {
+    "name": "KIT__9__walking_slow08_poses_clip001",
+    "motion": "KIT/9/walking_slow08_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow08_poses.npz",
+    "category": 0,
+    "frames": [
+      325,
+      432
+    ],
+    "split": "train",
+    "file_sha256": "df8539023ccbf1127ca47c0241f2e3ab557d2de8f2ce630188462053abe4d4a3"
+  },
+  {
+    "name": "KIT__9__walking_slow09_poses_clip000",
+    "motion": "KIT/9/walking_slow09_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow09_poses.npz",
+    "category": 0,
+    "frames": [
+      56,
+      356
+    ],
+    "split": "train",
+    "file_sha256": "4bfd0be0ce8c141cfd196f3633663dfdec7f6ae49c735ec383397eef5d0e39d0"
+  },
+  {
+    "name": "KIT__9__walking_slow10_poses_clip000",
+    "motion": "KIT/9/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      32,
+      332
+    ],
+    "split": "train",
+    "file_sha256": "59c3cf15e1554b0dfa7e2031c0efaa213c429b31975772a81185cc286ebeaf36"
+  },
+  {
+    "name": "KIT__9__walking_slow10_poses_clip001",
+    "motion": "KIT/9/walking_slow10_poses",
+    "path": "outputs/retargeted/human39_large_v1/KIT__9__walking_slow10_poses.npz",
+    "category": 0,
+    "frames": [
+      307,
+      368
+    ],
+    "split": "train",
+    "file_sha256": "59c3cf15e1554b0dfa7e2031c0efaa213c429b31975772a81185cc286ebeaf36"
+  }
+]

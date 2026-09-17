@@ -1,0 +1,1687 @@
+{
+  "steps": 298,
+  "num_envs": 280,
+  "full_clip_completion_rate": 1.0,
+  "per_env": [
+    {
+      "motion_id": 0,
+      "survived_s": 4.2,
+      "completed": true,
+      "mean_reward": 0.991086483001709
+    },
+    {
+      "motion_id": 1,
+      "survived_s": 3.88,
+      "completed": true,
+      "mean_reward": 0.9934760928153992
+    },
+    {
+      "motion_id": 2,
+      "survived_s": 4.12,
+      "completed": true,
+      "mean_reward": 0.9943834543228149
+    },
+    {
+      "motion_id": 3,
+      "survived_s": 3.2600000000000002,
+      "completed": true,
+      "mean_reward": 0.9844734072685242
+    },
+    {
+      "motion_id": 4,
+      "survived_s": 4.0,
+      "completed": true,
+      "mean_reward": 0.990247368812561
+    },
+    {
+      "motion_id": 5,
+      "survived_s": 3.4,
+      "completed": true,
+      "mean_reward": 0.9886689186096191
+    },
+    {
+      "motion_id": 6,
+      "survived_s": 3.46,
+      "completed": true,
+      "mean_reward": 0.9751735329627991
+    },
+    {
+      "motion_id": 7,
+      "survived_s": 3.36,
+      "completed": true,
+      "mean_reward": 0.988502025604248
+    },
+    {
+      "motion_id": 8,
+      "survived_s": 4.74,
+      "completed": true,
+      "mean_reward": 0.990469753742218
+    },
+    {
+      "motion_id": 9,
+      "survived_s": 4.5,
+      "completed": true,
+      "mean_reward": 0.9915379285812378
+    },
+    {
+      "motion_id": 10,
+      "survived_s": 4.5600000000000005,
+      "completed": true,
+      "mean_reward": 0.9910488724708557
+    },
+    {
+      "motion_id": 11,
+      "survived_s": 4.66,
+      "completed": true,
+      "mean_reward": 0.99006187915802
+    },
+    {
+      "motion_id": 12,
+      "survived_s": 4.5200000000000005,
+      "completed": true,
+      "mean_reward": 0.9888501167297363
+    },
+    {
+      "motion_id": 13,
+      "survived_s": 5.36,
+      "completed": true,
+      "mean_reward": 0.9887411594390869
+    },
+    {
+      "motion_id": 14,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9898649454116821
+    },
+    {
+      "motion_id": 15,
+      "survived_s": 4.9,
+      "completed": true,
+      "mean_reward": 0.9904236197471619
+    },
+    {
+      "motion_id": 16,
+      "survived_s": 4.66,
+      "completed": true,
+      "mean_reward": 0.9900411367416382
+    },
+    {
+      "motion_id": 17,
+      "survived_s": 4.7,
+      "completed": true,
+      "mean_reward": 0.9911608695983887
+    },
+    {
+      "motion_id": 18,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9906684160232544
+    },
+    {
+      "motion_id": 19,
+      "survived_s": 4.0200000000000005,
+      "completed": true,
+      "mean_reward": 0.9912554025650024
+    },
+    {
+      "motion_id": 20,
+      "survived_s": 4.62,
+      "completed": true,
+      "mean_reward": 0.9928959608078003
+    },
+    {
+      "motion_id": 21,
+      "survived_s": 4.5600000000000005,
+      "completed": true,
+      "mean_reward": 0.9918661117553711
+    },
+    {
+      "motion_id": 22,
+      "survived_s": 4.48,
+      "completed": true,
+      "mean_reward": 0.9917080998420715
+    },
+    {
+      "motion_id": 23,
+      "survived_s": 4.0,
+      "completed": true,
+      "mean_reward": 0.9929691553115845
+    },
+    {
+      "motion_id": 24,
+      "survived_s": 3.02,
+      "completed": true,
+      "mean_reward": 0.9538337588310242
+    },
+    {
+      "motion_id": 25,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9931107759475708
+    },
+    {
+      "motion_id": 26,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9939162135124207
+    },
+    {
+      "motion_id": 27,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9935314655303955
+    },
+    {
+      "motion_id": 28,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9937598705291748
+    },
+    {
+      "motion_id": 29,
+      "survived_s": 4.54,
+      "completed": true,
+      "mean_reward": 0.9928938150405884
+    },
+    {
+      "motion_id": 30,
+      "survived_s": 4.34,
+      "completed": true,
+      "mean_reward": 0.9935111403465271
+    },
+    {
+      "motion_id": 31,
+      "survived_s": 4.34,
+      "completed": true,
+      "mean_reward": 0.9920902252197266
+    },
+    {
+      "motion_id": 32,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9897706508636475
+    },
+    {
+      "motion_id": 33,
+      "survived_s": 1.5,
+      "completed": true,
+      "mean_reward": 0.9934850335121155
+    },
+    {
+      "motion_id": 34,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9883164763450623
+    },
+    {
+      "motion_id": 35,
+      "survived_s": 1.42,
+      "completed": true,
+      "mean_reward": 0.991902768611908
+    },
+    {
+      "motion_id": 36,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.988681972026825
+    },
+    {
+      "motion_id": 37,
+      "survived_s": 1.6,
+      "completed": true,
+      "mean_reward": 0.9930354356765747
+    },
+    {
+      "motion_id": 38,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9918907284736633
+    },
+    {
+      "motion_id": 39,
+      "survived_s": 1.7,
+      "completed": true,
+      "mean_reward": 0.9914353489875793
+    },
+    {
+      "motion_id": 40,
+      "survived_s": 4.32,
+      "completed": true,
+      "mean_reward": 0.9926424622535706
+    },
+    {
+      "motion_id": 41,
+      "survived_s": 4.38,
+      "completed": true,
+      "mean_reward": 0.9935194253921509
+    },
+    {
+      "motion_id": 42,
+      "survived_s": 4.16,
+      "completed": true,
+      "mean_reward": 0.9916460514068604
+    },
+    {
+      "motion_id": 43,
+      "survived_s": 4.24,
+      "completed": true,
+      "mean_reward": 0.9920952320098877
+    },
+    {
+      "motion_id": 44,
+      "survived_s": 4.36,
+      "completed": true,
+      "mean_reward": 0.9925658106803894
+    },
+    {
+      "motion_id": 45,
+      "survived_s": 3.7600000000000002,
+      "completed": true,
+      "mean_reward": 0.990868091583252
+    },
+    {
+      "motion_id": 46,
+      "survived_s": 4.0600000000000005,
+      "completed": true,
+      "mean_reward": 0.9929825067520142
+    },
+    {
+      "motion_id": 47,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9919392466545105
+    },
+    {
+      "motion_id": 48,
+      "survived_s": 3.42,
+      "completed": true,
+      "mean_reward": 0.9917349219322205
+    },
+    {
+      "motion_id": 49,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9937716722488403
+    },
+    {
+      "motion_id": 50,
+      "survived_s": 4.32,
+      "completed": true,
+      "mean_reward": 0.9939110279083252
+    },
+    {
+      "motion_id": 51,
+      "survived_s": 4.34,
+      "completed": true,
+      "mean_reward": 0.9939077496528625
+    },
+    {
+      "motion_id": 52,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9934667348861694
+    },
+    {
+      "motion_id": 53,
+      "survived_s": 3.7800000000000002,
+      "completed": true,
+      "mean_reward": 0.9932385683059692
+    },
+    {
+      "motion_id": 54,
+      "survived_s": 4.08,
+      "completed": true,
+      "mean_reward": 0.9941879510879517
+    },
+    {
+      "motion_id": 55,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9947542548179626
+    },
+    {
+      "motion_id": 56,
+      "survived_s": 2.66,
+      "completed": true,
+      "mean_reward": 0.9871686100959778
+    },
+    {
+      "motion_id": 57,
+      "survived_s": 4.14,
+      "completed": true,
+      "mean_reward": 0.9933598637580872
+    },
+    {
+      "motion_id": 58,
+      "survived_s": 4.22,
+      "completed": true,
+      "mean_reward": 0.9939331412315369
+    },
+    {
+      "motion_id": 59,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9932440519332886
+    },
+    {
+      "motion_id": 60,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9934268593788147
+    },
+    {
+      "motion_id": 61,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9935927391052246
+    },
+    {
+      "motion_id": 62,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9927787780761719
+    },
+    {
+      "motion_id": 63,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9928900003433228
+    },
+    {
+      "motion_id": 64,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9931639432907104
+    },
+    {
+      "motion_id": 65,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9921515583992004
+    },
+    {
+      "motion_id": 66,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9912389516830444
+    },
+    {
+      "motion_id": 67,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9919013381004333
+    },
+    {
+      "motion_id": 68,
+      "survived_s": 4.1,
+      "completed": true,
+      "mean_reward": 0.9924637079238892
+    },
+    {
+      "motion_id": 69,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9924618005752563
+    },
+    {
+      "motion_id": 70,
+      "survived_s": 4.1,
+      "completed": true,
+      "mean_reward": 0.9911085367202759
+    },
+    {
+      "motion_id": 71,
+      "survived_s": 4.22,
+      "completed": true,
+      "mean_reward": 0.9916747808456421
+    },
+    {
+      "motion_id": 72,
+      "survived_s": 4.14,
+      "completed": true,
+      "mean_reward": 0.9919747114181519
+    },
+    {
+      "motion_id": 73,
+      "survived_s": 5.4,
+      "completed": true,
+      "mean_reward": 0.9846158623695374
+    },
+    {
+      "motion_id": 74,
+      "survived_s": 5.0200000000000005,
+      "completed": true,
+      "mean_reward": 0.9838989973068237
+    },
+    {
+      "motion_id": 75,
+      "survived_s": 5.18,
+      "completed": true,
+      "mean_reward": 0.9833580255508423
+    },
+    {
+      "motion_id": 76,
+      "survived_s": 4.8,
+      "completed": true,
+      "mean_reward": 0.983979344367981
+    },
+    {
+      "motion_id": 77,
+      "survived_s": 5.32,
+      "completed": true,
+      "mean_reward": 0.9828013777732849
+    },
+    {
+      "motion_id": 78,
+      "survived_s": 5.24,
+      "completed": true,
+      "mean_reward": 0.9828930497169495
+    },
+    {
+      "motion_id": 79,
+      "survived_s": 5.14,
+      "completed": true,
+      "mean_reward": 0.9848157167434692
+    },
+    {
+      "motion_id": 80,
+      "survived_s": 5.48,
+      "completed": true,
+      "mean_reward": 0.9853121638298035
+    },
+    {
+      "motion_id": 81,
+      "survived_s": 5.92,
+      "completed": true,
+      "mean_reward": 0.9821893572807312
+    },
+    {
+      "motion_id": 82,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9834111332893372
+    },
+    {
+      "motion_id": 83,
+      "survived_s": 5.36,
+      "completed": true,
+      "mean_reward": 0.9834656119346619
+    },
+    {
+      "motion_id": 84,
+      "survived_s": 5.3,
+      "completed": true,
+      "mean_reward": 0.9851399064064026
+    },
+    {
+      "motion_id": 85,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9788996577262878
+    },
+    {
+      "motion_id": 86,
+      "survived_s": 5.1000000000000005,
+      "completed": true,
+      "mean_reward": 0.9847705960273743
+    },
+    {
+      "motion_id": 87,
+      "survived_s": 5.24,
+      "completed": true,
+      "mean_reward": 0.9828507304191589
+    },
+    {
+      "motion_id": 88,
+      "survived_s": 4.88,
+      "completed": true,
+      "mean_reward": 0.9785701632499695
+    },
+    {
+      "motion_id": 89,
+      "survived_s": 5.0600000000000005,
+      "completed": true,
+      "mean_reward": 0.9887411594390869
+    },
+    {
+      "motion_id": 90,
+      "survived_s": 4.14,
+      "completed": true,
+      "mean_reward": 0.98926842212677
+    },
+    {
+      "motion_id": 91,
+      "survived_s": 4.42,
+      "completed": true,
+      "mean_reward": 0.9903556108474731
+    },
+    {
+      "motion_id": 92,
+      "survived_s": 4.32,
+      "completed": true,
+      "mean_reward": 0.9905577301979065
+    },
+    {
+      "motion_id": 93,
+      "survived_s": 5.2,
+      "completed": true,
+      "mean_reward": 0.9893067479133606
+    },
+    {
+      "motion_id": 94,
+      "survived_s": 4.38,
+      "completed": true,
+      "mean_reward": 0.9896706342697144
+    },
+    {
+      "motion_id": 95,
+      "survived_s": 4.32,
+      "completed": true,
+      "mean_reward": 0.9894729256629944
+    },
+    {
+      "motion_id": 96,
+      "survived_s": 4.2,
+      "completed": true,
+      "mean_reward": 0.9892308712005615
+    },
+    {
+      "motion_id": 97,
+      "survived_s": 4.22,
+      "completed": true,
+      "mean_reward": 0.9901311993598938
+    },
+    {
+      "motion_id": 98,
+      "survived_s": 5.64,
+      "completed": true,
+      "mean_reward": 0.9858067035675049
+    },
+    {
+      "motion_id": 99,
+      "survived_s": 5.92,
+      "completed": true,
+      "mean_reward": 0.9881938099861145
+    },
+    {
+      "motion_id": 100,
+      "survived_s": 5.76,
+      "completed": true,
+      "mean_reward": 0.9896445870399475
+    },
+    {
+      "motion_id": 101,
+      "survived_s": 5.5,
+      "completed": true,
+      "mean_reward": 0.9888892769813538
+    },
+    {
+      "motion_id": 102,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.987218976020813
+    },
+    {
+      "motion_id": 103,
+      "survived_s": 1.44,
+      "completed": true,
+      "mean_reward": 0.9763848781585693
+    },
+    {
+      "motion_id": 104,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9891598224639893
+    },
+    {
+      "motion_id": 105,
+      "survived_s": 5.5,
+      "completed": true,
+      "mean_reward": 0.9894445538520813
+    },
+    {
+      "motion_id": 106,
+      "survived_s": 5.46,
+      "completed": true,
+      "mean_reward": 0.989768922328949
+    },
+    {
+      "motion_id": 107,
+      "survived_s": 5.68,
+      "completed": true,
+      "mean_reward": 0.9900602698326111
+    },
+    {
+      "motion_id": 108,
+      "survived_s": 5.6000000000000005,
+      "completed": true,
+      "mean_reward": 0.9899823069572449
+    },
+    {
+      "motion_id": 109,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9902403354644775
+    },
+    {
+      "motion_id": 110,
+      "survived_s": 5.32,
+      "completed": true,
+      "mean_reward": 0.9910281896591187
+    },
+    {
+      "motion_id": 111,
+      "survived_s": 4.86,
+      "completed": true,
+      "mean_reward": 0.9906888008117676
+    },
+    {
+      "motion_id": 112,
+      "survived_s": 5.58,
+      "completed": true,
+      "mean_reward": 0.9913764595985413
+    },
+    {
+      "motion_id": 113,
+      "survived_s": 4.76,
+      "completed": true,
+      "mean_reward": 0.991092324256897
+    },
+    {
+      "motion_id": 114,
+      "survived_s": 5.2,
+      "completed": true,
+      "mean_reward": 0.9913997054100037
+    },
+    {
+      "motion_id": 115,
+      "survived_s": 4.82,
+      "completed": true,
+      "mean_reward": 0.9912649989128113
+    },
+    {
+      "motion_id": 116,
+      "survived_s": 5.22,
+      "completed": true,
+      "mean_reward": 0.991727888584137
+    },
+    {
+      "motion_id": 117,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.992997944355011
+    },
+    {
+      "motion_id": 118,
+      "survived_s": 1.54,
+      "completed": true,
+      "mean_reward": 0.9943634867668152
+    },
+    {
+      "motion_id": 119,
+      "survived_s": 5.12,
+      "completed": true,
+      "mean_reward": 0.9850022792816162
+    },
+    {
+      "motion_id": 120,
+      "survived_s": 3.98,
+      "completed": true,
+      "mean_reward": 0.9881998300552368
+    },
+    {
+      "motion_id": 121,
+      "survived_s": 3.8000000000000003,
+      "completed": true,
+      "mean_reward": 0.9877719879150391
+    },
+    {
+      "motion_id": 122,
+      "survived_s": 3.92,
+      "completed": true,
+      "mean_reward": 0.988316535949707
+    },
+    {
+      "motion_id": 123,
+      "survived_s": 3.86,
+      "completed": true,
+      "mean_reward": 0.9886796474456787
+    },
+    {
+      "motion_id": 124,
+      "survived_s": 4.38,
+      "completed": true,
+      "mean_reward": 0.9910860657691956
+    },
+    {
+      "motion_id": 125,
+      "survived_s": 4.2,
+      "completed": true,
+      "mean_reward": 0.9916232824325562
+    },
+    {
+      "motion_id": 126,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9917235970497131
+    },
+    {
+      "motion_id": 127,
+      "survived_s": 4.26,
+      "completed": true,
+      "mean_reward": 0.9912322759628296
+    },
+    {
+      "motion_id": 128,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9912404417991638
+    },
+    {
+      "motion_id": 129,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.988701343536377
+    },
+    {
+      "motion_id": 130,
+      "survived_s": 5.78,
+      "completed": true,
+      "mean_reward": 0.9915897250175476
+    },
+    {
+      "motion_id": 131,
+      "survived_s": 5.3,
+      "completed": true,
+      "mean_reward": 0.9915776252746582
+    },
+    {
+      "motion_id": 132,
+      "survived_s": 5.18,
+      "completed": true,
+      "mean_reward": 0.9914010167121887
+    },
+    {
+      "motion_id": 133,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9898734092712402
+    },
+    {
+      "motion_id": 134,
+      "survived_s": 1.1,
+      "completed": true,
+      "mean_reward": 0.9908866882324219
+    },
+    {
+      "motion_id": 135,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9913609623908997
+    },
+    {
+      "motion_id": 136,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.990441620349884
+    },
+    {
+      "motion_id": 137,
+      "survived_s": 4.74,
+      "completed": true,
+      "mean_reward": 0.9911183714866638
+    },
+    {
+      "motion_id": 138,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9875953197479248
+    },
+    {
+      "motion_id": 139,
+      "survived_s": 5.78,
+      "completed": true,
+      "mean_reward": 0.98915696144104
+    },
+    {
+      "motion_id": 140,
+      "survived_s": 4.88,
+      "completed": true,
+      "mean_reward": 0.9877340197563171
+    },
+    {
+      "motion_id": 141,
+      "survived_s": 5.62,
+      "completed": true,
+      "mean_reward": 0.9895026087760925
+    },
+    {
+      "motion_id": 142,
+      "survived_s": 5.28,
+      "completed": true,
+      "mean_reward": 0.9898889660835266
+    },
+    {
+      "motion_id": 143,
+      "survived_s": 5.64,
+      "completed": true,
+      "mean_reward": 0.9870584011077881
+    },
+    {
+      "motion_id": 144,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9882331490516663
+    },
+    {
+      "motion_id": 145,
+      "survived_s": 5.18,
+      "completed": true,
+      "mean_reward": 0.9896855354309082
+    },
+    {
+      "motion_id": 146,
+      "survived_s": 5.1000000000000005,
+      "completed": true,
+      "mean_reward": 0.9890746474266052
+    },
+    {
+      "motion_id": 147,
+      "survived_s": 5.38,
+      "completed": true,
+      "mean_reward": 0.9891088604927063
+    },
+    {
+      "motion_id": 148,
+      "survived_s": 5.6000000000000005,
+      "completed": true,
+      "mean_reward": 0.9904569387435913
+    },
+    {
+      "motion_id": 149,
+      "survived_s": 5.6000000000000005,
+      "completed": true,
+      "mean_reward": 0.9881614446640015
+    },
+    {
+      "motion_id": 150,
+      "survived_s": 5.4,
+      "completed": true,
+      "mean_reward": 0.9897040724754333
+    },
+    {
+      "motion_id": 151,
+      "survived_s": 5.5200000000000005,
+      "completed": true,
+      "mean_reward": 0.9884506464004517
+    },
+    {
+      "motion_id": 152,
+      "survived_s": 5.42,
+      "completed": true,
+      "mean_reward": 0.9890847206115723
+    },
+    {
+      "motion_id": 153,
+      "survived_s": 3.3000000000000003,
+      "completed": true,
+      "mean_reward": 0.9887118935585022
+    },
+    {
+      "motion_id": 154,
+      "survived_s": 3.4,
+      "completed": true,
+      "mean_reward": 0.9912337064743042
+    },
+    {
+      "motion_id": 155,
+      "survived_s": 3.36,
+      "completed": true,
+      "mean_reward": 0.9923836588859558
+    },
+    {
+      "motion_id": 156,
+      "survived_s": 3.8200000000000003,
+      "completed": true,
+      "mean_reward": 0.99535071849823
+    },
+    {
+      "motion_id": 157,
+      "survived_s": 4.08,
+      "completed": true,
+      "mean_reward": 0.9953895807266235
+    },
+    {
+      "motion_id": 158,
+      "survived_s": 3.9,
+      "completed": true,
+      "mean_reward": 0.9954185485839844
+    },
+    {
+      "motion_id": 159,
+      "survived_s": 4.32,
+      "completed": true,
+      "mean_reward": 0.9962592124938965
+    },
+    {
+      "motion_id": 160,
+      "survived_s": 4.0600000000000005,
+      "completed": true,
+      "mean_reward": 0.9956848621368408
+    },
+    {
+      "motion_id": 161,
+      "survived_s": 3.7800000000000002,
+      "completed": true,
+      "mean_reward": 0.9954947233200073
+    },
+    {
+      "motion_id": 162,
+      "survived_s": 4.0,
+      "completed": true,
+      "mean_reward": 0.9951950907707214
+    },
+    {
+      "motion_id": 163,
+      "survived_s": 3.62,
+      "completed": true,
+      "mean_reward": 0.9939672946929932
+    },
+    {
+      "motion_id": 164,
+      "survived_s": 4.1,
+      "completed": true,
+      "mean_reward": 0.9956510066986084
+    },
+    {
+      "motion_id": 165,
+      "survived_s": 4.16,
+      "completed": true,
+      "mean_reward": 0.9955312013626099
+    },
+    {
+      "motion_id": 166,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9961816072463989
+    },
+    {
+      "motion_id": 167,
+      "survived_s": 1.0,
+      "completed": true,
+      "mean_reward": 0.9966842532157898
+    },
+    {
+      "motion_id": 168,
+      "survived_s": 5.88,
+      "completed": true,
+      "mean_reward": 0.9959348440170288
+    },
+    {
+      "motion_id": 169,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.995980978012085
+    },
+    {
+      "motion_id": 170,
+      "survived_s": 5.44,
+      "completed": true,
+      "mean_reward": 0.9954341650009155
+    },
+    {
+      "motion_id": 171,
+      "survived_s": 5.74,
+      "completed": true,
+      "mean_reward": 0.9959901571273804
+    },
+    {
+      "motion_id": 172,
+      "survived_s": 5.38,
+      "completed": true,
+      "mean_reward": 0.9963444471359253
+    },
+    {
+      "motion_id": 173,
+      "survived_s": 5.46,
+      "completed": true,
+      "mean_reward": 0.9956327676773071
+    },
+    {
+      "motion_id": 174,
+      "survived_s": 5.4,
+      "completed": true,
+      "mean_reward": 0.9962338805198669
+    },
+    {
+      "motion_id": 175,
+      "survived_s": 5.12,
+      "completed": true,
+      "mean_reward": 0.9960013031959534
+    },
+    {
+      "motion_id": 176,
+      "survived_s": 5.84,
+      "completed": true,
+      "mean_reward": 0.9955204725265503
+    },
+    {
+      "motion_id": 177,
+      "survived_s": 5.22,
+      "completed": true,
+      "mean_reward": 0.9930810332298279
+    },
+    {
+      "motion_id": 178,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9926697611808777
+    },
+    {
+      "motion_id": 179,
+      "survived_s": 1.18,
+      "completed": true,
+      "mean_reward": 0.9928233027458191
+    },
+    {
+      "motion_id": 180,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9941396117210388
+    },
+    {
+      "motion_id": 181,
+      "survived_s": 1.54,
+      "completed": true,
+      "mean_reward": 0.9933609366416931
+    },
+    {
+      "motion_id": 182,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9880594611167908
+    },
+    {
+      "motion_id": 183,
+      "survived_s": 2.38,
+      "completed": true,
+      "mean_reward": 0.9940652847290039
+    },
+    {
+      "motion_id": 184,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9930198788642883
+    },
+    {
+      "motion_id": 185,
+      "survived_s": 1.24,
+      "completed": true,
+      "mean_reward": 0.994178295135498
+    },
+    {
+      "motion_id": 186,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9925774931907654
+    },
+    {
+      "motion_id": 187,
+      "survived_s": 1.32,
+      "completed": true,
+      "mean_reward": 0.9934006929397583
+    },
+    {
+      "motion_id": 188,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9933698177337646
+    },
+    {
+      "motion_id": 189,
+      "survived_s": 1.72,
+      "completed": true,
+      "mean_reward": 0.9939844608306885
+    },
+    {
+      "motion_id": 190,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9928825497627258
+    },
+    {
+      "motion_id": 191,
+      "survived_s": 1.7,
+      "completed": true,
+      "mean_reward": 0.9937605857849121
+    },
+    {
+      "motion_id": 192,
+      "survived_s": 4.42,
+      "completed": true,
+      "mean_reward": 0.9812362194061279
+    },
+    {
+      "motion_id": 193,
+      "survived_s": 5.0,
+      "completed": true,
+      "mean_reward": 0.9847556352615356
+    },
+    {
+      "motion_id": 194,
+      "survived_s": 4.62,
+      "completed": true,
+      "mean_reward": 0.9847162365913391
+    },
+    {
+      "motion_id": 195,
+      "survived_s": 4.94,
+      "completed": true,
+      "mean_reward": 0.9865690469741821
+    },
+    {
+      "motion_id": 196,
+      "survived_s": 4.76,
+      "completed": true,
+      "mean_reward": 0.9872251152992249
+    },
+    {
+      "motion_id": 197,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9842785596847534
+    },
+    {
+      "motion_id": 198,
+      "survived_s": 5.1000000000000005,
+      "completed": true,
+      "mean_reward": 0.986273467540741
+    },
+    {
+      "motion_id": 199,
+      "survived_s": 5.3,
+      "completed": true,
+      "mean_reward": 0.9939454197883606
+    },
+    {
+      "motion_id": 200,
+      "survived_s": 5.12,
+      "completed": true,
+      "mean_reward": 0.9931617379188538
+    },
+    {
+      "motion_id": 201,
+      "survived_s": 5.32,
+      "completed": true,
+      "mean_reward": 0.9933093190193176
+    },
+    {
+      "motion_id": 202,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9924273490905762
+    },
+    {
+      "motion_id": 203,
+      "survived_s": 0.98,
+      "completed": true,
+      "mean_reward": 0.9949719309806824
+    },
+    {
+      "motion_id": 204,
+      "survived_s": 5.08,
+      "completed": true,
+      "mean_reward": 0.9922868609428406
+    },
+    {
+      "motion_id": 205,
+      "survived_s": 5.48,
+      "completed": true,
+      "mean_reward": 0.9890431761741638
+    },
+    {
+      "motion_id": 206,
+      "survived_s": 5.78,
+      "completed": true,
+      "mean_reward": 0.9880362749099731
+    },
+    {
+      "motion_id": 207,
+      "survived_s": 5.72,
+      "completed": true,
+      "mean_reward": 0.9896520972251892
+    },
+    {
+      "motion_id": 208,
+      "survived_s": 5.04,
+      "completed": true,
+      "mean_reward": 0.9887210130691528
+    },
+    {
+      "motion_id": 209,
+      "survived_s": 5.76,
+      "completed": true,
+      "mean_reward": 0.9866847991943359
+    },
+    {
+      "motion_id": 210,
+      "survived_s": 5.5600000000000005,
+      "completed": true,
+      "mean_reward": 0.9887081384658813
+    },
+    {
+      "motion_id": 211,
+      "survived_s": 5.38,
+      "completed": true,
+      "mean_reward": 0.9878126978874207
+    },
+    {
+      "motion_id": 212,
+      "survived_s": 5.24,
+      "completed": true,
+      "mean_reward": 0.9875860810279846
+    },
+    {
+      "motion_id": 213,
+      "survived_s": 5.44,
+      "completed": true,
+      "mean_reward": 0.9884132146835327
+    },
+    {
+      "motion_id": 214,
+      "survived_s": 5.48,
+      "completed": true,
+      "mean_reward": 0.9872881770133972
+    },
+    {
+      "motion_id": 215,
+      "survived_s": 4.5600000000000005,
+      "completed": true,
+      "mean_reward": 0.9923030138015747
+    },
+    {
+      "motion_id": 216,
+      "survived_s": 4.36,
+      "completed": true,
+      "mean_reward": 0.9942008256912231
+    },
+    {
+      "motion_id": 217,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9941900968551636
+    },
+    {
+      "motion_id": 218,
+      "survived_s": 4.26,
+      "completed": true,
+      "mean_reward": 0.9937794208526611
+    },
+    {
+      "motion_id": 219,
+      "survived_s": 4.36,
+      "completed": true,
+      "mean_reward": 0.9939326643943787
+    },
+    {
+      "motion_id": 220,
+      "survived_s": 4.36,
+      "completed": true,
+      "mean_reward": 0.9945099353790283
+    },
+    {
+      "motion_id": 221,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9949758648872375
+    },
+    {
+      "motion_id": 222,
+      "survived_s": 5.0,
+      "completed": true,
+      "mean_reward": 0.9954598546028137
+    },
+    {
+      "motion_id": 223,
+      "survived_s": 4.4,
+      "completed": true,
+      "mean_reward": 0.9952626824378967
+    },
+    {
+      "motion_id": 224,
+      "survived_s": 4.28,
+      "completed": true,
+      "mean_reward": 0.9950928092002869
+    },
+    {
+      "motion_id": 225,
+      "survived_s": 4.44,
+      "completed": true,
+      "mean_reward": 0.9951522350311279
+    },
+    {
+      "motion_id": 226,
+      "survived_s": 4.0600000000000005,
+      "completed": true,
+      "mean_reward": 0.9949527382850647
+    },
+    {
+      "motion_id": 227,
+      "survived_s": 4.3,
+      "completed": true,
+      "mean_reward": 0.9951577186584473
+    },
+    {
+      "motion_id": 228,
+      "survived_s": 4.28,
+      "completed": true,
+      "mean_reward": 0.9949278235435486
+    },
+    {
+      "motion_id": 229,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9903049468994141
+    },
+    {
+      "motion_id": 230,
+      "survived_s": 1.32,
+      "completed": true,
+      "mean_reward": 0.9910408854484558
+    },
+    {
+      "motion_id": 231,
+      "survived_s": 3.98,
+      "completed": true,
+      "mean_reward": 0.9942573308944702
+    },
+    {
+      "motion_id": 232,
+      "survived_s": 4.28,
+      "completed": true,
+      "mean_reward": 0.9949012398719788
+    },
+    {
+      "motion_id": 233,
+      "survived_s": 4.28,
+      "completed": true,
+      "mean_reward": 0.9952644109725952
+    },
+    {
+      "motion_id": 234,
+      "survived_s": 3.96,
+      "completed": true,
+      "mean_reward": 0.9944992661476135
+    },
+    {
+      "motion_id": 235,
+      "survived_s": 5.14,
+      "completed": true,
+      "mean_reward": 0.994599461555481
+    },
+    {
+      "motion_id": 236,
+      "survived_s": 4.08,
+      "completed": true,
+      "mean_reward": 0.9941805601119995
+    },
+    {
+      "motion_id": 237,
+      "survived_s": 4.12,
+      "completed": true,
+      "mean_reward": 0.9933916926383972
+    },
+    {
+      "motion_id": 238,
+      "survived_s": 4.6000000000000005,
+      "completed": true,
+      "mean_reward": 0.9928197264671326
+    },
+    {
+      "motion_id": 239,
+      "survived_s": 4.64,
+      "completed": true,
+      "mean_reward": 0.9929699301719666
+    },
+    {
+      "motion_id": 240,
+      "survived_s": 4.64,
+      "completed": true,
+      "mean_reward": 0.9927076697349548
+    },
+    {
+      "motion_id": 241,
+      "survived_s": 4.68,
+      "completed": true,
+      "mean_reward": 0.993359386920929
+    },
+    {
+      "motion_id": 242,
+      "survived_s": 4.64,
+      "completed": true,
+      "mean_reward": 0.993505597114563
+    },
+    {
+      "motion_id": 243,
+      "survived_s": 4.5200000000000005,
+      "completed": true,
+      "mean_reward": 0.9933127760887146
+    },
+    {
+      "motion_id": 244,
+      "survived_s": 4.4,
+      "completed": true,
+      "mean_reward": 0.993894636631012
+    },
+    {
+      "motion_id": 245,
+      "survived_s": 4.7,
+      "completed": true,
+      "mean_reward": 0.9944557547569275
+    },
+    {
+      "motion_id": 246,
+      "survived_s": 4.58,
+      "completed": true,
+      "mean_reward": 0.9950840473175049
+    },
+    {
+      "motion_id": 247,
+      "survived_s": 4.18,
+      "completed": true,
+      "mean_reward": 0.9948552250862122
+    },
+    {
+      "motion_id": 248,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9941000938415527
+    },
+    {
+      "motion_id": 249,
+      "survived_s": 2.04,
+      "completed": true,
+      "mean_reward": 0.9942238926887512
+    },
+    {
+      "motion_id": 250,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9939188361167908
+    },
+    {
+      "motion_id": 251,
+      "survived_s": 2.5,
+      "completed": true,
+      "mean_reward": 0.9927904605865479
+    },
+    {
+      "motion_id": 252,
+      "survived_s": 4.16,
+      "completed": true,
+      "mean_reward": 0.9936323761940002
+    },
+    {
+      "motion_id": 253,
+      "survived_s": 4.98,
+      "completed": true,
+      "mean_reward": 0.9953912496566772
+    },
+    {
+      "motion_id": 254,
+      "survived_s": 5.08,
+      "completed": true,
+      "mean_reward": 0.9948577284812927
+    },
+    {
+      "motion_id": 255,
+      "survived_s": 5.22,
+      "completed": true,
+      "mean_reward": 0.9955337643623352
+    },
+    {
+      "motion_id": 256,
+      "survived_s": 4.94,
+      "completed": true,
+      "mean_reward": 0.9960240721702576
+    },
+    {
+      "motion_id": 257,
+      "survived_s": 5.3,
+      "completed": true,
+      "mean_reward": 0.9903943538665771
+    },
+    {
+      "motion_id": 258,
+      "survived_s": 5.16,
+      "completed": true,
+      "mean_reward": 0.9880067110061646
+    },
+    {
+      "motion_id": 259,
+      "survived_s": 5.04,
+      "completed": true,
+      "mean_reward": 0.9955785274505615
+    },
+    {
+      "motion_id": 260,
+      "survived_s": 4.96,
+      "completed": true,
+      "mean_reward": 0.99555504322052
+    },
+    {
+      "motion_id": 261,
+      "survived_s": 4.94,
+      "completed": true,
+      "mean_reward": 0.9957622289657593
+    },
+    {
+      "motion_id": 262,
+      "survived_s": 4.74,
+      "completed": true,
+      "mean_reward": 0.9958012700080872
+    },
+    {
+      "motion_id": 263,
+      "survived_s": 4.74,
+      "completed": true,
+      "mean_reward": 0.995694100856781
+    },
+    {
+      "motion_id": 264,
+      "survived_s": 4.54,
+      "completed": true,
+      "mean_reward": 0.995409369468689
+    },
+    {
+      "motion_id": 265,
+      "survived_s": 4.46,
+      "completed": true,
+      "mean_reward": 0.9957242608070374
+    },
+    {
+      "motion_id": 266,
+      "survived_s": 4.12,
+      "completed": true,
+      "mean_reward": 0.9955762028694153
+    },
+    {
+      "motion_id": 267,
+      "survived_s": 4.92,
+      "completed": true,
+      "mean_reward": 0.9951552748680115
+    },
+    {
+      "motion_id": 268,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9932387471199036
+    },
+    {
+      "motion_id": 269,
+      "survived_s": 1.1,
+      "completed": true,
+      "mean_reward": 0.9906811118125916
+    },
+    {
+      "motion_id": 270,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9946947693824768
+    },
+    {
+      "motion_id": 271,
+      "survived_s": 5.86,
+      "completed": true,
+      "mean_reward": 0.994962215423584
+    },
+    {
+      "motion_id": 272,
+      "survived_s": 5.4,
+      "completed": true,
+      "mean_reward": 0.9953179359436035
+    },
+    {
+      "motion_id": 273,
+      "survived_s": 5.78,
+      "completed": true,
+      "mean_reward": 0.9949577450752258
+    },
+    {
+      "motion_id": 274,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9953902959823608
+    },
+    {
+      "motion_id": 275,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9942000508308411
+    },
+    {
+      "motion_id": 276,
+      "survived_s": 2.1,
+      "completed": true,
+      "mean_reward": 0.9948382377624512
+    },
+    {
+      "motion_id": 277,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9945916533470154
+    },
+    {
+      "motion_id": 278,
+      "survived_s": 5.96,
+      "completed": true,
+      "mean_reward": 0.9944540858268738
+    },
+    {
+      "motion_id": 279,
+      "survived_s": 1.18,
+      "completed": true,
+      "mean_reward": 0.9946415424346924
+    }
+  ]
+}

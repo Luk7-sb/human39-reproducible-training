@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="human_70kg_fixed_fixed_hands">
+  <compiler angle="radian" meshdir="../human_description/meshes" inertiafromgeom="false" autolimits="true" alignfree="false" />
+  <option timestep=".001" gravity="0 0 -9.81" integrator="implicitfast" iterations="80" cone="elliptic" />
+  <size memory="64M" />
+  <visual>
+    <global offwidth="1200" offheight="1200" />
+    <headlight ambient=".35 .35 .35" diffuse=".7 .7 .7" />
+  </visual>
+  <asset>
+    <mesh name="PelvisLink_visual" file="visual/PelvisLink.stl" maxhullvert="64" />
+    <mesh name="TorsoLink_visual" file="visual/TorsoLink.stl" maxhullvert="64" />
+    <mesh name="ChestLink_visual" file="visual/ChestLink.stl" maxhullvert="64" />
+    <mesh name="HeadLink_visual" file="visual/HeadLink.stl" maxhullvert="64" />
+    <mesh name="RightScapulaLink_visual" file="visual/RightScapulaLink.stl" maxhullvert="64" />
+    <mesh name="RightUpperArmLink_visual" file="visual/RightUpperArmLink.stl" maxhullvert="64" />
+    <mesh name="RightForearmLink_visual" file="visual/RightForearmLink.stl" maxhullvert="64" />
+    <mesh name="RightHandLink_visual" file="visual/RightHandLink.stl" maxhullvert="64" />
+    <mesh name="RightFinger1Link_visual" file="visual/RightFinger1Link.stl" maxhullvert="64" />
+    <mesh name="RightFinger2Link_visual" file="visual/RightFinger2Link.stl" maxhullvert="64" />
+    <mesh name="RightFinger3Link_visual" file="visual/RightFinger3Link.stl" maxhullvert="64" />
+    <mesh name="RightFinger4Link_visual" file="visual/RightFinger4Link.stl" maxhullvert="64" />
+    <mesh name="RightThumbLink_visual" file="visual/RightThumbLink.stl" maxhullvert="64" />
+    <mesh name="LeftScapulaLink_visual" file="visual/LeftScapulaLink.stl" maxhullvert="64" />
+    <mesh name="LeftUpperArmLink_visual" file="visual/LeftUpperArmLink.stl" maxhullvert="64" />
+    <mesh name="LeftForearmLink_visual" file="visual/LeftForearmLink.stl" maxhullvert="64" />
+    <mesh name="LeftHandLink_visual" file="visual/LeftHandLink.stl" maxhullvert="64" />
+    <mesh name="LeftFinger1Link_visual" file="visual/LeftFinger1Link.stl" maxhullvert="64" />
+    <mesh name="LeftFinger2Link_visual" file="visual/LeftFinger2Link.stl" maxhullvert="64" />
+    <mesh name="LeftFinger3Link_visual" file="visual/LeftFinger3Link.stl" maxhullvert="64" />
+    <mesh name="LeftFinger4Link_visual" file="visual/LeftFinger4Link.stl" maxhullvert="64" />
+    <mesh name="LeftThumbLink_visual" file="visual/LeftThumbLink.stl" maxhullvert="64" />
+    <mesh name="RightThighLink_visual" file="visual/RightThighLink.stl" maxhullvert="64" />
+    <mesh name="RightShinLink_visual" file="visual/RightShinLink.stl" maxhullvert="64" />
+    <mesh name="RightFootLink_visual" file="visual/RightFootLink.stl" maxhullvert="64" />
+    <mesh name="RightForefootLink_visual" file="visual/RightForefootLink.stl" maxhullvert="64" />
+    <mesh name="LeftThighLink_visual" file="visual/LeftThighLink.stl" maxhullvert="64" />
+    <mesh name="LeftShinLink_visual" file="visual/LeftShinLink.stl" maxhullvert="64" />
+    <mesh name="LeftFootLink_visual" file="visual/LeftFootLink.stl" maxhullvert="64" />
+    <mesh name="LeftForefootLink_visual" file="visual/LeftForefootLink.stl" maxhullvert="64" />
+  </asset>
+  <worldbody>
+    <light pos="3 0 4" dir="-1 0 -1" directional="true" />
+    <geom name="floor" type="plane" size="4 4 .1" rgba=".82 .84 .87 1" friction=".9 .01 .001" condim="3" />
+    <body name="PelvisLink" pos="0 0 0.955">
+      <inertial pos="-0.0142817738051 -6.26780192099e-05 -0.0053618011294" mass="7.50597004144" fullinertia="0.0532680539413 0.0353649564087 0.0519159409818 -1.08002113482e-05 -0.00207626040272 5.8707106621e-06" />
+      <geom name="PelvisLink_visual" type="mesh" mesh="PelvisLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+      <body name="TorsoLink" pos="-0 0 0.055">
+        <joint name="WaistFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-0.174532925199 0.349065850399" damping="0.5" solreflimit=".005 1" />
+        <joint name="WaistSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.174532925199 0.174532925199" damping="0.5" solreflimit=".005 1" />
+        <joint name="WaistTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-0.261799387799 0.261799387799" damping="0.5" solreflimit=".005 1" />
+        <inertial pos="-0.0026607943679 1.06911987735e-05 0.0761874542079" mass="6.85493860107" fullinertia="0.0535176987282 0.0351462548154 0.0436551774889 -5.5122512061e-06 0.000226826670738 2.21736329309e-05" />
+        <geom name="TorsoLink_visual" type="mesh" mesh="TorsoLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+        <body name="ChestLink" pos="-0 0 0.165">
+          <joint name="SpineFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-0.261799387799 0.523598775598" damping="0.5" solreflimit=".005 1" />
+          <joint name="SpineSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.261799387799 0.261799387799" damping="0.5" solreflimit=".005 1" />
+          <joint name="SpineTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-0.349065850399 0.349065850399" damping="0.5" solreflimit=".005 1" />
+          <inertial pos="-0.00650743068671 -4.4700290033e-05 0.130277315974" mass="15.3304892989" fullinertia="0.20279957476 0.119044975514 0.166654142399 5.4164874078e-06 -0.00350930279241 1.03818847316e-05" />
+          <geom name="ChestLink_visual" type="mesh" mesh="ChestLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+          <geom name="ChestLink_collision" type="box" group="3" rgba=".3 .6 .9 .2" friction=".8 .01 .001" condim="3" pos="-0.0035 0 0.1435" size="0.09 0.16 0.12" />
+          <body name="HeadLink" pos="-0 0 0.285">
+            <joint name="NeckFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-0.698131700798 0.785398163397" damping="0.15" solreflimit=".005 1" />
+            <joint name="NeckSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.610865238198 0.610865238198" damping="0.15" solreflimit=".005 1" />
+            <joint name="NeckTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-1.0471975512 1.0471975512" damping="0.15" solreflimit=".005 1" />
+            <inertial pos="0.0061984111885 -1.43284100712e-05 0.154278999978" mass="4.76723836192" fullinertia="0.0279750211539 0.0306045906703 0.013973750605 3.2746347499e-06 0.00115444399811 4.756775342e-07" />
+            <geom name="HeadLink_visual" type="mesh" mesh="HeadLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+          </body>
+          <body name="RightScapulaLink" pos="-0 -0.035 0.235">
+            <joint name="RightScapulaProtractionJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-0.261799387799 0.349065850399" damping="0.2" solreflimit=".005 1" />
+            <joint name="RightScapulaElevationJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.174532925199 0.349065850399" damping="0.2" solreflimit=".005 1" />
+            <inertial pos="-0.103141707132 -0.0731322130533 -0.0624934323668" mass="0.210303829432" fullinertia="0.00035308600672 0.000257196859628 0.000116668557687 -6.108984691e-07 -5.2820237728e-06 1.408451867e-07" />
+            <geom name="RightScapulaLink_visual" type="mesh" mesh="RightScapulaLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+            <body name="RightUpperArmLink" pos="-0 -0.154 -0.025">
+              <joint name="RightShoulderFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.61799387799 0.698131700798" damping="0.2" solreflimit=".005 1" />
+              <joint name="RightShoulderSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.471238898038 2.09439510239" damping="0.2" solreflimit=".005 1" />
+              <joint name="RightShoulderTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-1.0471975512 1.0471975512" damping="0.2" solreflimit=".005 1" />
+              <inertial pos="0.00156558491313 -0.043814285918 -0.0846799829076" mass="1.8410920546" fullinertia="0.0188396892081 0.0157944227816 0.00681797887283 6.65540521581e-05 0.000146961884328 -0.00621140212628" />
+              <geom name="RightUpperArmLink_visual" type="mesh" mesh="RightUpperArmLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+              <body name="RightForearmLink" pos="-0 -0.137 -0.265">
+                <joint name="RightElbowFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.53072741539 0" damping="0.2" solreflimit=".005 1" />
+                <inertial pos="0.00180407752231 -0.033944135226 -0.0811716352873" mass="1.05005250263" fullinertia="0.00525151650926 0.00462890226509 0.00146953824344 3.15979344897e-05 8.56451891821e-05 -0.00159213978781" />
+                <geom name="RightForearmLink_visual" type="mesh" mesh="RightForearmLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                <body name="RightHandLink" pos="0.005 -0.094 -0.225">
+                  <joint name="RightWristFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-1.2217304764 1.0471975512" damping="0.03" solreflimit=".005 1" />
+                  <joint name="RightWristSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.436332312999 0.436332312999" damping="0.03" solreflimit=".005 1" />
+                  <inertial pos="0.00119464903421 -0.0118813065487 -0.037219167576" mass="0.312927623882" fullinertia="0.000404576093728 0.000340749490106 0.000138641215246 -1.9589883446e-06 4.3227352563e-06 -5.60134497423e-05" />
+                  <geom name="RightHandLink_visual" type="mesh" mesh="RightHandLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  <body name="RightFinger1Link" pos="0.002 0.006 -0.077">
+                    <inertial pos="4.7649559714e-09 -0.00261897411123 -0.025199361748" mass="0.0149865632318" fullinertia="3.8918987748e-06 3.8615178646e-06 4.842566605e-07 1.378e-13 1.3879e-12 -3.531389842e-07" />
+                    <geom name="RightFinger1Link_visual" type="mesh" mesh="RightFinger1Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="RightFinger2Link" pos="0.002 -0.011 -0.077">
+                    <inertial pos="3.4718274726e-09 -0.00256067111296 -0.0312861768239" mass="0.0186179802804" fullinertia="7.2633113038e-06 7.2250864033e-06 6.028896999e-07 1.496e-13 1.6395e-12 -5.440246172e-07" />
+                    <geom name="RightFinger2Link_visual" type="mesh" mesh="RightFinger2Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="RightFinger3Link" pos="0.002 -0.028 -0.077">
+                    <inertial pos="-2.4952508754e-09 -0.00254732132714 -0.0331586198832" mass="0.0197364939447" fullinertia="8.602505168e-06 8.5618916361e-06 6.393983256e-07 -2.838e-13 -1.2621e-12 -6.106123613e-07" />
+                    <geom name="RightFinger3Link_visual" type="mesh" mesh="RightFinger3Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="RightFinger4Link" pos="0.002 -0.044 -0.077">
+                    <inertial pos="-3.1910130976e-09 -0.00259327317443 -0.0275410208332" mass="0.0163825383032" fullinertia="5.0222144795e-06 4.9887988e-06 5.298835789e-07 -1.586e-13 -1.1309e-12 -4.219412442e-07" />
+                    <geom name="RightFinger4Link_visual" type="mesh" mesh="RightFinger4Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="RightThumbLink" pos="0.001 0.011 -0.03">
+                    <inertial pos="0.00368397274441 0.00892097176646 -0.022163508028" mass="0.0268692763816" fullinertia="7.0296306635e-06 6.4137794589e-06 2.3645197214e-06 -3.165789548e-07 7.914642135e-07 1.9105182671e-06" />
+                    <geom name="RightThumbLink_visual" type="mesh" mesh="RightThumbLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+          <body name="LeftScapulaLink" pos="-0 0.035 0.235">
+            <joint name="LeftScapulaProtractionJoint" type="hinge" pos="0 0 0" axis="-0 0 -1" limited="true" range="-0.261799387799 0.349065850399" damping="0.2" solreflimit=".005 1" />
+            <joint name="LeftScapulaElevationJoint" type="hinge" pos="0 0 0" axis="1 0 0" limited="true" range="-0.174532925199 0.349065850399" damping="0.2" solreflimit=".005 1" />
+            <inertial pos="-0.103141707132 0.0728677869467 -0.0624934323668" mass="0.210303829432" fullinertia="0.000353086006719 0.000257196859628 0.000116668557687 -6.108984691e-07 -5.2820237728e-06 1.408451867e-07" />
+            <geom name="LeftScapulaLink_visual" type="mesh" mesh="LeftScapulaLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+            <body name="LeftUpperArmLink" pos="-0 0.154 -0.025">
+              <joint name="LeftShoulderFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.61799387799 0.698131700798" damping="0.2" solreflimit=".005 1" />
+              <joint name="LeftShoulderSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-2.09439510239 0.471238898038" damping="0.2" solreflimit=".005 1" />
+              <joint name="LeftShoulderTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-1.0471975512 1.0471975512" damping="0.2" solreflimit=".005 1" />
+              <inertial pos="0.0015524063318 0.0437869708414 -0.0846013603243" mass="1.8410920546" fullinertia="0.0188550010149 0.0158052640611 0.00681965717028 -6.6476325568e-05 0.000146874775774 0.00621831541832" />
+              <geom name="LeftUpperArmLink_visual" type="mesh" mesh="LeftUpperArmLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+              <body name="LeftForearmLink" pos="-0 0.137 -0.265">
+                <joint name="LeftElbowFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.53072741539 0" damping="0.2" solreflimit=".005 1" />
+                <inertial pos="0.00180229787039 0.0339553955902 -0.0811336633351" mass="1.05005250263" fullinertia="0.00525200151413 0.00462991604215 0.00146933853377 -3.15698709062e-05 8.56477770029e-05 0.00159203322787" />
+                <geom name="LeftForearmLink_visual" type="mesh" mesh="LeftForearmLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                <body name="LeftHandLink" pos="0.005 0.094 -0.225">
+                  <joint name="LeftWristFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-1.2217304764 1.0471975512" damping="0.03" solreflimit=".005 1" />
+                  <joint name="LeftWristSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.436332312999 0.436332312999" damping="0.03" solreflimit=".005 1" />
+                  <inertial pos="0.00142730048598 0.0046160986718 -0.0336190688308" mass="0.312927623882" fullinertia="0.000424645493359 0.00038812364228 0.000114847975658 2.0828942899e-06 6.726405571e-06 6.15380957445e-05" />
+                  <geom name="LeftHandLink_visual" type="mesh" mesh="LeftHandLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  <body name="LeftFinger1Link" pos="0.002 -0.006 -0.077">
+                    <inertial pos="-1.19089014717e-08 0.00261935075084 -0.025198925374" mass="0.0149865632318" fullinertia="3.8918444854e-06 3.8614213464e-06 4.842695309e-07 4.418e-13 -3.5857e-12 3.53251324e-07" />
+                    <geom name="LeftFinger1Link_visual" type="mesh" mesh="LeftFinger1Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="LeftFinger2Link" pos="0.002 0.011 -0.077">
+                    <inertial pos="-1.10488925561e-08 0.00256098166429 -0.0312859848073" mass="0.0186179802804" fullinertia="7.2632794826e-06 7.2250213904e-06 6.029051704e-07 5.942e-13 -5.8976e-12 5.441666974e-07" />
+                    <geom name="LeftFinger2Link_visual" type="mesh" mesh="LeftFinger2Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="LeftFinger3Link" pos="0.002 0.028 -0.077">
+                    <inertial pos="1.4405773929e-09 0.00254759244991 -0.0331580415247" mass="0.0197364939447" fullinertia="8.6023635497e-06 8.5617181317e-06 6.39413436e-07 -1.066e-13 8.076e-13 6.107583527e-07" />
+                    <geom name="LeftFinger3Link_visual" type="mesh" mesh="LeftFinger3Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="LeftFinger4Link" pos="0.002 0.044 -0.077">
+                    <inertial pos="-9.6065991288e-09 0.0025936437453 -0.0275407567504" mass="0.0163825383032" fullinertia="5.0221698883e-06 4.9887154397e-06 5.298988389e-07 3.695e-13 -3.4292e-12 4.220714282e-07" />
+                    <geom name="LeftFinger4Link_visual" type="mesh" mesh="LeftFinger4Link_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                  <body name="LeftThumbLink" pos="0.001 -0.011 -0.03">
+                    <inertial pos="0.00368498681293 -0.00892096479845 -0.0221669503437" mass="0.0268692763816" fullinertia="7.029885546e-06 6.4147124429e-06 2.3643154154e-06 3.165678329e-07 7.917973957e-07 -1.9102093477e-06" />
+                    <geom name="LeftThumbLink_visual" type="mesh" mesh="LeftThumbLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="RightThighLink" pos="-0 -0.088 -0.02">
+        <joint name="RightHipFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.00712863979 0.349065850399" damping="0.5" solreflimit=".005 1" />
+        <joint name="RightHipSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.261799387799 0.698131700798" damping="0.5" solreflimit=".005 1" />
+        <joint name="RightHipTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-0.698131700798 0.610865238198" damping="0.5" solreflimit=".005 1" />
+        <inertial pos="0.00663699064236 -0.00263859687205 -0.145510173029" mass="10.1295064753" fullinertia="0.147472003321 0.147817553146 0.0295642131561 0.000551843686292 0.00474844579927 -0.00357071251755" />
+        <geom name="RightThighLink_visual" type="mesh" mesh="RightThighLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+        <body name="RightShinLink" pos="0.008 -0.017 -0.395">
+          <joint name="RightKneeFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="0 2.35619449019" damping="0.5" solreflimit=".005 1" />
+          <inertial pos="-0.0207357914409 -0.00294136803239 -0.1530712715" mass="3.199159958" fullinertia="0.0384153793676 0.0392550589084 0.00435745921345 -1.80893843183e-05 -0.000881601881458 -0.000661883393229" />
+          <geom name="RightShinLink_visual" type="mesh" mesh="RightShinLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+          <body name="RightFootLink" pos="-0.008 -0.008 -0.42">
+            <joint name="RightAnkleFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-0.349065850399 0.698131700798" damping="0.3" solreflimit=".005 1" />
+            <joint name="RightAnkleSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.523598775598 0.261799387799" damping="0.3" solreflimit=".005 1" />
+            <inertial pos="0.0214332806556 -1.49218615623e-05 -0.0760049032932" mass="0.754224891828" fullinertia="0.000864070878877 0.00219940285248 0.00196193900765 2.132988656e-07 0.000189215613795 1.92357028e-08" />
+            <geom name="RightFootLink_visual" type="mesh" mesh="RightFootLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+            <geom name="RightFootLink_collision" type="box" group="3" rgba=".3 .6 .9 .2" friction=".8 .01 .001" condim="3" pos="0.0175 0 -0.11" size="0.0825 0.045 0.01" />
+            <body name="RightForefootLink" pos="0.11 0 -0.085">
+              <joint name="RightForefootJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-1.0471975512 0.349065850399" damping="0.05" solreflimit=".005 1" />
+              <inertial pos="0.0281720518154 0.00154679138855 -0.0113797491982" mass="0.176821660499" fullinertia="0.000137852621358 9.72977148821e-05 0.000159258260542 -7.7352072227e-06 1.4552731534e-05 1.9076857561e-06" />
+              <geom name="RightForefootLink_visual" type="mesh" mesh="RightForefootLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+              <geom name="RightForefootLink_collision" type="box" group="3" rgba=".3 .6 .9 .2" friction=".8 .01 .001" condim="3" pos="0.0425 0 -0.025" size="0.0325 0.045 0.01" />
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="LeftThighLink" pos="-0 0.088 -0.02">
+        <joint name="LeftHipFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-2.00712863979 0.349065850399" damping="0.5" solreflimit=".005 1" />
+        <joint name="LeftHipSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.698131700798 0.261799387799" damping="0.5" solreflimit=".005 1" />
+        <joint name="LeftHipTwistJoint" type="hinge" pos="0 0 0" axis="-0 0 1" limited="true" range="-0.610865238198 0.698131700798" damping="0.5" solreflimit=".005 1" />
+        <inertial pos="0.00664165704842 0.00266608090891 -0.14545040656" mass="10.1295064753" fullinertia="0.147482214824 0.147830852537 0.0295667321411 -0.000563356160663 0.0047313788779 0.00357397872525" />
+        <geom name="LeftThighLink_visual" type="mesh" mesh="LeftThighLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+        <body name="LeftShinLink" pos="0.008 0.017 -0.395">
+          <joint name="LeftKneeFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="0 2.35619449019" damping="0.5" solreflimit=".005 1" />
+          <inertial pos="-0.0207380643036 0.0029038766642 -0.153076918528" mass="3.199159958" fullinertia="0.0384148648146 0.0392541280709 0.00435737559349 1.60932507214e-05 -0.000880745228888 0.000667508958949" />
+          <geom name="LeftShinLink_visual" type="mesh" mesh="LeftShinLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+          <body name="LeftFootLink" pos="-0.008 0.008 -0.42">
+            <joint name="LeftAnkleFlexJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-0.349065850399 0.698131700798" damping="0.3" solreflimit=".005 1" />
+            <joint name="LeftAnkleSideJoint" type="hinge" pos="0 0 0" axis="-1 0 0" limited="true" range="-0.261799387799 0.523598775598" damping="0.3" solreflimit=".005 1" />
+            <inertial pos="0.0214332806556 -1.49218615617e-05 -0.0760049032932" mass="0.754224891828" fullinertia="0.000864070878877 0.00219940285248 0.00196193900765 2.132988655e-07 0.000189215613795 1.92357029e-08" />
+            <geom name="LeftFootLink_visual" type="mesh" mesh="LeftFootLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+            <geom name="LeftFootLink_collision" type="box" group="3" rgba=".3 .6 .9 .2" friction=".8 .01 .001" condim="3" pos="0.0175 0 -0.11" size="0.0825 0.045 0.01" />
+            <body name="LeftForefootLink" pos="0.11 0 -0.085">
+              <joint name="LeftForefootJoint" type="hinge" pos="0 0 0" axis="-0 1 0" limited="true" range="-1.0471975512 0.349065850399" damping="0.05" solreflimit=".005 1" />
+              <inertial pos="0.0281783804054 -0.00156854333066 -0.0113824092038" mass="0.176821660499" fullinertia="0.000137825772585 9.73196128988e-05 0.000159271323176 7.784801241e-06 1.45552240844e-05 -1.9295393429e-06" />
+              <geom name="LeftForefootLink_visual" type="mesh" mesh="LeftForefootLink_visual" contype="0" conaffinity="0" group="2" rgba="0.69 0.43 0.29 1" />
+              <geom name="LeftForefootLink_collision" type="box" group="3" rgba=".3 .6 .9 .2" friction=".8 .01 .001" condim="3" pos="0.0425 0 -0.025" size="0.0325 0.045 0.01" />
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <contact>
+    <exclude body1="ChestLink" body2="HeadLink" />
+    <exclude body1="ChestLink" body2="LeftScapulaLink" />
+    <exclude body1="ChestLink" body2="LeftUpperArmLink" />
+    <exclude body1="ChestLink" body2="PelvisLink" />
+    <exclude body1="ChestLink" body2="RightScapulaLink" />
+    <exclude body1="ChestLink" body2="RightUpperArmLink" />
+    <exclude body1="ChestLink" body2="TorsoLink" />
+    <exclude body1="HeadLink" body2="LeftScapulaLink" />
+    <exclude body1="HeadLink" body2="RightScapulaLink" />
+    <exclude body1="HeadLink" body2="TorsoLink" />
+    <exclude body1="LeftFinger1Link" body2="LeftFinger2Link" />
+    <exclude body1="LeftFinger1Link" body2="LeftFinger3Link" />
+    <exclude body1="LeftFinger1Link" body2="LeftFinger4Link" />
+    <exclude body1="LeftFinger1Link" body2="LeftForearmLink" />
+    <exclude body1="LeftFinger1Link" body2="LeftHandLink" />
+    <exclude body1="LeftFinger1Link" body2="LeftThumbLink" />
+    <exclude body1="LeftFinger2Link" body2="LeftFinger3Link" />
+    <exclude body1="LeftFinger2Link" body2="LeftFinger4Link" />
+    <exclude body1="LeftFinger2Link" body2="LeftForearmLink" />
+    <exclude body1="LeftFinger2Link" body2="LeftHandLink" />
+    <exclude body1="LeftFinger2Link" body2="LeftThumbLink" />
+    <exclude body1="LeftFinger3Link" body2="LeftFinger4Link" />
+    <exclude body1="LeftFinger3Link" body2="LeftForearmLink" />
+    <exclude body1="LeftFinger3Link" body2="LeftHandLink" />
+    <exclude body1="LeftFinger3Link" body2="LeftThumbLink" />
+    <exclude body1="LeftFinger4Link" body2="LeftForearmLink" />
+    <exclude body1="LeftFinger4Link" body2="LeftHandLink" />
+    <exclude body1="LeftFinger4Link" body2="LeftThumbLink" />
+    <exclude body1="LeftFootLink" body2="LeftForefootLink" />
+    <exclude body1="LeftFootLink" body2="LeftShinLink" />
+    <exclude body1="LeftFootLink" body2="LeftThighLink" />
+    <exclude body1="LeftForearmLink" body2="LeftHandLink" />
+    <exclude body1="LeftForearmLink" body2="LeftScapulaLink" />
+    <exclude body1="LeftForearmLink" body2="LeftThumbLink" />
+    <exclude body1="LeftForearmLink" body2="LeftUpperArmLink" />
+    <exclude body1="LeftForefootLink" body2="LeftShinLink" />
+    <exclude body1="LeftHandLink" body2="LeftThumbLink" />
+    <exclude body1="LeftHandLink" body2="LeftUpperArmLink" />
+    <exclude body1="LeftScapulaLink" body2="LeftUpperArmLink" />
+    <exclude body1="LeftScapulaLink" body2="RightScapulaLink" />
+    <exclude body1="LeftScapulaLink" body2="TorsoLink" />
+    <exclude body1="LeftShinLink" body2="LeftThighLink" />
+    <exclude body1="LeftShinLink" body2="PelvisLink" />
+    <exclude body1="LeftThighLink" body2="PelvisLink" />
+    <exclude body1="LeftThighLink" body2="RightThighLink" />
+    <exclude body1="LeftThighLink" body2="TorsoLink" />
+    <exclude body1="PelvisLink" body2="RightShinLink" />
+    <exclude body1="PelvisLink" body2="RightThighLink" />
+    <exclude body1="PelvisLink" body2="TorsoLink" />
+    <exclude body1="RightFinger1Link" body2="RightFinger2Link" />
+    <exclude body1="RightFinger1Link" body2="RightFinger3Link" />
+    <exclude body1="RightFinger1Link" body2="RightFinger4Link" />
+    <exclude body1="RightFinger1Link" body2="RightForearmLink" />
+    <exclude body1="RightFinger1Link" body2="RightHandLink" />
+    <exclude body1="RightFinger1Link" body2="RightThumbLink" />
+    <exclude body1="RightFinger2Link" body2="RightFinger3Link" />
+    <exclude body1="RightFinger2Link" body2="RightFinger4Link" />
+    <exclude body1="RightFinger2Link" body2="RightForearmLink" />
+    <exclude body1="RightFinger2Link" body2="RightHandLink" />
+    <exclude body1="RightFinger2Link" body2="RightThumbLink" />
+    <exclude body1="RightFinger3Link" body2="RightFinger4Link" />
+    <exclude body1="RightFinger3Link" body2="RightForearmLink" />
+    <exclude body1="RightFinger3Link" body2="RightHandLink" />
+    <exclude body1="RightFinger3Link" body2="RightThumbLink" />
+    <exclude body1="RightFinger4Link" body2="RightForearmLink" />
+    <exclude body1="RightFinger4Link" body2="RightHandLink" />
+    <exclude body1="RightFinger4Link" body2="RightThumbLink" />
+    <exclude body1="RightFootLink" body2="RightForefootLink" />
+    <exclude body1="RightFootLink" body2="RightShinLink" />
+    <exclude body1="RightFootLink" body2="RightThighLink" />
+    <exclude body1="RightForearmLink" body2="RightHandLink" />
+    <exclude body1="RightForearmLink" body2="RightScapulaLink" />
+    <exclude body1="RightForearmLink" body2="RightThumbLink" />
+    <exclude body1="RightForearmLink" body2="RightUpperArmLink" />
+    <exclude body1="RightForefootLink" body2="RightShinLink" />
+    <exclude body1="RightHandLink" body2="RightThumbLink" />
+    <exclude body1="RightHandLink" body2="RightUpperArmLink" />
+    <exclude body1="RightScapulaLink" body2="RightUpperArmLink" />
+    <exclude body1="RightScapulaLink" body2="TorsoLink" />
+    <exclude body1="RightShinLink" body2="RightThighLink" />
+    <exclude body1="RightThighLink" body2="TorsoLink" />
+  </contact>
+  <actuator>
+    <motor name="WaistFlexJoint_motor" joint="WaistFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="WaistSideJoint_motor" joint="WaistSideJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="WaistTwistJoint_motor" joint="WaistTwistJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="SpineFlexJoint_motor" joint="SpineFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="SpineSideJoint_motor" joint="SpineSideJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="SpineTwistJoint_motor" joint="SpineTwistJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="NeckFlexJoint_motor" joint="NeckFlexJoint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="NeckSideJoint_motor" joint="NeckSideJoint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="NeckTwistJoint_motor" joint="NeckTwistJoint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="RightScapulaProtractionJoint_motor" joint="RightScapulaProtractionJoint" gear="1" ctrllimited="true" ctrlrange="-60 60" />
+    <motor name="RightScapulaElevationJoint_motor" joint="RightScapulaElevationJoint" gear="1" ctrllimited="true" ctrlrange="-60 60" />
+    <motor name="RightShoulderFlexJoint_motor" joint="RightShoulderFlexJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="RightShoulderSideJoint_motor" joint="RightShoulderSideJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="RightShoulderTwistJoint_motor" joint="RightShoulderTwistJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="RightElbowFlexJoint_motor" joint="RightElbowFlexJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="RightWristFlexJoint_motor" joint="RightWristFlexJoint" gear="1" ctrllimited="true" ctrlrange="-15 15" />
+    <motor name="RightWristSideJoint_motor" joint="RightWristSideJoint" gear="1" ctrllimited="true" ctrlrange="-15 15" />
+    <motor name="LeftScapulaProtractionJoint_motor" joint="LeftScapulaProtractionJoint" gear="1" ctrllimited="true" ctrlrange="-60 60" />
+    <motor name="LeftScapulaElevationJoint_motor" joint="LeftScapulaElevationJoint" gear="1" ctrllimited="true" ctrlrange="-60 60" />
+    <motor name="LeftShoulderFlexJoint_motor" joint="LeftShoulderFlexJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="LeftShoulderSideJoint_motor" joint="LeftShoulderSideJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="LeftShoulderTwistJoint_motor" joint="LeftShoulderTwistJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="LeftElbowFlexJoint_motor" joint="LeftElbowFlexJoint" gear="1" ctrllimited="true" ctrlrange="-80 80" />
+    <motor name="LeftWristFlexJoint_motor" joint="LeftWristFlexJoint" gear="1" ctrllimited="true" ctrlrange="-15 15" />
+    <motor name="LeftWristSideJoint_motor" joint="LeftWristSideJoint" gear="1" ctrllimited="true" ctrlrange="-15 15" />
+    <motor name="RightHipFlexJoint_motor" joint="RightHipFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="RightHipSideJoint_motor" joint="RightHipSideJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="RightHipTwistJoint_motor" joint="RightHipTwistJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="RightKneeFlexJoint_motor" joint="RightKneeFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="RightAnkleFlexJoint_motor" joint="RightAnkleFlexJoint" gear="1" ctrllimited="true" ctrlrange="-120 120" />
+    <motor name="RightAnkleSideJoint_motor" joint="RightAnkleSideJoint" gear="1" ctrllimited="true" ctrlrange="-120 120" />
+    <motor name="RightForefootJoint_motor" joint="RightForefootJoint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+    <motor name="LeftHipFlexJoint_motor" joint="LeftHipFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="LeftHipSideJoint_motor" joint="LeftHipSideJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="LeftHipTwistJoint_motor" joint="LeftHipTwistJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="LeftKneeFlexJoint_motor" joint="LeftKneeFlexJoint" gear="1" ctrllimited="true" ctrlrange="-200 200" />
+    <motor name="LeftAnkleFlexJoint_motor" joint="LeftAnkleFlexJoint" gear="1" ctrllimited="true" ctrlrange="-120 120" />
+    <motor name="LeftAnkleSideJoint_motor" joint="LeftAnkleSideJoint" gear="1" ctrllimited="true" ctrlrange="-120 120" />
+    <motor name="LeftForefootJoint_motor" joint="LeftForefootJoint" gear="1" ctrllimited="true" ctrlrange="-25 25" />
+  </actuator>
+  <keyframe>
+    <key name="neutral" qpos="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" ctrl="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+  </keyframe>
+</mujoco>

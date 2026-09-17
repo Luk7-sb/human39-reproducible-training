@@ -1,0 +1,34 @@
+{
+  "checkpoint": "model_4162.pt",
+  "sha256": "572d87eeebff394f5e818b7004e950a5c529d8a19c949d20bb79b0704a4f45b2",
+  "completed": 280,
+  "total": 280,
+  "mean_clip_reward": 0.9912598437496594,
+  "previous_failure_197": {
+    "motion_id": 197,
+    "survived_s": 5.16,
+    "completed": true,
+    "mean_reward": 0.9842785596847534
+  },
+  "anchors": [
+    {
+      "motion_id": 0,
+      "survived_s": 4.2,
+      "completed": true,
+      "mean_reward": 0.991086483001709
+    },
+    {
+      "motion_id": 1,
+      "survived_s": 3.88,
+      "completed": true,
+      "mean_reward": 0.9934760928153992
+    },
+    {
+      "motion_id": 2,
+      "survived_s": 4.12,
+      "completed": true,
+      "mean_reward": 0.9943834543228149
+    }
+  ],
+  "scope": "training clips only; first episodes; not held-out generalization"
+}

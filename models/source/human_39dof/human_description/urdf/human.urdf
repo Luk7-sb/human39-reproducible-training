@@ -1,0 +1,901 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="human_70kg_fixed_hands">
+  <link name="base_link" />
+  <link name="PelvisLink">
+    <inertial>
+      <origin xyz="-0.0142817738051 -6.26780192099e-05 -0.0053618011294" rpy="0 0 0" />
+      <mass value="7.50597004144" />
+      <inertia ixx="0.0532680539413" iyy="0.0353649564087" izz="0.0519159409818" ixy="-1.08002113482e-05" ixz="-0.00207626040272" iyz="5.8707106621e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/PelvisLink.stl" />
+      </geometry>
+      <material name="PelvisLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="base_to_pelvis" type="fixed">
+    <parent link="base_link" />
+    <child link="PelvisLink" />
+    <origin xyz="0 0 0.955" rpy="0 0 0" />
+  </joint>
+  <link name="TorsoLink">
+    <inertial>
+      <origin xyz="-0.0026607943679 1.06911987735e-05 0.0761874542079" rpy="0 0 0" />
+      <mass value="6.85493860107" />
+      <inertia ixx="0.0535176987282" iyy="0.0351462548154" izz="0.0436551774889" ixy="-5.5122512061e-06" ixz="0.000226826670738" iyz="2.21736329309e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/TorsoLink.stl" />
+      </geometry>
+      <material name="TorsoLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="WaistFlexJoint_frame" />
+  <joint name="WaistFlexJoint" type="revolute">
+    <parent link="PelvisLink" />
+    <child link="WaistFlexJoint_frame" />
+    <origin xyz="-0 0 0.055" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-0.174532925199" upper="0.349065850399" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="WaistSideJoint_frame" />
+  <joint name="WaistSideJoint" type="revolute">
+    <parent link="WaistFlexJoint_frame" />
+    <child link="WaistSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.174532925199" upper="0.174532925199" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <joint name="WaistTwistJoint" type="revolute">
+    <parent link="WaistSideJoint_frame" />
+    <child link="TorsoLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-0.261799387799" upper="0.261799387799" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="ChestLink">
+    <inertial>
+      <origin xyz="-0.00650743068671 -4.4700290033e-05 0.130277315974" rpy="0 0 0" />
+      <mass value="15.3304892989" />
+      <inertia ixx="0.20279957476" iyy="0.119044975514" izz="0.166654142399" ixy="5.4164874078e-06" ixz="-0.00350930279241" iyz="1.03818847316e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/ChestLink.stl" />
+      </geometry>
+      <material name="ChestLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.0035 0 0.1435" rpy="0 0 0" />
+      <geometry>
+        <box size="0.18 0.32 0.24" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="SpineFlexJoint_frame" />
+  <joint name="SpineFlexJoint" type="revolute">
+    <parent link="TorsoLink" />
+    <child link="SpineFlexJoint_frame" />
+    <origin xyz="-0 0 0.165" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-0.261799387799" upper="0.523598775598" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="SpineSideJoint_frame" />
+  <joint name="SpineSideJoint" type="revolute">
+    <parent link="SpineFlexJoint_frame" />
+    <child link="SpineSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.261799387799" upper="0.261799387799" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <joint name="SpineTwistJoint" type="revolute">
+    <parent link="SpineSideJoint_frame" />
+    <child link="ChestLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-0.349065850399" upper="0.349065850399" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="HeadLink">
+    <inertial>
+      <origin xyz="0.0061984111885 -1.43284100712e-05 0.154278999978" rpy="0 0 0" />
+      <mass value="4.76723836192" />
+      <inertia ixx="0.0279750211539" iyy="0.0306045906703" izz="0.013973750605" ixy="3.2746347499e-06" ixz="0.00115444399811" iyz="4.756775342e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/HeadLink.stl" />
+      </geometry>
+      <material name="HeadLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="NeckFlexJoint_frame" />
+  <joint name="NeckFlexJoint" type="revolute">
+    <parent link="ChestLink" />
+    <child link="NeckFlexJoint_frame" />
+    <origin xyz="-0 0 0.285" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-0.698131700798" upper="0.785398163397" effort="25" velocity="1.5" />
+    <dynamics damping="0.15" friction="0" />
+  </joint>
+  <link name="NeckSideJoint_frame" />
+  <joint name="NeckSideJoint" type="revolute">
+    <parent link="NeckFlexJoint_frame" />
+    <child link="NeckSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.610865238198" upper="0.610865238198" effort="25" velocity="1.5" />
+    <dynamics damping="0.15" friction="0" />
+  </joint>
+  <joint name="NeckTwistJoint" type="revolute">
+    <parent link="NeckSideJoint_frame" />
+    <child link="HeadLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-1.0471975512" upper="1.0471975512" effort="25" velocity="1.5" />
+    <dynamics damping="0.15" friction="0" />
+  </joint>
+  <link name="RightScapulaLink">
+    <inertial>
+      <origin xyz="-0.103141707132 -0.0731322130533 -0.0624934323668" rpy="0 0 0" />
+      <mass value="0.210303829432" />
+      <inertia ixx="0.00035308600672" iyy="0.000257196859628" izz="0.000116668557687" ixy="-6.108984691e-07" ixz="-5.2820237728e-06" iyz="1.408451867e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightScapulaLink.stl" />
+      </geometry>
+      <material name="RightScapulaLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="RightScapulaProtractionJoint_frame" />
+  <joint name="RightScapulaProtractionJoint" type="revolute">
+    <parent link="ChestLink" />
+    <child link="RightScapulaProtractionJoint_frame" />
+    <origin xyz="-0 -0.035 0.235" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-0.261799387799" upper="0.349065850399" effort="60" velocity="1" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <joint name="RightScapulaElevationJoint" type="revolute">
+    <parent link="RightScapulaProtractionJoint_frame" />
+    <child link="RightScapulaLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.174532925199" upper="0.349065850399" effort="60" velocity="1" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="RightUpperArmLink">
+    <inertial>
+      <origin xyz="0.00156558491313 -0.043814285918 -0.0846799829076" rpy="0 0 0" />
+      <mass value="1.8410920546" />
+      <inertia ixx="0.0188396892081" iyy="0.0157944227816" izz="0.00681797887283" ixy="6.65540521581e-05" ixz="0.000146961884328" iyz="-0.00621140212628" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightUpperArmLink.stl" />
+      </geometry>
+      <material name="RightUpperArmLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="RightShoulderFlexJoint_frame" />
+  <joint name="RightShoulderFlexJoint" type="revolute">
+    <parent link="RightScapulaLink" />
+    <child link="RightShoulderFlexJoint_frame" />
+    <origin xyz="-0 -0.154 -0.025" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.61799387799" upper="0.698131700798" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="RightShoulderSideJoint_frame" />
+  <joint name="RightShoulderSideJoint" type="revolute">
+    <parent link="RightShoulderFlexJoint_frame" />
+    <child link="RightShoulderSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.471238898038" upper="2.09439510239" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <joint name="RightShoulderTwistJoint" type="revolute">
+    <parent link="RightShoulderSideJoint_frame" />
+    <child link="RightUpperArmLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-1.0471975512" upper="1.0471975512" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="RightForearmLink">
+    <inertial>
+      <origin xyz="0.00180407752231 -0.033944135226 -0.0811716352873" rpy="0 0 0" />
+      <mass value="1.05005250263" />
+      <inertia ixx="0.00525151650926" iyy="0.00462890226509" izz="0.00146953824344" ixy="3.15979344897e-05" ixz="8.56451891821e-05" iyz="-0.00159213978781" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightForearmLink.stl" />
+      </geometry>
+      <material name="RightForearmLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightElbowFlexJoint" type="revolute">
+    <parent link="RightUpperArmLink" />
+    <child link="RightForearmLink" />
+    <origin xyz="-0 -0.137 -0.265" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.53072741539" upper="0" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="RightHandLink">
+    <inertial>
+      <origin xyz="0.00119464903421 -0.0118813065487 -0.037219167576" rpy="0 0 0" />
+      <mass value="0.312927623882" />
+      <inertia ixx="0.000404576093728" iyy="0.000340749490106" izz="0.000138641215246" ixy="-1.9589883446e-06" ixz="4.3227352563e-06" iyz="-5.60134497423e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightHandLink.stl" />
+      </geometry>
+      <material name="RightHandLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="RightWristFlexJoint_frame" />
+  <joint name="RightWristFlexJoint" type="revolute">
+    <parent link="RightForearmLink" />
+    <child link="RightWristFlexJoint_frame" />
+    <origin xyz="0.005 -0.094 -0.225" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-1.2217304764" upper="1.0471975512" effort="15" velocity="2" />
+    <dynamics damping="0.03" friction="0" />
+  </joint>
+  <joint name="RightWristSideJoint" type="revolute">
+    <parent link="RightWristFlexJoint_frame" />
+    <child link="RightHandLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.436332312999" upper="0.436332312999" effort="15" velocity="2" />
+    <dynamics damping="0.03" friction="0" />
+  </joint>
+  <link name="RightFinger1Link">
+    <inertial>
+      <origin xyz="4.7649559714e-09 -0.00261897411123 -0.025199361748" rpy="0 0 0" />
+      <mass value="0.0149865632318" />
+      <inertia ixx="3.8918987748e-06" iyy="3.8615178646e-06" izz="4.842566605e-07" ixy="1.378e-13" ixz="1.3879e-12" iyz="-3.531389842e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightFinger1Link.stl" />
+      </geometry>
+      <material name="RightFinger1Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightFinger1FlexJoint" type="fixed">
+    <parent link="RightHandLink" />
+    <child link="RightFinger1Link" />
+    <origin xyz="0.002 0.006 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="RightFinger2Link">
+    <inertial>
+      <origin xyz="3.4718274726e-09 -0.00256067111296 -0.0312861768239" rpy="0 0 0" />
+      <mass value="0.0186179802804" />
+      <inertia ixx="7.2633113038e-06" iyy="7.2250864033e-06" izz="6.028896999e-07" ixy="1.496e-13" ixz="1.6395e-12" iyz="-5.440246172e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightFinger2Link.stl" />
+      </geometry>
+      <material name="RightFinger2Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightFinger2FlexJoint" type="fixed">
+    <parent link="RightHandLink" />
+    <child link="RightFinger2Link" />
+    <origin xyz="0.002 -0.011 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="RightFinger3Link">
+    <inertial>
+      <origin xyz="-2.4952508754e-09 -0.00254732132714 -0.0331586198832" rpy="0 0 0" />
+      <mass value="0.0197364939447" />
+      <inertia ixx="8.602505168e-06" iyy="8.5618916361e-06" izz="6.393983256e-07" ixy="-2.838e-13" ixz="-1.2621e-12" iyz="-6.106123613e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightFinger3Link.stl" />
+      </geometry>
+      <material name="RightFinger3Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightFinger3FlexJoint" type="fixed">
+    <parent link="RightHandLink" />
+    <child link="RightFinger3Link" />
+    <origin xyz="0.002 -0.028 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="RightFinger4Link">
+    <inertial>
+      <origin xyz="-3.1910130976e-09 -0.00259327317443 -0.0275410208332" rpy="0 0 0" />
+      <mass value="0.0163825383032" />
+      <inertia ixx="5.0222144795e-06" iyy="4.9887988e-06" izz="5.298835789e-07" ixy="-1.586e-13" ixz="-1.1309e-12" iyz="-4.219412442e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightFinger4Link.stl" />
+      </geometry>
+      <material name="RightFinger4Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightFinger4FlexJoint" type="fixed">
+    <parent link="RightHandLink" />
+    <child link="RightFinger4Link" />
+    <origin xyz="0.002 -0.044 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="RightThumbLink">
+    <inertial>
+      <origin xyz="0.00368397274441 0.00892097176646 -0.022163508028" rpy="0 0 0" />
+      <mass value="0.0268692763816" />
+      <inertia ixx="7.0296306635e-06" iyy="6.4137794589e-06" izz="2.3645197214e-06" ixy="-3.165789548e-07" ixz="7.914642135e-07" iyz="1.9105182671e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightThumbLink.stl" />
+      </geometry>
+      <material name="RightThumbLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightThumbFlexJoint" type="fixed">
+    <parent link="RightHandLink" />
+    <child link="RightThumbLink" />
+    <origin xyz="0.001 0.011 -0.03" rpy="0 0 0" />
+  </joint>
+  <link name="LeftScapulaLink">
+    <inertial>
+      <origin xyz="-0.103141707132 0.0728677869467 -0.0624934323668" rpy="0 0 0" />
+      <mass value="0.210303829432" />
+      <inertia ixx="0.000353086006719" iyy="0.000257196859628" izz="0.000116668557687" ixy="-6.108984691e-07" ixz="-5.2820237728e-06" iyz="1.408451867e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftScapulaLink.stl" />
+      </geometry>
+      <material name="LeftScapulaLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="LeftScapulaProtractionJoint_frame" />
+  <joint name="LeftScapulaProtractionJoint" type="revolute">
+    <parent link="ChestLink" />
+    <child link="LeftScapulaProtractionJoint_frame" />
+    <origin xyz="-0 0.035 0.235" rpy="0 0 0" />
+    <axis xyz="-0 0 -1" />
+    <limit lower="-0.261799387799" upper="0.349065850399" effort="60" velocity="1" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <joint name="LeftScapulaElevationJoint" type="revolute">
+    <parent link="LeftScapulaProtractionJoint_frame" />
+    <child link="LeftScapulaLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit lower="-0.174532925199" upper="0.349065850399" effort="60" velocity="1" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="LeftUpperArmLink">
+    <inertial>
+      <origin xyz="0.0015524063318 0.0437869708414 -0.0846013603243" rpy="0 0 0" />
+      <mass value="1.8410920546" />
+      <inertia ixx="0.0188550010149" iyy="0.0158052640611" izz="0.00681965717028" ixy="-6.6476325568e-05" ixz="0.000146874775774" iyz="0.00621831541832" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftUpperArmLink.stl" />
+      </geometry>
+      <material name="LeftUpperArmLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="LeftShoulderFlexJoint_frame" />
+  <joint name="LeftShoulderFlexJoint" type="revolute">
+    <parent link="LeftScapulaLink" />
+    <child link="LeftShoulderFlexJoint_frame" />
+    <origin xyz="-0 0.154 -0.025" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.61799387799" upper="0.698131700798" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="LeftShoulderSideJoint_frame" />
+  <joint name="LeftShoulderSideJoint" type="revolute">
+    <parent link="LeftShoulderFlexJoint_frame" />
+    <child link="LeftShoulderSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-2.09439510239" upper="0.471238898038" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <joint name="LeftShoulderTwistJoint" type="revolute">
+    <parent link="LeftShoulderSideJoint_frame" />
+    <child link="LeftUpperArmLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-1.0471975512" upper="1.0471975512" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="LeftForearmLink">
+    <inertial>
+      <origin xyz="0.00180229787039 0.0339553955902 -0.0811336633351" rpy="0 0 0" />
+      <mass value="1.05005250263" />
+      <inertia ixx="0.00525200151413" iyy="0.00462991604215" izz="0.00146933853377" ixy="-3.15698709062e-05" ixz="8.56477770029e-05" iyz="0.00159203322787" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftForearmLink.stl" />
+      </geometry>
+      <material name="LeftForearmLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftElbowFlexJoint" type="revolute">
+    <parent link="LeftUpperArmLink" />
+    <child link="LeftForearmLink" />
+    <origin xyz="-0 0.137 -0.265" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.53072741539" upper="0" effort="80" velocity="2" />
+    <dynamics damping="0.2" friction="0" />
+  </joint>
+  <link name="LeftHandLink">
+    <inertial>
+      <origin xyz="0.00142730048598 0.0046160986718 -0.0336190688308" rpy="0 0 0" />
+      <mass value="0.312927623882" />
+      <inertia ixx="0.000424645493359" iyy="0.00038812364228" izz="0.000114847975658" ixy="2.0828942899e-06" ixz="6.726405571e-06" iyz="6.15380957445e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftHandLink.stl" />
+      </geometry>
+      <material name="LeftHandLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="LeftWristFlexJoint_frame" />
+  <joint name="LeftWristFlexJoint" type="revolute">
+    <parent link="LeftForearmLink" />
+    <child link="LeftWristFlexJoint_frame" />
+    <origin xyz="0.005 0.094 -0.225" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-1.2217304764" upper="1.0471975512" effort="15" velocity="2" />
+    <dynamics damping="0.03" friction="0" />
+  </joint>
+  <joint name="LeftWristSideJoint" type="revolute">
+    <parent link="LeftWristFlexJoint_frame" />
+    <child link="LeftHandLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.436332312999" upper="0.436332312999" effort="15" velocity="2" />
+    <dynamics damping="0.03" friction="0" />
+  </joint>
+  <link name="LeftFinger1Link">
+    <inertial>
+      <origin xyz="-1.19089014717e-08 0.00261935075084 -0.025198925374" rpy="0 0 0" />
+      <mass value="0.0149865632318" />
+      <inertia ixx="3.8918444854e-06" iyy="3.8614213464e-06" izz="4.842695309e-07" ixy="4.418e-13" ixz="-3.5857e-12" iyz="3.53251324e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftFinger1Link.stl" />
+      </geometry>
+      <material name="LeftFinger1Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftFinger1FlexJoint" type="fixed">
+    <parent link="LeftHandLink" />
+    <child link="LeftFinger1Link" />
+    <origin xyz="0.002 -0.006 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="LeftFinger2Link">
+    <inertial>
+      <origin xyz="-1.10488925561e-08 0.00256098166429 -0.0312859848073" rpy="0 0 0" />
+      <mass value="0.0186179802804" />
+      <inertia ixx="7.2632794826e-06" iyy="7.2250213904e-06" izz="6.029051704e-07" ixy="5.942e-13" ixz="-5.8976e-12" iyz="5.441666974e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftFinger2Link.stl" />
+      </geometry>
+      <material name="LeftFinger2Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftFinger2FlexJoint" type="fixed">
+    <parent link="LeftHandLink" />
+    <child link="LeftFinger2Link" />
+    <origin xyz="0.002 0.011 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="LeftFinger3Link">
+    <inertial>
+      <origin xyz="1.4405773929e-09 0.00254759244991 -0.0331580415247" rpy="0 0 0" />
+      <mass value="0.0197364939447" />
+      <inertia ixx="8.6023635497e-06" iyy="8.5617181317e-06" izz="6.39413436e-07" ixy="-1.066e-13" ixz="8.076e-13" iyz="6.107583527e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftFinger3Link.stl" />
+      </geometry>
+      <material name="LeftFinger3Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftFinger3FlexJoint" type="fixed">
+    <parent link="LeftHandLink" />
+    <child link="LeftFinger3Link" />
+    <origin xyz="0.002 0.028 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="LeftFinger4Link">
+    <inertial>
+      <origin xyz="-9.6065991288e-09 0.0025936437453 -0.0275407567504" rpy="0 0 0" />
+      <mass value="0.0163825383032" />
+      <inertia ixx="5.0221698883e-06" iyy="4.9887154397e-06" izz="5.298988389e-07" ixy="3.695e-13" ixz="-3.4292e-12" iyz="4.220714282e-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftFinger4Link.stl" />
+      </geometry>
+      <material name="LeftFinger4Link_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftFinger4FlexJoint" type="fixed">
+    <parent link="LeftHandLink" />
+    <child link="LeftFinger4Link" />
+    <origin xyz="0.002 0.044 -0.077" rpy="0 0 0" />
+  </joint>
+  <link name="LeftThumbLink">
+    <inertial>
+      <origin xyz="0.00368498681293 -0.00892096479845 -0.0221669503437" rpy="0 0 0" />
+      <mass value="0.0268692763816" />
+      <inertia ixx="7.029885546e-06" iyy="6.4147124429e-06" izz="2.3643154154e-06" ixy="3.165678329e-07" ixz="7.917973957e-07" iyz="-1.9102093477e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftThumbLink.stl" />
+      </geometry>
+      <material name="LeftThumbLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftThumbFlexJoint" type="fixed">
+    <parent link="LeftHandLink" />
+    <child link="LeftThumbLink" />
+    <origin xyz="0.001 -0.011 -0.03" rpy="0 0 0" />
+  </joint>
+  <link name="RightThighLink">
+    <inertial>
+      <origin xyz="0.00663699064236 -0.00263859687205 -0.145510173029" rpy="0 0 0" />
+      <mass value="10.1295064753" />
+      <inertia ixx="0.147472003321" iyy="0.147817553146" izz="0.0295642131561" ixy="0.000551843686292" ixz="0.00474844579927" iyz="-0.00357071251755" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightThighLink.stl" />
+      </geometry>
+      <material name="RightThighLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="RightHipFlexJoint_frame" />
+  <joint name="RightHipFlexJoint" type="revolute">
+    <parent link="PelvisLink" />
+    <child link="RightHipFlexJoint_frame" />
+    <origin xyz="-0 -0.088 -0.02" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.00712863979" upper="0.349065850399" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="RightHipSideJoint_frame" />
+  <joint name="RightHipSideJoint" type="revolute">
+    <parent link="RightHipFlexJoint_frame" />
+    <child link="RightHipSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.261799387799" upper="0.698131700798" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <joint name="RightHipTwistJoint" type="revolute">
+    <parent link="RightHipSideJoint_frame" />
+    <child link="RightThighLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-0.698131700798" upper="0.610865238198" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="RightShinLink">
+    <inertial>
+      <origin xyz="-0.0207357914409 -0.00294136803239 -0.1530712715" rpy="0 0 0" />
+      <mass value="3.199159958" />
+      <inertia ixx="0.0384153793676" iyy="0.0392550589084" izz="0.00435745921345" ixy="-1.80893843183e-05" ixz="-0.000881601881458" iyz="-0.000661883393229" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightShinLink.stl" />
+      </geometry>
+      <material name="RightShinLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="RightKneeFlexJoint" type="revolute">
+    <parent link="RightThighLink" />
+    <child link="RightShinLink" />
+    <origin xyz="0.008 -0.017 -0.395" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="0" upper="2.35619449019" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="RightFootLink">
+    <inertial>
+      <origin xyz="0.0214332806556 -1.49218615623e-05 -0.0760049032932" rpy="0 0 0" />
+      <mass value="0.754224891828" />
+      <inertia ixx="0.000864070878877" iyy="0.00219940285248" izz="0.00196193900765" ixy="2.132988656e-07" ixz="0.000189215613795" iyz="1.92357028e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightFootLink.stl" />
+      </geometry>
+      <material name="RightFootLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0175 0 -0.11" rpy="0 0 0" />
+      <geometry>
+        <box size="0.165 0.09 0.02" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="RightAnkleFlexJoint_frame" />
+  <joint name="RightAnkleFlexJoint" type="revolute">
+    <parent link="RightShinLink" />
+    <child link="RightAnkleFlexJoint_frame" />
+    <origin xyz="-0.008 -0.008 -0.42" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-0.349065850399" upper="0.698131700798" effort="120" velocity="2" />
+    <dynamics damping="0.3" friction="0" />
+  </joint>
+  <joint name="RightAnkleSideJoint" type="revolute">
+    <parent link="RightAnkleFlexJoint_frame" />
+    <child link="RightFootLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.523598775598" upper="0.261799387799" effort="120" velocity="2" />
+    <dynamics damping="0.3" friction="0" />
+  </joint>
+  <link name="RightForefootLink">
+    <inertial>
+      <origin xyz="0.0281720518154 0.00154679138855 -0.0113797491982" rpy="0 0 0" />
+      <mass value="0.176821660499" />
+      <inertia ixx="0.000137852621358" iyy="9.72977148821e-05" izz="0.000159258260542" ixy="-7.7352072227e-06" ixz="1.4552731534e-05" iyz="1.9076857561e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/RightForefootLink.stl" />
+      </geometry>
+      <material name="RightForefootLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0425 0 -0.025" rpy="0 0 0" />
+      <geometry>
+        <box size="0.065 0.09 0.02" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="RightForefootJoint" type="revolute">
+    <parent link="RightFootLink" />
+    <child link="RightForefootLink" />
+    <origin xyz="0.11 0 -0.085" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-1.0471975512" upper="0.349065850399" effort="25" velocity="2" />
+    <dynamics damping="0.05" friction="0" />
+  </joint>
+  <link name="LeftThighLink">
+    <inertial>
+      <origin xyz="0.00664165704842 0.00266608090891 -0.14545040656" rpy="0 0 0" />
+      <mass value="10.1295064753" />
+      <inertia ixx="0.147482214824" iyy="0.147830852537" izz="0.0295667321411" ixy="-0.000563356160663" ixz="0.0047313788779" iyz="0.00357397872525" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftThighLink.stl" />
+      </geometry>
+      <material name="LeftThighLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="LeftHipFlexJoint_frame" />
+  <joint name="LeftHipFlexJoint" type="revolute">
+    <parent link="PelvisLink" />
+    <child link="LeftHipFlexJoint_frame" />
+    <origin xyz="-0 0.088 -0.02" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-2.00712863979" upper="0.349065850399" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="LeftHipSideJoint_frame" />
+  <joint name="LeftHipSideJoint" type="revolute">
+    <parent link="LeftHipFlexJoint_frame" />
+    <child link="LeftHipSideJoint_frame" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.698131700798" upper="0.261799387799" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <joint name="LeftHipTwistJoint" type="revolute">
+    <parent link="LeftHipSideJoint_frame" />
+    <child link="LeftThighLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-0 0 1" />
+    <limit lower="-0.610865238198" upper="0.698131700798" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="LeftShinLink">
+    <inertial>
+      <origin xyz="-0.0207380643036 0.0029038766642 -0.153076918528" rpy="0 0 0" />
+      <mass value="3.199159958" />
+      <inertia ixx="0.0384148648146" iyy="0.0392541280709" izz="0.00435737559349" ixy="1.60932507214e-05" ixz="-0.000880745228888" iyz="0.000667508958949" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftShinLink.stl" />
+      </geometry>
+      <material name="LeftShinLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="LeftKneeFlexJoint" type="revolute">
+    <parent link="LeftThighLink" />
+    <child link="LeftShinLink" />
+    <origin xyz="0.008 0.017 -0.395" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="0" upper="2.35619449019" effort="200" velocity="2" />
+    <dynamics damping="0.5" friction="0" />
+  </joint>
+  <link name="LeftFootLink">
+    <inertial>
+      <origin xyz="0.0214332806556 -1.49218615617e-05 -0.0760049032932" rpy="0 0 0" />
+      <mass value="0.754224891828" />
+      <inertia ixx="0.000864070878877" iyy="0.00219940285248" izz="0.00196193900765" ixy="2.132988655e-07" ixz="0.000189215613795" iyz="1.92357029e-08" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftFootLink.stl" />
+      </geometry>
+      <material name="LeftFootLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0175 0 -0.11" rpy="0 0 0" />
+      <geometry>
+        <box size="0.165 0.09 0.02" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="LeftAnkleFlexJoint_frame" />
+  <joint name="LeftAnkleFlexJoint" type="revolute">
+    <parent link="LeftShinLink" />
+    <child link="LeftAnkleFlexJoint_frame" />
+    <origin xyz="-0.008 0.008 -0.42" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-0.349065850399" upper="0.698131700798" effort="120" velocity="2" />
+    <dynamics damping="0.3" friction="0" />
+  </joint>
+  <joint name="LeftAnkleSideJoint" type="revolute">
+    <parent link="LeftAnkleFlexJoint_frame" />
+    <child link="LeftFootLink" />
+    <origin xyz="-0 0 0" rpy="0 0 0" />
+    <axis xyz="-1 0 0" />
+    <limit lower="-0.261799387799" upper="0.523598775598" effort="120" velocity="2" />
+    <dynamics damping="0.3" friction="0" />
+  </joint>
+  <link name="LeftForefootLink">
+    <inertial>
+      <origin xyz="0.0281783804054 -0.00156854333066 -0.0113824092038" rpy="0 0 0" />
+      <mass value="0.176821660499" />
+      <inertia ixx="0.000137825772585" iyy="9.73196128988e-05" izz="0.000159271323176" ixy="7.784801241e-06" ixz="1.45552240844e-05" iyz="-1.9295393429e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="../meshes/visual/LeftForefootLink.stl" />
+      </geometry>
+      <material name="LeftForefootLink_color">
+        <color rgba="0.69 0.43 0.29 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0425 0 -0.025" rpy="0 0 0" />
+      <geometry>
+        <box size="0.065 0.09 0.02" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="LeftForefootJoint" type="revolute">
+    <parent link="LeftFootLink" />
+    <child link="LeftForefootLink" />
+    <origin xyz="0.11 0 -0.085" rpy="0 0 0" />
+    <axis xyz="-0 1 0" />
+    <limit lower="-1.0471975512" upper="0.349065850399" effort="25" velocity="2" />
+    <dynamics damping="0.05" friction="0" />
+  </joint>
+</robot>

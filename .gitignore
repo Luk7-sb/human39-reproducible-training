@@ -1,0 +1,12 @@
+**/__pycache__/
+*.pyc
+.venv*/
+outputs/
+runs/
+models/processed/
+configs/paths.json
+configs/regenerated_manifest.json
+checkpoints/*.pt
+reports/regeneration*
+*.npz
+.env*

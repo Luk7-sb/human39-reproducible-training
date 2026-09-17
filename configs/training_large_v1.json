@@ -1,0 +1,25 @@
+{
+  "run_name": "pd_large_v1_65536_12h",
+  "num_envs": 65536,
+  "iterations_cap": 100000,
+  "max_hours": 12,
+  "rollout_steps": 32,
+  "ppo_minibatches": 64,
+  "save_interval": 50,
+  "physics_dt": 0.002,
+  "control_dt": 0.02,
+  "torch_threads": 8,
+  "resume_checkpoint": "runs/pd_3motions_v2_65536/model_1297.pt",
+  "motion_manifest": "configs/large_motion_train_v1.json",
+  "source_motions": 257,
+  "training_clips": 280,
+  "observation_dim": 219,
+  "action_dim": 39,
+  "motion_categories": {
+    "0": "straight/backward",
+    "1": "left/counterclockwise",
+    "2": "right/clockwise"
+  },
+  "evaluation": "all 280 first episodes after budget ends; no test-set generalization claim",
+  "budget_note": "12 h default chosen after optional budget question; user requested long training"
+}

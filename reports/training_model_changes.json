@@ -1,0 +1,30 @@
+{
+  "source_unchanged": true,
+  "root": "PelvisLink (remove ground-frame fixed offset)",
+  "tiny_mass_links": [
+    "WaistFlexJoint_frame",
+    "WaistSideJoint_frame",
+    "SpineFlexJoint_frame",
+    "SpineSideJoint_frame",
+    "NeckFlexJoint_frame",
+    "NeckSideJoint_frame",
+    "RightScapulaProtractionJoint_frame",
+    "RightShoulderFlexJoint_frame",
+    "RightShoulderSideJoint_frame",
+    "RightWristFlexJoint_frame",
+    "LeftScapulaProtractionJoint_frame",
+    "LeftShoulderFlexJoint_frame",
+    "LeftShoulderSideJoint_frame",
+    "LeftWristFlexJoint_frame",
+    "RightHipFlexJoint_frame",
+    "RightHipSideJoint_frame",
+    "RightAnkleFlexJoint_frame",
+    "LeftHipFlexJoint_frame",
+    "LeftHipSideJoint_frame",
+    "LeftAnkleFlexJoint_frame"
+  ],
+  "added_mass_kg": 0.002,
+  "velocity_limit_rad_s": 20,
+  "joint_passive_damping": 0,
+  "reason": "explicit PD computes damping; placeholder velocity limits below source motion; regularize massless serial joint frames for PhysX"
+}

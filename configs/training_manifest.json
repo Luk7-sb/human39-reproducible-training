@@ -1,0 +1,65 @@
+{
+  "purpose": "small-set feasibility training; not held-out evaluation or full-motion collision certification",
+  "thresholds": {
+    "penetration_m": 0.005,
+    "nearest_foot_gap_m": 0.005,
+    "joint_speed_rad_s": 10.0,
+    "stance_center_speed_p95_m_s": 0.4
+  },
+  "accepted": [
+    {
+      "name": "walk",
+      "motion": "KIT/314/walking_medium09_poses",
+      "checks": {
+        "finite": true,
+        "joint_limits": true,
+        "foot_penetration": true,
+        "ground_gap": true,
+        "joint_speed": true,
+        "slip_proxy": true,
+        "source_train_split": true
+      },
+      "review": "8-frame whole-body contact sheet inspected; motion direction and gross posture checked"
+    },
+    {
+      "name": "left_turn",
+      "motion": "KIT/12/LeftTurn03_poses",
+      "checks": {
+        "finite": true,
+        "joint_limits": true,
+        "foot_penetration": true,
+        "ground_gap": true,
+        "joint_speed": true,
+        "slip_proxy": true,
+        "source_train_split": true
+      },
+      "review": "8-frame whole-body contact sheet inspected; motion direction and gross posture checked"
+    },
+    {
+      "name": "right_turn_12",
+      "motion": "KIT/12/RightTurn03_poses",
+      "checks": {
+        "finite": true,
+        "joint_limits": true,
+        "foot_penetration": true,
+        "ground_gap": true,
+        "joint_speed": true,
+        "slip_proxy": true,
+        "source_train_split": true
+      },
+      "review": "8-frame whole-body contact sheet inspected; motion direction and gross posture checked"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "right_turn",
+      "reason": "stance-center speed p95 1.285 m/s; replaced with KIT/12/RightTurn03_poses"
+    }
+  ],
+  "limitations": [
+    "Contact speed is a geom-center proxy, including foot rolling; not a zero-slip claim.",
+    "Only chest and split-foot collision geometry exists. Limb self-contact is not physically enforced.",
+    "SMPL-H constraints infer spine distribution; individual spine joints are not directly measured.",
+    "Kinematic replay is distinct from unassisted dynamic policy rollout."
+  ]
+}
